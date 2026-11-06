@@ -1,0 +1,141 @@
+{
+  "updated_on": "2026-10-16",
+  "purpose": "用户确认的实际平台与公开证据索引；尚未接入应用，不等于已验证登录后功能。",
+  "user_confirmation": "用户于2026-10-16提供实际课程使用的六个入口。未提供账号、密码或验证码。",
+  "rules": [
+    "不将统一认证、综合门户、本科教务和课程学习平台混为同一系统。",
+    "用户提供的入口按原样保留；访问失败只记录本次工具结果，不推断网站停用。",
+    "不猜测不同平台密码相同、默认密码、加入课程码或具体菜单路径。",
+    "不登录、不读取个人课表成绩、不代交作业、不执行考试或选课。",
+    "公开旧指南只作带版本参考，不据此推出当前课程考核比例和截止时间。"
+  ],
+  "platforms": [
+    {
+      "id": "P01",
+      "name": "学校统一身份认证",
+      "kind": "认证入口",
+      "topics": [
+        "I03"
+      ],
+      "provided_url": "https://cas.uibe.edu.cn/cas/login?service=https%3A%2F%2Fi.uibe.edu.cn%2Ftp_up%2Fview%3Fm%3Dup",
+      "purpose": "用于认证并转向i惠园；不是独立课程空间。",
+      "evidence": "用户提供；公开登录页可读取，标题为i 惠园 | Digitalized DCP。",
+      "verification": "仅登录页，无登录实操",
+      "imported_into_app": false
+    },
+    {
+      "id": "P02",
+      "name": "i惠园",
+      "kind": "校园综合门户",
+      "topics": [
+        "I03"
+      ],
+      "provided_url": "https://i.uibe.edu.cn/tp_up/view?m=up#act=portal/viewhome",
+      "purpose": "校园服务入口；应用与办事服务的具体菜单以当前登录页面为准。",
+      "evidence": "用户提供；其关联CAS登录页已读取，门户页面本次工具未成功读取。",
+      "verification": "用户确认实际使用；内部菜单未核验",
+      "imported_into_app": false
+    },
+    {
+      "id": "P03",
+      "name": "本科教务系统",
+      "kind": "教务业务系统",
+      "topics": [
+        "L01",
+        "L04",
+        "I03"
+      ],
+      "provided_url": "https://bkjw.uibe.edu.cn/jwapp/sys/homeapp/home/index.html?av=&contextPath=/jwapp#/",
+      "purpose": "用于引导学生进入本科教务相关业务；选课、课表、成绩等具体菜单和开放时间须另核验。",
+      "evidence": "用户提供实际使用入口；本次工具未成功读取页面，不采用第三方转载中的登录规则。",
+      "verification": "入口由用户提供；页面与具体操作待核验",
+      "imported_into_app": false
+    },
+    {
+      "id": "P04",
+      "name": "TAS教学辅助平台",
+      "kind": "课程学习平台",
+      "topics": [
+        "L03",
+        "I03"
+      ],
+      "provided_address": "tas1.uibe.edu.cn",
+      "attempted_url": "https://tas1.uibe.edu.cn",
+      "purpose": "教师提供课程资源的辅助平台；只能查看实际有权限且教师已发布的内容。",
+      "evidence": "用户确认当前使用域名；学校国际商学院历史答疑佐证TAS用途，见R01；直接访问本次失败。",
+      "verification": "用途有历史官方佐证；当前登录流程未核验",
+      "cautions": [
+        "用户只提供域名，不将尝试的HTTPS地址标为已验证可用。",
+        "旧文件中http及81端口不自动替换成现行推荐地址；优先从本人正常使用的校内入口进入。"
+      ],
+      "imported_into_app": false
+    },
+    {
+      "id": "P05",
+      "name": "智慧树",
+      "kind": "第三方课程学习平台",
+      "topics": [
+        "I03"
+      ],
+      "provided_url": "https://onlineweb.zhihuishu.com/onlinestuh5",
+      "purpose": "按任课教师安排进入对应课程学习；不推断全校课程均使用该平台。",
+      "evidence": "用户提供；本次访问超时；学校教师中心培训报道佐证学校使用智慧树，见R02。",
+      "verification": "使用情况用户确认；当前页面与学生操作未核验",
+      "imported_into_app": false
+    },
+    {
+      "id": "P06",
+      "name": "超星／学习通",
+      "kind": "第三方课程学习平台",
+      "topics": [
+        "I03"
+      ],
+      "provided_url": "https://i.chaoxing.com/base?t=1728689572480",
+      "attempted_base_url": "https://i.chaoxing.com/base",
+      "purpose": "按教师安排进入对应课程；网页端与学习通App的菜单不应混写。",
+      "evidence": "用户提供；去除t参数的基础页面本次未成功读取；学校教师中心报道及学院学生指南附件线索见R02、R03。",
+      "verification": "使用情况用户确认；课程空间及附件未实操核验",
+      "cautions": [
+        "t参数用途未核验，不将其值作为教学操作必须固定的参数。"
+      ],
+      "imported_into_app": false
+    }
+  ],
+  "references": [
+    {
+      "id": "R01",
+      "url": "https://bs.uibe.edu.cn/News/ViewNews.aspx?NewsId=5544",
+      "publisher": "对外经济贸易大学国际商学院",
+      "published_on": null,
+      "status": "历史答疑，仅支持平台名称与基本用途",
+      "summary": "学校答疑介绍TAS用于下载教师提供的课件、作业及参考资料。不能沿用该旧文的全部系统地址、菜单和办理安排。",
+      "evidence": "官方页面搜索正文可读取；本轮未确认精确发布日期"
+    },
+    {
+      "id": "R02",
+      "url": "https://teachingcenter.uibe.edu.cn/xwdt/b91fd119eee14986991958aa0716c7a2.htm",
+      "title": "“教师数字化素养与能力提升”系列教师教学工作坊第一期培训成功举行",
+      "publisher": "教师发展与教学质量评估中心",
+      "published_on": "2022-09-30",
+      "status": "背景佐证，不是学生操作手册",
+      "summary": "报道学校开展智慧树、Classin与超星在线教学平台培训。支持存在多种教学平台，不支持所有课程统一平台的说法。",
+      "evidence": "公开正文已读取"
+    },
+    {
+      "id": "R03",
+      "url": "https://mkszyxy.uibe.edu.cn/tzgg/jxky/565b09371df0491f850da501fcda4f38.htm",
+      "title": "关于《形势与政策》成绩公示及重修/补修/双培/毕业清课的通知",
+      "publisher": "马克思主义学院",
+      "published_on": "2024-03-01",
+      "status": "历史通知与待复核附件线索",
+      "summary": "正文有学习通学生使用说明附件7线索；未下载读取附件，不能称已取得完整现行手册。",
+      "evidence": "搜索索引可读，直接抓取失败；不读取该页全体学生成绩附件"
+    }
+  ],
+  "remaining_gaps": [
+    "本科教务系统当前成绩查询和选课菜单",
+    "TAS当前学生资源/作业页面",
+    "智慧树与超星当前学生操作说明及课程特定要求"
+  ],
+  "next_step": "现有入口信息足够结束平台名称澄清，下一阶段可迁移基础能力；具体菜单仅在需要写操作指南时再请用户提供去隐私截图。"
+}

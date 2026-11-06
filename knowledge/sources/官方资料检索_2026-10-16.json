@@ -1,0 +1,428 @@
+{
+  "checked_on": "2026-10-16",
+  "scope": "首阶段四类官方公开渠道首轮检索；不是穷尽调查。学校域名核验，不采用其他同名/近名学校资料。",
+  "notes": [
+    "这是候选资料与采用边界清单，尚未接入模型。",
+    "未登录教务、图书馆或活动平台；未报名、发邮件、拨打电话或读取私人数据。",
+    "搜索抓取时间不当作发布日；null表示未可靠确定。",
+    "官方网页存在访问波动；无法复核全文的条目明确标记。"
+  ],
+  "sources": [
+    {
+      "id": "O01",
+      "topics": [
+        "L02",
+        "L04",
+        "L05"
+      ],
+      "title": "对外经济贸易大学本科生学籍管理办法",
+      "url": "https://xxgk.uibe.edu.cn/xsgl/xjgl/bksxj/57770.htm",
+      "publisher": "信息公开网",
+      "published_on": "2017-10-12",
+      "checked_on": "2026-10-16",
+      "evidence": "正文已核对",
+      "status": "带版本采用",
+      "locator": "第三章第14、17、20、23条",
+      "summary": "本科生考核、重修、成绩复查与最低修读学分规则有正式依据。",
+      "limitations": "2026迎新网站仍链接本页，但不能称2026修订版；不替代完整学分制管理办法，不推出所有课程都有补考。",
+      "imported_into_app": false
+    },
+    {
+      "id": "O02",
+      "topics": [
+        "L01",
+        "L02"
+      ],
+      "title": "小贸来答⑪：选课、考试、学籍管理等热点问答",
+      "url": "https://news.uibe.edu.cn/info/2138/53067.htm",
+      "publisher": "学校新闻网",
+      "published_on": null,
+      "checked_on": "2026-10-16",
+      "evidence": "相关段落已核对",
+      "status": "历史参考",
+      "locator": "本科生选课问答第5—8项",
+      "summary": "公开答复给出了专业修读情况的查询路径与选课咨询渠道。",
+      "limitations": "旧阶段答复；当前选退课时段、联系人和菜单须复核，不等于成绩查询操作已验证。",
+      "imported_into_app": false
+    },
+    {
+      "id": "O03",
+      "topics": [
+        "L05"
+      ],
+      "title": "学院教学通知：课程重修或补修申请线索",
+      "url": "https://it.uibe.edu.cn/bksjx/jxtz/e6e082d00a7f4e9c816de400889de1b2.htm",
+      "publisher": "人工智能与数据科学学院网站",
+      "published_on": null,
+      "checked_on": "2026-10-16",
+      "evidence": "搜索摘录；直连复核失败",
+      "status": "待复核",
+      "locator": "重修或补修相关问答",
+      "summary": "检索摘要提示在补退选期间向学院提交申请统计表。",
+      "limitations": "未核定全文标题、日期与适用学期，不采用其中邮箱、办公室及期限作为当前指引。",
+      "imported_into_app": false
+    },
+    {
+      "id": "O04",
+      "topics": [
+        "V01"
+      ],
+      "title": "对外经济贸易大学学生公寓管理办法（2024年修订）",
+      "url": "https://hjc.uibe.edu.cn/tzgg/gkgs/e14906349a264631aac586319b1c0ac0.htm",
+      "publisher": "后勤处",
+      "published_on": "2026-08-28",
+      "checked_on": "2026-10-16",
+      "evidence": "正文已核对",
+      "status": "带版本采用",
+      "locator": "第四条、第十七至二十一条及附则",
+      "summary": "区分国内学生住宿范围；床位不得自行调换、出租或转让；校外住宿需按程序审批备案；有值班与会客登记要求。",
+      "limitations": "网页发布年2026与正文修订年2024不同；附有住宿细则PDF线索，细则尚未读取，不补写熄灯、电器功率或罚则。",
+      "imported_into_app": false
+    },
+    {
+      "id": "O05",
+      "topics": [
+        "V01"
+      ],
+      "title": "后勤处部门职责",
+      "url": "https://hjc.uibe.edu.cn/jggk/bmzz/index.htm",
+      "publisher": "后勤处",
+      "published_on": null,
+      "checked_on": "2026-10-16",
+      "evidence": "公开页面内容已核对",
+      "status": "限范围采用",
+      "locator": "楼宇管理中心条目",
+      "summary": "楼宇管理中心负责国内学生公寓及设备维护；网页列办公地点虹远楼一层，联系电话64495135。",
+      "limitations": "只作为主管部门咨询信息，不将办公电话等同于全天维修热线；未实际拨打。",
+      "imported_into_app": false
+    },
+    {
+      "id": "O06",
+      "topics": [
+        "V01"
+      ],
+      "title": "新生住宿安排等事宜说明",
+      "url": "https://aeo.uibe.edu.cn/uploadfile/zjc_v3/front/default/upload_file_68242.pdf",
+      "publisher": "学校招生就业网站",
+      "published_on": null,
+      "checked_on": "2026-10-16",
+      "evidence": "搜索索引显示PDF内容；未检查原PDF",
+      "status": "待复核",
+      "locator": "索引显示印刷第20页",
+      "summary": "发现住宿配置、办公地点和维修联系方式的官方附件线索。",
+      "limitations": "适用届别未明确，不将索引中的房型、费用与联系电话纳入当前问答。",
+      "imported_into_app": false
+    },
+    {
+      "id": "O07",
+      "topics": [
+        "V03"
+      ],
+      "title": "关于红天羽毛球馆线上预约系统试运行的通知",
+      "url": "https://sports.uibe.edu.cn/tzgg/13b563364d13493ab2268b388a8271bf.htm",
+      "publisher": "体育部",
+      "published_on": "2024-10-08",
+      "checked_on": "2026-10-16",
+      "evidence": "公开正文已核对",
+      "status": "带版本采用",
+      "locator": "服务对象、预约路径和预约规则",
+      "summary": "校内师生预约路径为i惠园—办事大厅—体育场馆预约；通知说明服务对象及预约、支付、签到规则。",
+      "limitations": "属2024试运行规则；实际时段、支付及违约规则以当前预约系统为准，未登录验证。",
+      "imported_into_app": false
+    },
+    {
+      "id": "O08",
+      "topics": [
+        "V03"
+      ],
+      "title": "2025年五一假期体育场馆开放安排",
+      "url": "https://sports.uibe.edu.cn/tzgg/eed8a17390864355b10a089c9915a4e9.htm",
+      "publisher": "体育部",
+      "published_on": "2025-04-30",
+      "checked_on": "2026-10-16",
+      "evidence": "公开正文已核对",
+      "status": "历史参考",
+      "locator": "假期开放与相关要求",
+      "summary": "可用于测试不同场馆、日期开放安排不能混用。",
+      "limitations": "不能回答2026当前日常开放时间。",
+      "imported_into_app": false
+    },
+    {
+      "id": "O09",
+      "topics": [
+        "V04"
+      ],
+      "title": "2026年寒假校门开放和保卫处办公时间通知",
+      "url": "https://110.uibe.edu.cn/tzgg/e06fe81702df49f19345b0a0bb928649.htm",
+      "publisher": "保卫处",
+      "published_on": null,
+      "checked_on": "2026-10-16",
+      "evidence": "公开通知摘录已核对",
+      "status": "限范围采用",
+      "locator": "通知末尾值班说明",
+      "summary": "通知列校园报警64493110、值班64492164，并说明保卫处值班制度。",
+      "limitations": "只提取联系方式来源；寒假办公时段不能外推至学期中。号码未实际拨打。",
+      "imported_into_app": false
+    },
+    {
+      "id": "O10",
+      "topics": [
+        "V01",
+        "V04"
+      ],
+      "title": "校园消防安全提示",
+      "url": "https://110.uibe.edu.cn/tzgg/ee812f27f62d428da5526ef0ee44613f.htm",
+      "publisher": "保卫处/学校消防安全委员会",
+      "published_on": "2024-12-09",
+      "checked_on": "2026-10-16",
+      "evidence": "公开正文已核对",
+      "status": "限范围采用",
+      "locator": "电动自行车及电池管理提示",
+      "summary": "明确电动自行车及电池不得进楼入户，应在室外指定地点停放充电；列校园报警电话。",
+      "limitations": "仅提取预防与求助信息，不把统计数字或灭火描述扩写为面向学生的危险处置操作。",
+      "imported_into_app": false
+    },
+    {
+      "id": "O11",
+      "topics": [
+        "A01"
+      ],
+      "title": "学生社团建设管理规定",
+      "url": "https://xgb.uibe.edu.cn/yxztw/xssc/xsttglzd/2baa383e49284980a9a5d24b4bae3945.htm",
+      "publisher": "学校迎新网/学生工作部",
+      "published_on": null,
+      "checked_on": "2026-10-16",
+      "evidence": "正文已核对",
+      "status": "带版本采用",
+      "locator": "第二、四、十八、十九、三十四条",
+      "summary": "可解释社团分类、成员身份、成立条件、加入退出权利及会费原则。",
+      "limitations": "网页未明示公布日期；是学校注册社团制度，不把它套到所有校内组织或研究生会；具体入社流程看社团通知。",
+      "imported_into_app": false
+    },
+    {
+      "id": "O12",
+      "topics": [
+        "A01"
+      ],
+      "title": "2026—2027年度百团大战",
+      "url": "https://ea.uibe.edu.cn/Index/Class/view/aid/SPgUt0MO6Y0.html",
+      "publisher": "成长惠园/校团委社团管理部",
+      "published_on": null,
+      "checked_on": "2026-10-16",
+      "evidence": "详情正文已核对",
+      "status": "时效性采用",
+      "locator": "活动时间、地点、主办承办与登录提示",
+      "summary": "页面预告2026-10-22在虹远小广场举办社团招新活动；详情与报名需登录查看。",
+      "limitations": "截至2026-10-16为未来活动；未给具体钟点、完整社团名单、资格或截止时刻；不能声称报名成功。",
+      "imported_into_app": false
+    },
+    {
+      "id": "O13",
+      "topics": [
+        "A01",
+        "A02",
+        "A03"
+      ],
+      "title": "成长惠园课程列表",
+      "url": "https://ea.uibe.edu.cn/Index/Class/index.html",
+      "publisher": "校团委",
+      "published_on": null,
+      "checked_on": "2026-10-16",
+      "evidence": "列表已核对",
+      "status": "限范围采用",
+      "locator": "课程信息列表及分类",
+      "summary": "可作校园活动查询入口；公开列表有活动时间、开课部门、平台类别与状态。",
+      "limitations": "发现过期活动仍显示报名中/即将开放；系统应按时间复核，冲突标记待确认，不能只信状态标签。",
+      "imported_into_app": false
+    },
+    {
+      "id": "O14",
+      "topics": [
+        "A03"
+      ],
+      "title": "第五届手球超级联赛·首届新生七米球挑战赛决赛观众",
+      "url": "https://ea.uibe.edu.cn/Index/Class/view/aid/vMX4eFNDtSo.html",
+      "publisher": "成长惠园/UIBE手球协会",
+      "published_on": null,
+      "checked_on": "2026-10-16",
+      "evidence": "列表及详情正文已核对",
+      "status": "冲突待确认",
+      "locator": "标题、课程介绍开头与活动时间地点",
+      "summary": "列2026-10-28 18:00—22:00、体育中心二楼；条目是观众活动，详情报名需登录。",
+      "limitations": "标题写第五届，介绍写第四届；保留冲突，不擅自统一届次；观赛报名不等于运动员参赛报名。",
+      "imported_into_app": false
+    },
+    {
+      "id": "O15",
+      "topics": [
+        "A02"
+      ],
+      "title": "第24届JHJ国际模拟法庭亚太赛志愿者招募",
+      "url": "https://law.uibe.edu.cn/xwzx/tzgg/d3af3fc7b7ac4192aae4d4bcd9e60a78.htm",
+      "publisher": "法学院",
+      "published_on": "2026-02-03",
+      "checked_on": "2026-10-16",
+      "evidence": "公开正文相关段落已核对",
+      "status": "历史参考",
+      "locator": "招募对象、工作类型与活动日期",
+      "summary": "官方志愿服务样例，面向法学院在读本科生及研究生，服务于2026年4月赛事。",
+      "limitations": "活动已过期；不能面向全校新生推荐为当前可报名，不把奖励规则推广全校。",
+      "imported_into_app": false
+    },
+    {
+      "id": "O16",
+      "topics": [
+        "A02"
+      ],
+      "title": "北京市志愿服务指导中心来校调研志愿服务工作",
+      "url": "https://news.uibe.edu.cn/info/1608/133138.htm",
+      "publisher": "学校新闻网/校团委",
+      "published_on": "2026-04-29",
+      "checked_on": "2026-10-16",
+      "evidence": "公开正文已核对",
+      "status": "背景参考",
+      "locator": "志愿服务项目及志愿北京平台交流段",
+      "summary": "证明校团委组织志愿服务并涉及志愿北京平台使用管理。",
+      "limitations": "新闻报道不是招募通知，不能据此提供具体项目报名步骤、名额或时长。",
+      "imported_into_app": false
+    },
+    {
+      "id": "O17",
+      "topics": [
+        "I02"
+      ],
+      "title": "通过CARSI使用图书馆资源的相关说明",
+      "url": "https://lib.uibe.edu.cn/xwdl/xwyhrzdl/index.htm",
+      "publisher": "学校图书馆",
+      "published_on": null,
+      "checked_on": "2026-10-16",
+      "evidence": "直连HTML正文已核对",
+      "status": "限范围采用",
+      "locator": "校外直接访问列表、机构选择说明、特别说明",
+      "summary": "提供CARSI机构认证及资源清单；仅部分数据库支持，使用者应通过官方认证入口登录；不可共享账号或批量违规下载。",
+      "limitations": "动态清单为本次快照；未登录数据库验证权限，不能保证每库每种资源可访问。",
+      "imported_into_app": false
+    },
+    {
+      "id": "O18",
+      "topics": [
+        "I02"
+      ],
+      "title": "通过VPN校外使用图书馆资源的相关说明",
+      "url": "https://lib.uibe.edu.cn/xwdl/xwVPNdl/index.htm",
+      "publisher": "学校图书馆",
+      "published_on": null,
+      "checked_on": "2026-10-16",
+      "evidence": "公开正文已核对",
+      "status": "限范围采用",
+      "locator": "VPN说明及特别说明",
+      "summary": "介绍vpn.uibe.edu.cn与EasyConnect路径，并限制部分资源只能在指定终端使用。",
+      "limitations": "与旧知识中的WebVPN是不同接入路径，不混写成同一操作步骤；当前客户端与权限需看信息处说明。",
+      "imported_into_app": false
+    },
+    {
+      "id": "O19",
+      "topics": [
+        "L03"
+      ],
+      "title": "图书馆借阅服务",
+      "url": "https://lib.uibe.edu.cn/fw/jyfw/index.htm",
+      "publisher": "学校图书馆",
+      "published_on": null,
+      "checked_on": "2026-10-16",
+      "evidence": "直连HTML目录已核对",
+      "status": "入口采用",
+      "locator": "借阅制度、权限、归还、续借、预约目录",
+      "summary": "可将教材获取引导到馆藏检索与官方借阅规则。",
+      "limitations": "本次未逐条核定借阅数量与期限；不得保证指定教材馆藏、库存或免费电子版。",
+      "imported_into_app": false
+    },
+    {
+      "id": "O20",
+      "topics": [
+        "L03"
+      ],
+      "title": "图书馆书目检索",
+      "url": "https://opac.uibe.edu.cn/",
+      "publisher": "学校图书馆",
+      "published_on": null,
+      "checked_on": "2026-10-16",
+      "evidence": "公开检索首页已核对",
+      "status": "入口采用",
+      "locator": "书目检索和我的图书馆",
+      "summary": "支持以题名、作者等检索馆藏的入口。",
+      "limitations": "未实际查询某本教材，也不替代课程指定教材征订通知。",
+      "imported_into_app": false
+    },
+    {
+      "id": "O21",
+      "topics": [
+        "I03"
+      ],
+      "title": "2025—2026第一学期军事理论课程上课通知",
+      "url": "https://xgb.uibe.edu.cn/xssw/ggtz/97a7842f9fdf4788aaa957b9f572d700.htm",
+      "publisher": "学生工作部/武装部",
+      "published_on": null,
+      "checked_on": "2026-10-16",
+      "evidence": "搜索摘录；直连复核失败",
+      "status": "待复核",
+      "locator": "网上学习与附件使用方法",
+      "summary": "发现该学期军事理论使用智慧树网、附有方法说明的线索。",
+      "limitations": "限特定课程及学期，不代表所有本科课统一平台；附件尚未取得，不编造登录和交作业步骤。",
+      "imported_into_app": false
+    },
+    {
+      "id": "O22",
+      "topics": [
+        "L01",
+        "L02",
+        "A01"
+      ],
+      "title": "学校迎新专题网",
+      "url": "https://xgb.uibe.edu.cn/yxztw/",
+      "publisher": "学生工作部",
+      "published_on": null,
+      "checked_on": "2026-10-16",
+      "evidence": "首页及关联栏目已核对",
+      "status": "入口采用",
+      "locator": "2026级新生学习与学生管理规定栏目",
+      "summary": "提供教学管理、团体管理等正式制度入口。",
+      "limitations": "入口用于追溯；网页显示2026迎新不意味着每一份所链接制度都在2026修订。",
+      "imported_into_app": false
+    },
+    {
+      "id": "O23",
+      "topics": [
+        "V02"
+      ],
+      "title": "校园管控期间食堂夜宵试营业通知",
+      "url": "https://hjc.uibe.edu.cn/tzgg/e23fc85258e94b7993809f2c0de17898.htm",
+      "publisher": "后勤处",
+      "published_on": "2022-05-17",
+      "checked_on": "2026-10-16",
+      "evidence": "公开正文已核对",
+      "status": "历史参考",
+      "locator": "夜宵时间及疫情期注意事项",
+      "summary": "可用于检验不把疫情特殊安排当现行营业时间。",
+      "limitations": "不作为2026餐饮时间表，当前食堂时间与支付方式仍待补。",
+      "imported_into_app": false
+    },
+    {
+      "id": "O24",
+      "topics": [
+        "V04"
+      ],
+      "title": "火灾逃生自救九大要诀",
+      "url": "https://110.uibe.edu.cn/aqzs/xfaqzs/2347.htm",
+      "publisher": "保卫处",
+      "published_on": "2014-03-07",
+      "checked_on": "2026-10-16",
+      "evidence": "公开正文已核对",
+      "status": "不纳入操作指导",
+      "locator": "旧消防科普",
+      "summary": "发现早期消防科普页面。",
+      "limitations": "含自制绳索等高风险建议；不因来自官方旧页就直接用于应急回答，后续应核对较新的专业消防指引。",
+      "imported_into_app": false
+    }
+  ]
+}

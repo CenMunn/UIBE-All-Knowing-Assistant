@@ -1,0 +1,181 @@
+{
+  "status": "staging_only",
+  "templates": [
+    {
+      "id": "TPL001",
+      "name": "对外经济贸易大学本科生十大杰出学生申请表",
+      "original_name": "20261016154616601001.doc",
+      "source_file": "resources/campus/20261018-b/20261016154616601001.doc",
+      "format": "doc",
+      "status": "source_staged",
+      "scope": "本科",
+      "notes": "仅保留原始空白模板，尚未实现预览、在线编辑或下载按钮",
+      "checked_on": "2026-10-18"
+    },
+    {
+      "id": "TPL002",
+      "name": "对外经济贸易大学研究生十大杰出学生申请表",
+      "original_name": "20261016154616551002.doc",
+      "source_file": "resources/campus/20261018-b/20261016154616551002.doc",
+      "format": "doc",
+      "status": "source_staged",
+      "scope": "研究生",
+      "notes": "仅保留原始空白模板，尚未实现预览、在线编辑或下载按钮",
+      "checked_on": "2026-10-18"
+    },
+    {
+      "id": "TPL003",
+      "name": "对外经济贸易大学本科生小米奖学金申请表",
+      "original_name": "20261010093946512.docx",
+      "source_file": "resources/campus/20261018-b/20261010093946512.docx",
+      "format": "docx",
+      "status": "source_staged",
+      "scope": "本科",
+      "notes": "仅保留原始空白模板，尚未实现预览、在线编辑或下载按钮",
+      "checked_on": "2026-10-18"
+    },
+    {
+      "id": "TPL004",
+      "name": "2026年暑期国际学校课程服务志愿者报名表",
+      "original_name": "20260526095528450.xls",
+      "source_file": "resources/campus/20261018-b/20260526095528450.xls",
+      "format": "xls",
+      "status": "source_staged",
+      "scope": "以原表和当期通知为准",
+      "notes": "仅保留原始空白模板，尚未实现预览、在线编辑或下载按钮",
+      "checked_on": "2026-10-18"
+    },
+    {
+      "id": "TPL005",
+      "name": "对外经济贸易大学国际中文教师志愿者报名申请表",
+      "original_name": "20260323165029315.docx",
+      "source_file": "resources/campus/20261018-b/20260323165029315.docx",
+      "format": "docx",
+      "status": "source_staged",
+      "scope": "以原表和当期通知为准",
+      "notes": "仅保留原始空白模板，尚未实现预览、在线编辑或下载按钮",
+      "checked_on": "2026-10-18"
+    },
+    {
+      "id": "TPL006",
+      "name": "12. 对外经济贸易大学奋进奖学金申请表.doc",
+      "original_name": "12. 对外经济贸易大学奋进奖学金申请表.doc",
+      "source_file": "resources/campus/20261018-b/20260918170547549/12. 对外经济贸易大学奋进奖学金申请表.doc",
+      "format": "doc",
+      "status": "source_staged",
+      "scope": "本科",
+      "notes": "仅保留原始空白模板，尚未实现预览、在线编辑或下载按钮",
+      "checked_on": "2026-10-18"
+    },
+    {
+      "id": "TPL007",
+      "name": "5. 对外经济贸易大学本科生奖学金申请审批表.doc",
+      "original_name": "5. 对外经济贸易大学本科生奖学金申请审批表.doc",
+      "source_file": "resources/campus/20261018-b/20260918170547549/5. 对外经济贸易大学本科生奖学金申请审批表.doc",
+      "format": "doc",
+      "status": "source_staged",
+      "scope": "本科",
+      "notes": "仅保留原始空白模板，尚未实现预览、在线编辑或下载按钮",
+      "checked_on": "2026-10-18"
+    },
+    {
+      "id": "TPL008",
+      "name": "附件1：2025－2026学年国家奖学金申请审批表（校级评审用表）.doc",
+      "original_name": "附件1：2025－2026学年国家奖学金申请审批表（校级评审用表）.doc",
+      "source_file": "resources/campus/20261018-b/20260910154155321/附件：2025-2026学年本科生国家奖学金和国家励志奖学金评定工作附件汇总/附件1：2025－2026学年国家奖学金申请审批表（校级评审用表）.doc",
+      "format": "doc",
+      "status": "source_staged",
+      "scope": "本科",
+      "notes": "仅保留原始空白模板，尚未实现预览、在线编辑或下载按钮",
+      "checked_on": "2026-10-18"
+    },
+    {
+      "id": "TPL009",
+      "name": "附件2： 2025-2026学年国家奖学金申请审批表（提交系统用表，请务必与附件1内容一字不差保持一致）.xlsx",
+      "original_name": "附件2： 2025-2026学年国家奖学金申请审批表（提交系统用表，请务必与附件1内容一字不差保持一致）.xlsx",
+      "source_file": "resources/campus/20261018-b/20260910154155321/附件：2025-2026学年本科生国家奖学金和国家励志奖学金评定工作附件汇总/附件2： 2025-2026学年国家奖学金申请审批表（提交系统用表，请务必与附件1内容一字不差保持一致）.xlsx",
+      "format": "xlsx",
+      "status": "source_staged",
+      "scope": "本科",
+      "notes": "仅保留原始空白模板，尚未实现预览、在线编辑或下载按钮",
+      "checked_on": "2026-10-18"
+    },
+    {
+      "id": "TPL010",
+      "name": "附件4：国家励志奖学金申请表.doc",
+      "original_name": "附件4：国家励志奖学金申请表.doc",
+      "source_file": "resources/campus/20261018-b/20260910154155321/附件：2025-2026学年本科生国家奖学金和国家励志奖学金评定工作附件汇总/附件4：国家励志奖学金申请表.doc",
+      "format": "doc",
+      "status": "source_staged",
+      "scope": "本科",
+      "notes": "仅保留原始空白模板，尚未实现预览、在线编辑或下载按钮",
+      "checked_on": "2026-10-18"
+    },
+    {
+      "id": "TPL011",
+      "name": "附件：对外经济贸易大学笃行奖学金申请表.doc",
+      "original_name": "附件：对外经济贸易大学笃行奖学金申请表.doc",
+      "source_file": "resources/campus/20261018-b/20260918170547549/10. 笃行奖学金评选办法及申请表/附件：对外经济贸易大学笃行奖学金申请表.doc",
+      "format": "doc",
+      "status": "needs_revision_review",
+      "scope": "本科",
+      "notes": "原件含修订痕迹，需核对显示学年/标题；不得自动接受修订或当成最终可填模板",
+      "checked_on": "2026-10-18"
+    },
+    {
+      "id": "TPL012",
+      "name": "附件：对外经济贸易大学建华奖学金申请表.doc",
+      "original_name": "附件：对外经济贸易大学建华奖学金申请表.doc",
+      "source_file": "resources/campus/20261018-b/20260918170547549/11. 建华奖学金评选办法及申请表/附件：对外经济贸易大学建华奖学金申请表.doc",
+      "format": "doc",
+      "status": "needs_revision_review",
+      "scope": "本科",
+      "notes": "原件含修订痕迹，需核对显示学年/标题；不得自动接受修订或当成最终可填模板",
+      "checked_on": "2026-10-18"
+    },
+    {
+      "id": "TPL013",
+      "name": "附件：对外经济贸易大学立德奖学金申请表.doc",
+      "original_name": "附件：对外经济贸易大学立德奖学金申请表.doc",
+      "source_file": "resources/campus/20261018-b/20260918170547549/6. 立德奖学金评选办法及申请表/附件：对外经济贸易大学立德奖学金申请表.doc",
+      "format": "doc",
+      "status": "needs_revision_review",
+      "scope": "本科",
+      "notes": "原件含修订痕迹，需核对显示学年/标题；不得自动接受修订或当成最终可填模板",
+      "checked_on": "2026-10-18"
+    },
+    {
+      "id": "TPL014",
+      "name": "2025-2026学年求索奖学金申请表.xlsx",
+      "original_name": "2025-2026学年求索奖学金申请表.xlsx",
+      "source_file": "resources/campus/20261018-b/20260918170547549/7. 求索奖学金评选办法及申请表/2025-2026学年求索奖学金申请表.xlsx",
+      "format": "xlsx",
+      "status": "source_staged",
+      "scope": "本科",
+      "notes": "仅保留原始空白模板，尚未实现预览、在线编辑或下载按钮",
+      "checked_on": "2026-10-18"
+    },
+    {
+      "id": "TPL015",
+      "name": "对外经济贸易大学惠康奖学金申报表.docx",
+      "original_name": "对外经济贸易大学惠康奖学金申报表.docx",
+      "source_file": "resources/campus/20261018-b/20260918170547549/8. 惠康奖学金评选办法及申请表/对外经济贸易大学惠康奖学金申报表.docx",
+      "format": "docx",
+      "status": "source_staged",
+      "scope": "本科",
+      "notes": "仅保留原始空白模板，尚未实现预览、在线编辑或下载按钮",
+      "checked_on": "2026-10-18"
+    },
+    {
+      "id": "TPL016",
+      "name": "对外经济贸易大学文美奖学金申请表.docx",
+      "original_name": "对外经济贸易大学文美奖学金申请表.docx",
+      "source_file": "resources/campus/20261018-b/20260918170547549/9. 文美奖学金评选办法及申请表/对外经济贸易大学文美奖学金申请表.docx",
+      "format": "docx",
+      "status": "source_staged",
+      "scope": "本科",
+      "notes": "仅保留原始空白模板，尚未实现预览、在线编辑或下载按钮",
+      "checked_on": "2026-10-18"
+    }
+  ]
+}

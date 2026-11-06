@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8 no-js"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9 no-js"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="zh">
+<head>
+    <title>2026年全日制普通本科招生章程</title>
+<meta charset="UTF-8">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="pragma" content="no-cache">
+<meta http-equiv="cache-control" content="no-cache">
+<meta http-equiv="expires" content="0">
+<link href="/template/jmdx/css/channel.css" rel="stylesheet" type="text/css" />
+<link href="/template/zjc_v3/css/show.css" rel="stylesheet" type="text/css" />
+<link href="/template/jmdx/css/common.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="/assets/global/plugins/bootstrap/css/bootstrap.min.css"/>
+<link rel="stylesheet" href="/assets/plugins/font-awesome-4.4.0/css/font-awesome.min.css" media="all" />
+
+<!--<link rel="stylesheet" href="/template/zjc_v3/css/edu/core.css">
+<link rel="stylesheet" href="/template/zjc_v3/css/edu/shortcode/header.css">-->
+<link href="/template/zjc_v3/css/custom20200506.css?v=20200320" rel="stylesheet" type="text/css" />
+<link href="/template/zjc_v3/css/channel20200402.css?v=20200402" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="/template/zjc_v3/css/common_index20200430.css?v=20200325" media="all">
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+<script src="http://apps.bdimg.com/libs/html5shiv/3.7/html5shiv.min.js"></script>
+<script src="http://apps.bdimg.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+<script type="text/javascript" src="/njs/ueditor/ueditor.parse.min.js"></script>
+<script src="/assets/global/plugins/jquery-3.7.1.min.js" type="text/javascript"></script>
+<script src="/assets/plugins/jquery-migrate-1.2.1.min.js" type="text/javascript"></script>
+<link rel="shortcut icon" href="/favicon.ico">
+<script>
+    //判断ie版本
+    var ua = navigator.userAgent.toLowerCase();
+    var isIE = ua.indexOf("msie") > -1;
+    var ieVersion;
+    if (isIE) {
+        ieVersion = ua.match(/msie ([\d.]+)/)[1];
+    }
+    if (ieVersion <= 8.0) {
+        alert('检测到您使用的是低版本的浏览器。请升级您的浏览器到更高版本，360、搜狗浏览器等请切换到极速模式，以得到更好的使用体验！');
+    }
+
+    $(window).on( 'scroll', function(){
+        if(document.body.scrollTop > 0 || document.documentElement.scrollTop > 0){
+            $('header').addClass('header');
+            $('#slider').addClass('blur');
+            $(".mainBox").css('top','0');
+            $("header .logo svg image").attr({"height":"45","width":"170"})
+        }else{
+            $('header').removeClass('header');
+            $(".mainBox").css('top','100%');
+            $(".mainBox").css('transform', 'translate3d(0px, 0px, 0px)');
+            $("header .logo svg image").attr({"height":"65","width":"244"})
+            setTimeout(function () {
+                $('#slider').removeClass('blur');
+            }, 250);
+        }
+    });
+
+    $(".eventsMain-down").click(function () {
+        $('html').scrollTop(120);
+    })
+
+
+    $(function(){
+        $("#logou_btn").click(function(){
+            //window.location.href = "/membermanage/loginout.jspa";
+        });
+        $("#searchicon,#searchicon2").click(function(){
+            $(".searchwraper").slideToggle('fast');
+            $('input').focus();
+            $('body').css('overflow-y','hidden');
+            $("header,#slider,.mainBox,.banner-bg,.mainWrap,footer").addClass("blur");
+            $('#slider').addClass('mobi');
+        });
+        $(".close").click(function(){
+            $(".searchwraper").slideToggle('fast');
+            $('body').css('overflow-y','scroll');
+            $("header,#slider,.mainBox,.banner-bg,.mainWrap,footer").removeClass("blur");
+        });
+        $("#menu").click(function(){
+            $(".mobi-menu").slideToggle('fast');
+            $("svg.close-menu,svg.open-menu").toggle();
+        });
+
+        function mobiMenu() {
+            if(document.documentElement.clientWidth<=991) {
+                $(".mobi-menu").css("height",document.documentElement.clientHeight-48)
+            }
+        }
+        mobiMenu();
+    });
+
+    // 热门搜索
+    function searchhot(keyword) {
+        $('#keywords').val(keyword);
+        $('#searchForm').submit();
+    }
+</script>    <script type="text/javascript" src="/njs/ueditor/ueditor.parse.min.js"></script>
+</head>
+<body>
+<!--<div class="preloader"></div>-->
+<style>
+    .nav-title {
+        /*opacity: 0;*/
+        /*text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5);*/
+    }
+    .login-title {
+        display: none;
+    }
+</style>
+<div class="searchwraper" style="display: none;">
+    <div class="searchBox">
+        <div class="container">
+            <div class="close">
+                <svg t="1585035864707" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="7163" width="30" height="30"><path d="M590.7456 508.416 1016.832 934.5024 938.0864 1009.664 512 583.5776 78.7456 1024 0 941.6704l433.2544-440.4224L7.168 75.1616 85.9136 0 512 426.0864 938.0864 0 1016.832 82.3296 590.7456 508.416z" p-id="7164" fill="#000"></path></svg>
+            </div>
+            <div class="search clearfix">
+                <form id="searchForm" name="input" action="/front/search.jspa" method="get" class="">
+                    <input type="text" class="keywords" name="keywords" id="keywords" placeholder="搜索关键字...">
+                    <button type="submit" class="button">
+                        <svg t="1585016036182" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="2099" width="44" height="44"><path d="M989.616 871.59l-162.529-165.989c106.261-166.781 86.705-390.665-58.922-536.31-168.464-168.431-441.456-168.431-609.898 0-168.356 168.394-168.356 441.477 0 609.818 149.922 149.906 382.64 166.252 550.785 49.284l160.139 163.603 120.425-120.407zM240.569 696.906c-122.997-122.972-122.997-322.328 0-445.326 122.958-122.958 322.377-122.958 445.279 0 123.009 122.997 123.009 322.354 0 445.326-122.919 122.958-322.321 122.958-445.279 0z" p-id="2100" fill="#fff"></path></svg>
+                    </button>
+                </form>
+            </div>
+            <div class="hotList col-xs-12 col-sm-6">
+                热门关键字：
+                <a href="javascript:void(0)" onclick="searchhot('双选会');">双选会</a>
+                <a href="javascript:void(0)" onclick="searchhot('宣讲会');">宣讲会</a>
+                <a href="javascript:void(0)" onclick="searchhot('场地预约');">场地预约</a>
+                <a href="javascript:void(0)" onclick="searchhot('全球治理');">全球治理</a>
+                <a href="javascript:void(0)" onclick="searchhot('招生简章');">招生简章</a>
+                <a href="javascript:void(0)" onclick="searchhot('报名咨询');">报名咨询</a>
+                <a href="javascript:void(0)" onclick="searchhot('就业');">就业</a>
+            </div>
+        </div>
+    </div>
+</div>
+<header class="header-area wow fadeInDown">
+    <div class="header-bottom stick-h2">
+        <div class="container">
+            <div class="row menu-area f-right">
+                <div class="col-xs-6 col-sm-3 wow fadeInLeft">
+                    <div class="logo" style="display: inline-block;">
+                        <a href="/">
+                            <!--<img src="/template/zjc_v3/img/logo-aeo.png"/>-->
+                            <svg>
+                                <image xlink:href="/template/zjc_v3/img/logo-aeo.svg" src="/template/zjc_v3/img/logo.png" height="65" width="244"></image>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-sm-9 visible-sm visible-xs">
+                    <nav>
+                        <ul class="mobi-navigation clearfix">
+                            <li class="dropdown search-li wow fadeInDown">
+                                <a href="javascript:;" id="searchicon">
+                                    <svg t="1585016036182" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="2099" width="24" height="24"><path d="M989.616 871.59l-162.529-165.989c106.261-166.781 86.705-390.665-58.922-536.31-168.464-168.431-441.456-168.431-609.898 0-168.356 168.394-168.356 441.477 0 609.818 149.922 149.906 382.64 166.252 550.785 49.284l160.139 163.603 120.425-120.407zM240.569 696.906c-122.997-122.972-122.997-322.328 0-445.326 122.958-122.958 322.377-122.958 445.279 0 123.009 122.997 123.009 322.354 0 445.326-122.919 122.958-322.321 122.958-445.279 0z" p-id="2100" fill="#344c76"></path></svg>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <input type="text" class="keywords" name="keywords" onblur="if (this.value == '') {this.value = '输入内容搜索...';}" onfocus="if (this.value == '输入内容搜索...') {this.value = '';}" value="输入内容搜索...">
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a class="v_login submit parentclick" membertypeid="86" id="login2" href="javascript:;">
+                                    <svg t="1585016770460" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="12655" width="24" height="24"><path d="M896 1024c0-247.424-136.576-320-384-320s-384 72.576-384 320H0c0-318.144 193.856-448 512-448s512 129.856 512 448h-128zM512 512a256 256 0 1 1 256-256 256 256 0 0 1-256 256z m0-384a128 128 0 1 0 128 128 128 128 0 0 0-128-128z" p-id="12656" fill="#344c76"></path></svg>
+
+                                    <div class="login-title">
+                                        <span class="zh">登录</span>
+                                    </div>
+                                </a>
+                                <div class="btn-group" id="logout2" style="display:none">
+                                    <button type="button" id="logou_btn2" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <svg t="1588229289607" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="7162" width="24" height="24"><path d="M512 896 128 896 128 128 512 128 512 256 640 256 640 128 640 0 512 0 0 0 0 0.384 0 128 0 896.32 0 1022.976 0 1024 512 1024 640 1024 640 896.32 640 768 512 768Z" p-id="7163" fill="#344c76"></path><path d="M768 640 768 768.128 1024 512.128 768 256.128 768 320 768 448 256 448 256 576 768 576 768 576.192Z" p-id="7164" fill="#344c76"></path></svg>
+                                        <!--<i class="fa fa-angle-down"></i>-->
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li style="border-bottom: 1px solid #ddd;">
+                                            <a href="/membercenter/toIndex.do">
+                                                <i class="fa fa-user"></i> 进入功能区
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="/membermanage/loginout.jspa">
+                                                <i class="fa fa-share-square-o"></i> 安全退出
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="javascript:;" id="menu">
+                                    <svg t="1588226771142" class="icon open-menu" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="3736" width="24" height="24"><path d="M128 128h768v128H128zM128 768h768v128H128zM128 448h768v128H128z" p-id="3737" fill="#344c76"></path></svg>
+                                    <svg t="1588230509064" class="icon close-menu" style="display: none" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="9188" width="24" height="24"><path d="M1022.583467 127.803733 894.779733 0 511.291733 383.4624 127.8464 0 0 127.803733 383.496533 511.274667 0 894.737067 127.8464 1022.5408 511.291733 639.0784 894.779733 1022.5408 1022.583467 894.737067 639.138133 511.274667Z" p-id="9189" fill="#344c76"></path></svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-xs-12 col-sm-9 hide-sm hide-xs mobi-menu">
+                    <div class="nav menu-area">
+                        <nav>
+                            <ul class="navigation clearfix">
+                                <li class="dropdown wow fadeInDown admission">
+                                    <a href="/front/channel.jspa?channelId=841" target="_blank">
+                                        <span class="img-title">
+                                            <svg height="40" width="45">
+                                                <image xlink:href="/template/zjc_v3/img/nav-top/zs.svg" height="40" width="45px"></image>
+                                            </svg>
+                                            <!--<img src="/template/zjc_v3/img/nav-top/zhaosheng-o.png" />-->
+                                        </span>
+                                        <div class="nav-title">
+                                            <span class="zh">招生</span>
+                                            <span class="en"> Admission</span>
+                                        </div>
+                                    </a>
+                                    <ul>
+                                        <li>
+                                            <a href="/front/channel.jspa?channelId=848" target="_blank">招生公告</a>
+                                        </li>
+                                        <li>
+                                            <a href="/front/channel.jspa?channelId=849" target="_blank">校园动态</a>
+                                        </li>
+                                        <!--<li>
+                                            <a href="/front/channel.jspa?channelId=850" target="_blank">招生计划</a>
+                                        </li>-->
+                                        <li>
+                                            <a href="/front/channel.jspa?channelId=851" target="_blank">报考指南</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://aeo.uibe.edu.cn/lqcx/static/front/uibe/basic/html_web/lqcx.html" target="_blank">高招录取查询</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown wow fadeInDown employment">
+                                    <a href="/front/channel.jspa?channelId=842" target="_blank">
+                                        <span class="img-title">
+                                            <svg height="40" width="45">
+                                                <image xlink:href="/template/zjc_v3/img/nav-top/jy.svg" height="40" width="45px"></image>
+                                            </svg>
+                                            <!--<img src="/template/zjc_v3/img/nav-top/jiuye-o.png" />-->
+                                        </span>
+                                        <div class="nav-title">
+                                            <span class="zh">就业</span>
+                                            <span class="en">Employment</span>
+                                        </div>
+                                    </a>
+                                    <ul>
+                                        <li>
+                                            <a href="/front/channel.jspa?channelId=764&parentId=625" target="_blank">求职信息</a>
+                                        </li>
+                                        <li>
+                                            <a href="/front/channel.jspa?channelId=622&parentId=625" target="_blank">实习实践</a>
+                                        </li>
+                                        <li>
+                                            <a href="/front/channel.jspa?channelId=805&parentId=625" target="_blank">读研深造</a>
+                                        </li>
+                                        <li>
+                                            <a href="/front/channel.jspa?channelId=766&parentId=625" target="_blank">招聘活动</a>
+                                        </li>
+                                        <li>
+                                            <a href="/front/channel.jspa?channelId=901" target="_blank">校友招聘专区</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown wow fadeInDown creation">
+                                    <a href="/front/channel.jspa?channelId=843" target="_blank">
+                                        <span class="img-title">
+                                            <svg height="40" width="45">
+                                                <image xlink:href="/template/zjc_v3/img/nav-top/cy.svg" height="40" width="45px"></image>
+                                            </svg>
+                                            <!--<img src="/template/zjc_v3/img/nav-top/chuangye-o.png" />-->
+                                        </span>
+                                        <div class="nav-title">
+                                            <span class="zh">创新惠园</span>
+                                            <span class="en"> Creation</span>
+                                        </div>
+                                    </a>
+                                    <ul>
+                                        <li>
+                                            <a href="/front/channel.jspa?channelId=834" target="_blank">动态资讯</a>
+                                        </li>
+                                        <li>
+                                            <a href="/front/channel.jspa?channelId=1685" target="_blank">创业实践</a>
+                                        </li>
+                                        <li>
+                                            <a href="/front/channel.jspa?channelId=1681" target="_blank">创新创业培养</a>
+                                        </li>
+                                        <li>
+                                            <a href="/front/channel.jspa?channelId=1683" target="_blank">创业孵化园</a>
+                                        </li>
+                                        <!--<li>
+                                            <a href="/front/channel.jspa?channelId=1682" target="_blank">创新惠园</a>
+                                        </li>-->
+                                    </ul>
+                                </li>
+                                <li class="dropdown wow fadeInDown global">
+                                    <a href="/front/channel.jspa?channelId=844" target="_blank">
+                                        <span class="img-title">
+                                            <svg height="40" width="45">
+                                                <image xlink:href="/template/zjc_v3/img/nav-top/gj.svg" height="40" width="45px"></image>
+                                            </svg>
+                                            <!--<img src="/template/zjc_v3/img/nav-top/global-o.png" />-->
+                                        </span>
+                                        <div class="nav-title">
+                                            <span class="zh">全球治理</span>
+                                            <span class="en">Global Governance</span>
+                                        </div>
+                                    </a>
+                                    <ul>
+                                        <li>
+                                            <a href="/front/channel.jspa?channelId=1679" target="_blank">岗位信息</a>
+                                        </li>
+                                        <li>
+                                            <a href="/front/channel.jspa?channelId=1692" target="_blank">热点资讯</a>
+                                        </li>
+                                        <li>
+                                            <a href="/front/channel.jspa?channelId=1680" target="_blank">国际组织</a>
+                                        </li>
+                                        <li>
+                                            <a href="/front/channel.jspa?channelId=1693" target="_blank">成长之路</a>
+                                        </li>
+                                        <li>
+                                            <a href="/front/channel.jspa?channelId=1694" target="_blank">求职指南</a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="dropdown search-li zh wow fadeInDown" style="width: 110px;">
+                                    <a href="/front/channel.jspa?channelId=845">
+                                        <svg height="40" width="45">
+                                            <image xlink:href="/template/zjc_v3/img/nav-top/zh20200326.svg" height="40" width="45px"></image>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="dropdown search-li wow fadeInDown hidden-sm hidden-xs ">
+                                    <a class="v_login submit parentclick" membertypeid="86" id="login2" href="javascript:;">
+                                        <svg t="1585016770460" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="12655" width="24" height="24"><path d="M896 1024c0-247.424-136.576-320-384-320s-384 72.576-384 320H0c0-318.144 193.856-448 512-448s512 129.856 512 448h-128zM512 512a256 256 0 1 1 256-256 256 256 0 0 1-256 256z m0-384a128 128 0 1 0 128 128 128 128 0 0 0-128-128z" p-id="12656" fill="#344c76"></path></svg>
+
+                                        <div class="login-title">
+                                            <span class="zh">登录</span>
+                                        </div>
+                                    </a>
+                                    <div class="btn-group" id="logout2" style="display:none">
+                                        <button type="button" id="logou_btn2" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            <svg t="1588229289607" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="7162" width="24" height="24"><path d="M512 896 128 896 128 128 512 128 512 256 640 256 640 128 640 0 512 0 0 0 0 0.384 0 128 0 896.32 0 1022.976 0 1024 512 1024 640 1024 640 896.32 640 768 512 768Z" p-id="7163" fill="#344c76"></path><path d="M768 640 768 768.128 1024 512.128 768 256.128 768 320 768 448 256 448 256 576 768 576 768 576.192Z" p-id="7164" fill="#344c76"></path></svg>
+                                            <!--<i class="fa fa-angle-down"></i>-->
+                                        </button>
+                                        <ul class="dropdown-menu">
+                                            <li style="border-bottom: 1px solid #ddd;">
+                                                <a href="/membercenter/toIndex.do">
+                                                    <i class="fa fa-user"></i> 进入功能区
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="/membermanage/loginout.jspa">
+                                                    <i class="fa fa-share-square-o"></i> 安全退出
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="dropdown search-li wow fadeInDown hidden-sm hidden-xs ">
+                                    <a href="javascript:;" id="searchicon">
+                                        <svg t="1585016036182" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="2099" width="24" height="24"><path d="M989.616 871.59l-162.529-165.989c106.261-166.781 86.705-390.665-58.922-536.31-168.464-168.431-441.456-168.431-609.898 0-168.356 168.394-168.356 441.477 0 609.818 149.922 149.906 382.64 166.252 550.785 49.284l160.139 163.603 120.425-120.407zM240.569 696.906c-122.997-122.972-122.997-322.328 0-445.326 122.958-122.958 322.377-122.958 445.279 0 123.009 122.997 123.009 322.354 0 445.326-122.919 122.958-322.321 122.958-445.279 0z" p-id="2100" fill="#344c76"></path></svg>
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li>
+                                            <input type="text" class="keywords" name="keywords" onblur="if (this.value == '') {this.value = '输入内容搜索...';}" onfocus="if (this.value == '输入内容搜索...') {this.value = '';}" value="输入内容搜索...">
+                                        </li>
+                                    </ul>
+                                </li>
+
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>    <!--<div class="banner-bg" style="background:#eee url(/template/zjc_v3/img/banner/banner01.jpg) no-repeat center; background-size: cover; height: 260px;">
+    </div>-->
+
+    <section class="mainWrap">
+        <div class="container">
+<div id="breadcrumb-wrapper">
+    <ul class="breadcrumb clearfix">
+        当前位置：<!-- <i class="fa fa-map-marker"></i> -->
+        <li><a href="/">首页</a></li>
+                <!--&gt; <span>2026年全日制普通本科招生章程</span>-->
+    </ul>
+</div>            <div class="row">
+                <div class="col-sm-12">
+                    <div class="content_header">
+                        <h2 class="content_header_title">2026年全日制普通本科招生章程</h2>
+                        <div class="content_header_desc">
+                            来源：<span>默认</span>
+                            发布时间：<span>2026-06-05</span>
+                            浏览量：<span id="clickCount">13408</span>
+                        <span class="qrcodeSpan">
+								二维码
+								<i class="fa fa-qrcode"></i>
+								<i class="fa fa-caret-down"></i>
+								<div class="qrcode" style="display: none">
+                                    <img alt="扫描分享" src="/front/qrCode.jspa?method=content&param1=897&param2=109396"/>
+									<p>扫一扫分享本网页</p>
+								</div>
+							</span>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <p style="text-align: center; line-height: 28pt;"><strong><span style="font-family: 仿宋;font-size: 16pt">第一章</span></strong><strong><span style="font-family: 仿宋;font-size: 16pt">&nbsp;&nbsp;</span></strong><strong><span style="font-family: 仿宋;font-size: 16pt">总</span></strong><strong><span style="font-family: 仿宋;font-size: 16pt">&nbsp;</span></strong><strong><span style="font-family: 仿宋;font-size: 16pt">则</span></strong></p><p style="text-indent: 32pt; line-height: 28pt; text-align: justify;"><span style="font-family: 仿宋;font-size: 16pt">第一条</span><span style="font-family: 仿宋;font-size: 16pt">&nbsp;&nbsp;</span><span style="font-family: 仿宋;font-size: 16pt">根据《中华人民共和国教育法》《中华人民共和国高等教育法》</span><span style="font-family: 仿宋;font-size: 16pt">等相关法律、</span><span style="font-family: 仿宋;font-size: 16pt">教育部</span><span style="font-family: 仿宋;font-size: 16pt">有关规定和《对外经济贸易大学章程》，</span><span style="font-family: 仿宋;font-size: 16pt">为规范学校招生工作</span><span style="font-family: 仿宋;font-size: 16pt">，</span><span style="font-family: 仿宋;font-size: 16pt">提高生源质量</span><span style="font-family: 仿宋;font-size: 16pt">，</span><span style="font-family: 仿宋;font-size: 16pt">保证招生工作正常进行，特制定本章程。</span></p><p style="text-indent:32.0000pt;text-autospace:ideograph-numeric;text-align:justify;text-justify:inter-ideograph;line-height:28.0000pt"><span style="font-family: 仿宋;font-size: 16pt">第二条</span><strong><span style="font-family: 仿宋;font-size: 16pt">&nbsp;&nbsp;</span></strong><span style="font-family: 仿宋;font-size: 16pt">学校全称为对外经济贸易大学，是国家公办、全日制普通高等学校，是教育部直属、教育部和商务部共建的全国重点大学，是</span><span style="font-family: 仿宋;font-size: 16pt">国家</span><span style="font-family: 仿宋;font-size: 16pt">“</span><span style="font-family: 仿宋;font-size: 16pt">双一流</span><span style="font-family: 仿宋;font-size: 16pt">”建设高校</span><span style="font-family: 仿宋;font-size: 16pt">。学校</span><span style="font-family: 仿宋;font-size: 16pt">注册及办学地址为北京市朝阳区惠新东街</span><span style="font-family: 仿宋;font-size: 16pt">10</span><span style="font-family: 仿宋;font-size: 16pt">号</span><span style="font-family: 仿宋;font-size: 16pt">，</span><span style="font-family: 仿宋_GB2312;font-size: 15.5pt"><span style="font-family:仿宋_GB2312">英文名称为</span><span style="font-family:宋体">“</span><span style="font-family:仿宋_GB2312">University of International </span></span><span style="font-family: 仿宋_GB2312;font-size: 15.5pt">Business and Economics”，简称“UIBE”。</span></p><p style="text-indent: 32pt; line-height: 28pt; text-align: justify;"><span style="font-family: 仿宋;font-size: 16pt"><span style="font-family:仿宋">第三条</span> &nbsp;</span><span style="font-family: 仿宋;font-size: 16pt">学校</span><span style="font-family: 仿宋;font-size: 16pt"><span style="font-family:仿宋">本科招生工作遵循</span><span style="font-family:仿宋">“公平竞争、公正选拔、公开程序，德智体美劳全面考核、择优录取”的原则</span></span><span style="font-family: 仿宋;font-size: 16pt">。</span><span style="font-family: 仿宋;font-size: 16pt">本科招生工作接受学校纪检监察部门、考生</span><span style="font-family: 仿宋;font-size: 16pt">、</span><span style="font-family: 仿宋;font-size: 16pt">家长以及社会各界的监督。</span></p><p style="text-indent: 32pt; line-height: 28pt; text-align: justify;"><span style="font-family: 仿宋;font-size: 16pt">第</span><span style="font-family: 仿宋;font-size: 16pt">四</span><span style="font-family: 仿宋;font-size: 16pt">条</span><span style="font-family: 仿宋;font-size: 16pt">&nbsp;&nbsp;</span><span style="font-family: 仿宋;font-size: 16pt">学校具有经济学、</span><span style="font-family: 仿宋;letter-spacing: 0pt;font-size: 16pt">法学、</span><span style="font-family: 仿宋;letter-spacing: 0pt;font-size: 16pt">教育学、</span><span style="font-family: 仿宋;letter-spacing: 0pt;font-size: 16pt">文学、理学、工学</span><span style="font-family: 仿宋;letter-spacing: 0pt;font-size: 16pt">、</span><span style="font-family: 仿宋;font-size: 16pt">管理学</span><span style="font-family: 仿宋;letter-spacing: 0pt;font-size: 16pt">七大</span><span style="font-family: 仿宋;letter-spacing: 0pt;font-size: 16pt">学科门类</span><span style="font-family: 仿宋;letter-spacing: 0pt;font-size: 16pt">和交叉学科（</span><span style="font-family: 仿宋;letter-spacing: 0pt;font-size: 16pt">国家安全学、智能科学与技术</span><span style="font-family: 仿宋;letter-spacing: 0pt;font-size: 16pt">）</span><span style="font-family: 仿宋;font-size: 16pt">的学位授予权</span><span style="font-family: 仿宋;letter-spacing: 0pt;font-size: 16pt">，</span><span style="font-family: 仿宋;letter-spacing: 0pt;font-size: 16pt">对取得我校学籍、学习期满成绩合格的本科毕业生，颁发普通高等教育毕业证书；符合学位授予条件的，颁发相应学位证书。</span></p><p style="text-align: center; line-height: 28pt;"><strong><span style="font-family: 仿宋;font-size: 16pt">第二章</span></strong><strong><span style="font-family: 仿宋;font-size: 16pt">&nbsp;&nbsp;</span></strong><strong><span style="font-family: 仿宋;font-size: 16pt">组织机构及职责</span></strong></p><p style="text-indent: 32pt; line-height: 28pt; text-align: justify;"><span style="font-family: 仿宋;font-size: 16pt">第五条</span><span style="font-family: 仿宋;font-size: 16pt">&nbsp;&nbsp;</span><span style="font-family: 仿宋;font-size: 16pt">经</span><span style="font-family: 仿宋;font-size: 16pt">学校</span><span style="font-family: 仿宋;font-size: 16pt">党委常委会审定</span><span style="font-family: 仿宋;font-size: 16pt">，</span><span style="font-family: 仿宋;font-size: 16pt">学校本科招生工作实</span><span style="text-indent: 0pt; font-family: 仿宋; font-size: 16pt;">行</span><span style="text-indent: 0pt; font-family: 仿宋; font-size: 16pt;">本科招生委员会统一领导、统筹决策，</span><span style="text-indent: 0pt; font-family: 仿宋; font-size: 16pt;">招生就业处具体执行的管理模式</span><span style="text-indent: 0pt; font-family: 仿宋; font-size: 16pt;">。</span></p><p style="text-align: center; line-height: 28pt;"><strong><span style="font-family: 仿宋;font-size: 16pt"><span style="font-family:仿宋">第三章</span> &nbsp;</span></strong><strong><span style="font-family: 仿宋;font-size: 16pt">招生</span></strong><strong><span style="font-family: 仿宋;font-size: 16pt">计划</span></strong></p><p style="text-indent:32.0000pt;text-autospace:ideograph-numeric;text-align:justify;text-justify:inter-ideograph;line-height:28.0000pt"><span style="font-family: 仿宋;font-size: 16pt">第</span><span style="font-family: 仿宋;font-size: 16pt">六</span><span style="font-family: 仿宋;font-size: 16pt">条</span><span style="font-family: Calibri;font-size: 16pt">&nbsp;&nbsp;</span><span style="font-family: 仿宋;font-size: 16pt">学校</span><span style="font-family: 仿宋;font-size: 16pt">根据</span><span style="font-family: 仿宋;font-size: 16pt">国家发展需要、</span><span style="font-family: 仿宋;font-size: 16pt">人才培养目标、</span><span style="font-family: 仿宋;font-size: 16pt">办学</span><span style="font-family: 仿宋; font-size: 16pt;">条件等实际情况，</span><span style="font-family: 仿宋; font-size: 16pt;">综合</span><span style="font-family: 仿宋; font-size: 16pt;">考虑各省</span><span style="font-family: 仿宋; font-size: 16pt;">（自治区、直辖市）的</span><span style="font-family: 仿宋; font-size: 16pt;">考生</span><span style="font-family: 仿宋; font-size: 16pt;">数量、生源质量</span><span style="font-family: 仿宋; font-size: 16pt;">以及</span><span style="font-family: 仿宋; font-size: 16pt;">区域协调发展等因素，结合近年来学校生源计划</span><span style="font-family: 仿宋; font-size: 16pt;">执行</span><span style="font-family: 仿宋; font-size: 16pt;">情况</span><span style="font-family: 仿宋; font-size: 16pt;">、学</span><span style="font-family: 仿宋; font-size: 16pt;">生</span><span style="font-family: 仿宋; font-size: 16pt;">就业情况</span><span style="font-family: 仿宋; font-size: 16pt;">，科</span><span style="font-family: 仿宋; font-size: 16pt;">学合理</span><span style="font-family: 仿宋; font-size: 16pt;">编制招生计划，</span><span style="font-family: 仿宋; letter-spacing: 0pt; font-size: 16pt;">报教育部</span><span style="font-family: 仿宋; letter-spacing: 0pt; font-size: 16pt;">备案</span><span style="font-family: 仿宋; letter-spacing: 0pt; font-size: 16pt;">后由各省级招生主管部门向社会公布</span><span style="font-family: 仿宋; font-size: 16pt;">。</span></p><p style="text-indent: 32pt; line-height: 28pt; text-align: justify;"><span style="font-family: 仿宋;font-size: 16pt">第</span><span style="font-family: 仿宋;font-size: 16pt">七</span><span style="font-family: 仿宋;font-size: 16pt">条</span><span style="font-family: Calibri;font-size: 16pt">&nbsp;&nbsp;</span><span style="font-family: 仿宋;font-size: 16pt">学校</span><span style="font-family: 仿宋;font-size: 16pt">录取工作按照</span><span style="font-family: 仿宋;font-size: 16pt">“</span><span style="font-family: 仿宋;font-size: 16pt">学校负责</span><span style="font-family: 仿宋;font-size: 16pt">、省级</span><span style="font-family: 仿宋;font-size: 16pt">招办</span><span style="font-family: 仿宋;font-size: 16pt">监督</span><span style="font-family: 仿宋;font-size: 16pt"><span style="font-family:仿宋">、招生就业处落实</span><span style="font-family:仿宋">”</span></span><span style="font-family: 仿宋;font-size: 16pt">的要求</span><span style="font-family: 仿宋;font-size: 16pt">，</span><span style="font-family: 仿宋;font-size: 16pt">在教育部领导下</span><span style="font-family: 仿宋;font-size: 16pt">，根据</span><span style="font-family: 仿宋;font-size: 16pt">各省</span><span style="font-family: 仿宋;font-size: 16pt">（自治区、直辖市）</span><span style="font-family: 仿宋;font-size: 16pt">招生主管部门统一组织进行</span><span style="font-family: 仿宋;font-size: 16pt">录取</span><span style="font-family: 仿宋;font-size: 16pt">。</span></p><p style="text-indent: 32pt; line-height: 28pt; text-align: justify;"><span style="font-family: 仿宋;font-size: 16pt">第</span><span style="font-family: 仿宋;font-size: 16pt">八</span><span style="font-family: 仿宋;font-size: 16pt">条</span><span style="font-family: Calibri;font-size: 16pt">&nbsp;&nbsp;</span><span style="font-family: 仿宋;font-size: 16pt">学校</span><span style="font-family: Calibri;font-size: 16pt"><span style="font-family:仿宋">根据在各省（</span></span><span style="font-family: 仿宋;font-size: 16pt">自治区、直辖市</span><span style="font-family: Calibri;font-size: 16pt"><span style="font-family:仿宋">）的招生计划和生源情况确定调档比例，顺序志愿投档的批次原则上不超过</span></span><span style="font-family: 仿宋;font-size: 16pt">120%</span><span style="font-family: Calibri;font-size: 16pt"><span style="font-family:仿宋">，平行志愿投档的批次原则上不超过</span></span><span style="font-family: 仿宋;font-size: 16pt">105%</span><span style="font-family: Calibri;font-size: 16pt"><span style="font-family:仿宋">。</span></span></p><p style="text-indent: 32pt; line-height: 28pt; text-align: justify;"><span style="font-family: 仿宋;font-size: 16pt">第</span><span style="font-family: 仿宋;font-size: 16pt">九</span><span style="font-family: 仿宋;font-size: 16pt">条</span><span style="font-family: 仿宋;font-size: 16pt">&nbsp;&nbsp;</span><span style="font-family: 仿宋;letter-spacing: 0pt;font-size: 16pt">根据教育部有关规定</span><span style="font-family: 仿宋;font-size: 16pt"><span style="font-family:仿宋">，学校在国家核定的年度招生规模内预留少量计划，用于调节各地统考上线生源的不平衡。预留计划不超过招生计划总数的</span><span style="font-family:仿宋">1%。预留计划使用时，坚持质量优先、公开透明，主要投放到国家政策要求及优质生源集中的省（自治区、直辖市）。</span></span></p><p style="text-align: center; line-height: 28pt;"><strong><span style="font-family: 仿宋;font-size: 16pt">第四章</span></strong><strong><span style="font-family: 仿宋;font-size: 16pt">&nbsp;&nbsp;</span></strong><strong><span style="font-family: 仿宋;font-size: 16pt">招生类型及录取规则</span></strong></p><p style="text-indent:32.0000pt;text-autospace:ideograph-numeric;text-align:justify;text-justify:inter-ideograph;line-height:28.0000pt"><span style="font-family: 仿宋;font-size: 16pt">第十条</span><span style="font-family: 仿宋;font-size: 16pt">&nbsp;&nbsp;</span><span style="font-family: 仿宋;font-size: 16pt"><span style="font-family:仿宋">学校根据《教育部关于做好</span><span style="font-family:仿宋">20</span></span><span style="font-family: 仿宋;font-size: 16pt">26</span><span style="font-family: 仿宋;font-size: 16pt">年普通高校招生工作的通知（教学</span><span style="font-family: 仿宋;font-size: 16pt">〔</span><span style="font-family: 仿宋;font-size: 16pt">20</span><span style="font-family: 仿宋;font-size: 16pt">26</span><span style="font-family: 仿宋;font-size: 16pt">〕</span><span style="font-family: 仿宋;font-size: 16pt">1</span><span style="font-family: 仿宋;font-size: 16pt">号）》规定，本着公开、公平、公正的原则，德智体美劳综合考核，择优录取。</span><span style="font-family: 仿宋;font-size: 16pt">&nbsp;</span></p><p style="text-indent:32.0000pt;text-autospace:ideograph-numeric;text-align:justify;text-justify:inter-ideograph;line-height:28.0000pt"><span style="font-family: 仿宋;font-size: 16pt">第十</span><span style="font-family: 仿宋;font-size: 16pt">一</span><span style="font-family: 仿宋;font-size: 16pt">条</span><span style="font-family: 仿宋;font-size: 16pt">&nbsp;&nbsp;</span><span style="font-family: 仿宋;font-size: 16pt">学校招生类型包括</span><span style="font-family: 仿宋;font-size: 16pt">普通统考</span><span style="font-family: 仿宋;font-size: 16pt">、外语类保送生、高校专项计划、国家专项计划、内地新疆高中班、内地西藏高中班、少数民族预科班、</span><span style="font-family: 仿宋;font-size: 16pt">民族班</span><span style="font-family: 仿宋;font-size: 16pt">、</span><span style="font-family: 仿宋;letter-spacing: 0pt;font-size: 16pt">港澳台侨联合</span><span style="font-family: 仿宋;letter-spacing: 0pt;font-size: 16pt">招生</span><span style="font-family: 仿宋;font-size: 16pt">、香港中学文凭考试、澳门保送生、</span><span style="font-family: 仿宋;font-size: 16pt">台湾学测生、中外合作办学</span><span style="font-family: 仿宋;font-size: 16pt">等</span><span style="font-family: 仿宋;font-size: 16pt">。</span></p><p style="text-indent: 32pt; line-height: 28pt; text-align: justify;"><span style="font-family: 仿宋;font-size: 16pt">第十</span><span style="font-family: 仿宋;font-size: 16pt">二</span><span style="font-family: 仿宋;font-size: 16pt">条</span><strong><span style="font-family: 仿宋;font-size: 16pt">&nbsp;&nbsp;</span></strong><span style="font-family: 仿宋;font-size: 16pt">学校除英语、德语、法语、西班牙语、意大利语、日语、阿拉伯语、俄语、葡萄牙语、朝鲜语、希腊语、波斯语、越南语语言类专业</span><span style="font-family: 仿宋;font-size: 16pt">只</span><span style="font-family: 仿宋;font-size: 16pt">招英语考生外，其他所有专业不限外语应试语种。学校不单独为高中阶段学习非英语语种学生开设英语课程，要求该类学生在校期间取得学校规定的英语学分，并达到学校在其他方面的英语学习和技能要求。</span><span style="font-family: 仿宋;font-size: 16pt">数据科学与大数据技术（中外合作办学）、精算学（中外合作办学）、保险学（中外合作办学）</span><span style="font-family: 仿宋;letter-spacing: 0pt;font-size: 16pt">只招收有该专业志愿考生，入学后不得</span><span style="font-family: 仿宋;letter-spacing: 0pt;font-size: 16pt">转入其他专业学习</span><span style="font-family: 仿宋;letter-spacing: 0pt;font-size: 16pt">。</span></p><p style="text-indent: 32pt; line-height: 28pt; text-align: justify;"><span style="font-family: 仿宋;font-size: 16pt">第十</span><span style="font-family: 仿宋;font-size: 16pt">三</span><span style="font-family: 仿宋;font-size: 16pt">条</span><span style="font-family: 仿宋;font-size: 16pt">&nbsp;&nbsp;</span><span style="font-family: 仿宋;font-size: 16pt">投档录取时，学校认可各省（自治区、直辖市）招生主管部门根据教育部相关政策给予考生的全国性政策加分，同一考生如有多项政策加分，只取其中最高一项分值</span><span style="font-family: 仿宋;font-size: 16pt"><span style="font-family:仿宋">，且最高加分不得超过</span><span style="font-family:仿宋">20分。</span></span><span style="font-family: 仿宋;letter-spacing: 0pt;font-size: 16pt">投档成绩相同情况下，按照各省级招生主管部门确定的同分投档排序规则依次进行录取</span><span style="font-family: 仿宋;letter-spacing: 0pt;font-size: 16pt">，若当省无顺序志愿同分排序规则，则参照平行志愿同分排序规则进行录取</span><span style="font-family: 仿宋;letter-spacing: 0pt;font-size: 16pt">。</span></p><p style="text-indent: 32pt; line-height: 28pt; text-align: justify;"><span style="font-family: 仿宋;font-size: 16pt">第十</span><span style="font-family: 仿宋;font-size: 16pt">四</span><span style="font-family: 仿宋;font-size: 16pt">条</span><span style="font-family: 仿宋;font-size: 16pt">&nbsp;&nbsp;</span><span style="font-family: 仿宋;letter-spacing: 0pt;font-size: 16pt">在考生思想政治品德考核合格</span><span style="font-family: 仿宋;letter-spacing: 0pt;font-size: 16pt">、</span><span style="font-family: 仿宋;letter-spacing: 0pt;font-size: 16pt">身体</span><span style="font-family: 仿宋;letter-spacing: 0pt;font-size: 16pt">健康状况检查合格并符合相关专业培养要求、</span><span style="font-family: 仿宋;letter-spacing: 0pt;font-size: 16pt">投档</span><span style="font-family: 仿宋;letter-spacing: 0pt;font-size: 16pt">成绩达到相应批次录取控制分数线</span><span style="font-family: 仿宋;letter-spacing: 0pt;font-size: 16pt">条件下</span><span style="font-family: 仿宋;letter-spacing: 0pt;font-size: 16pt">，</span><span style="font-family: 仿宋;font-size: 16pt">我校依据</span><span style="font-family: 仿宋;font-size: 16pt">考生投档成绩和专业志愿，按照分数优先原则，由高分至低分顺序录取至专业，不设专业志愿级差。</span><span style="font-family: 仿宋;font-size: 16pt">如</span><span style="font-family: 仿宋;font-size: 16pt">考生投档成绩达到学校录取控制分数线且符合录取条件，但未达到所填报专业录取分数，凡服从调剂者将被调剂到未录满的专业</span><span style="font-family: 仿宋;font-size: 16pt">；</span><span style="font-family: 仿宋;font-size: 16pt">不服从调剂者作退档处理</span><span style=";font-family:仿宋;font-size:16.0000pt">。</span></p><p style="text-indent: 32pt; line-height: 28pt; text-align: justify;"><span style="font-family: 仿宋;font-size: 16pt">第十</span><span style="font-family: 仿宋;font-size: 16pt">五</span><span style="font-family: 仿宋;font-size: 16pt">条</span><span style="font-family: 仿宋;font-size: 16pt">&nbsp;&nbsp;</span><span style="font-family: 仿宋;font-size: 16pt">在非平行投档</span><span style="font-family: 仿宋;font-size: 16pt">批次</span><span style="font-family: 仿宋;font-size: 16pt">第一志愿生源不足的情况下，学校接收非第一志愿且服从专业调剂的考生；在平行志愿投档</span><span style="font-family: 仿宋;font-size: 16pt">批次</span><span style="font-family: 仿宋;font-size: 16pt">未完成招生计划时，征集志愿录取，经征集志愿仍未完成的剩余计划将调剂到其他生源质量好的省份完成招生计划。</span></p><p style="text-indent: 32pt; line-height: 28pt; text-align: justify;"><span style="font-family: 仿宋;font-size: 16pt">第十</span><span style="font-family: 仿宋;font-size: 16pt">六</span><span style="font-family: 仿宋;font-size: 16pt">条</span><span style="font-family: 仿宋;font-size: 16pt">&nbsp;&nbsp;</span><span style="font-family: 仿宋;font-size: 16pt">往届生录取按照各省（自治区、直辖市）招生部门有关规定办理。</span></p><p style="text-indent: 32pt; line-height: 28pt; text-align: justify;"><span style="font-family: 仿宋;font-size: 16pt">第十</span><span style="font-family: 仿宋;font-size: 16pt">七</span><span style="font-family: 仿宋;font-size: 16pt">条</span><span style="font-family: 仿宋;font-size: 16pt">&nbsp;&nbsp;</span><span style="font-family: 仿宋;font-size: 16pt">高考改革省份考生</span><span style="font-family: 仿宋;font-size: 16pt">须满足学校</span><span style="font-family: 仿宋;font-size: 16pt">20</span><span style="font-family: 仿宋;font-size: 16pt">26</span><span style="font-family: 仿宋;font-size: 16pt">年</span><span style="font-family: 仿宋;font-size: 16pt">相应专业选考科目要求。</span></p><p style="text-indent: 32pt; line-height: 28pt; text-align: justify;"><span style="font-family: 仿宋;font-size: 16pt">第十</span><span style="font-family: 仿宋;font-size: 16pt">八</span><span style="font-family: 仿宋;font-size: 16pt">条</span><span style="font-family: 仿宋;font-size: 16pt">&nbsp;&nbsp;</span><span style="font-family: 仿宋;font-size: 16pt">外语类保送生招生依据教育部有关规定及学校</span><span style="font-family: 仿宋;font-size: 16pt">当年</span><span style="font-family: 仿宋;font-size: 16pt">的招生简章执行</span><span style="font-family: 仿宋;font-size: 16pt">，</span><span style="font-family: 仿宋;font-size: 16pt">转专业政策根据教育部和学校相关规定执行</span><span style="font-family: 仿宋;font-size: 16pt">。</span><span style="font-family: 仿宋;font-size: 16pt">高校专项计划</span><span style="font-family: 仿宋;letter-spacing: 0pt;font-size: 16pt;background: rgb(255, 255, 255)"><span style="font-family:仿宋">根据公布的各省</span></span><span style="font-family: 仿宋;letter-spacing: 0pt;font-size: 16pt;background: rgb(255, 255, 255)"><span style="font-family:仿宋">（区、市）</span></span><span style="font-family: 仿宋;letter-spacing: 0pt;font-size: 16pt;background: rgb(255, 255, 255)"><span style="font-family:仿宋">招生计划，按照高考投档成绩（含政策性加分）从高到低择优录取</span></span><span style="font-family: 仿宋;letter-spacing: 0pt;font-size: 16pt;background: rgb(255, 255, 255)"><span style="font-family:仿宋">；</span></span><span style="font-family: 仿宋;letter-spacing: 0pt;font-size: 16pt;background: rgb(255, 255, 255)"><span style="font-family:仿宋">报考高校专项计划的考生，其投档成绩应达到所在省（区、市）特殊类型招生控制分数线（未合并本科批次的省份为普通一批最低录取控制分数线）</span></span><span style="font-family: 仿宋;letter-spacing: 0pt;font-size: 16pt;background: rgb(255, 255, 255)"><span style="font-family:仿宋">。</span></span><span style="font-family: 仿宋;letter-spacing: 0pt;font-size: 16pt;background: rgb(255, 255, 255)"><span style="font-family:仿宋">国家专项</span></span><span style="font-family: 仿宋;letter-spacing: 0pt;font-size: 16pt">计划</span><span style="font-family: 仿宋;letter-spacing: 0pt;font-size: 16pt">、内地西藏</span><span style="font-family: 仿宋;letter-spacing: 0pt;font-size: 16pt">高中</span><span style="font-family: 仿宋;letter-spacing: 0pt;font-size: 16pt">班、内地新疆高中班、少数民族预科、</span><span style="font-family: 仿宋;letter-spacing: 0pt;font-size: 16pt">民族班、</span><span style="font-family: 仿宋;letter-spacing: 0pt;font-size: 16pt">港澳台侨联合</span><span style="font-family: 仿宋;letter-spacing: 0pt;font-size: 16pt">招生</span><span style="font-family: 仿宋;letter-spacing: 0pt;font-size: 16pt">、台湾学测生、澳门保送生、香港中学文凭考试学生的招生录取办法按照国家有关部门及学校的有关规定执行。</span></p><p style="text-indent: 32pt; line-height: 28pt; text-align: justify;"><span style="font-family: 仿宋;font-size: 16pt">第</span><span style="font-family: 仿宋;font-size: 16pt">十九</span><span style="font-family: 仿宋;font-size: 16pt">条</span><span style="font-family: 仿宋;font-size: 16pt">&nbsp;&nbsp;</span><span style="font-family: 仿宋;font-size: 16pt">录取时考生体检要求</span><span style="font-family: 仿宋;font-size: 16pt">按照教育部、原卫生部、中国残疾人联合会印发的《普通高等学校招生体检工作</span><span style="font-family: 仿宋; font-size: 16pt;">指导意见</span><span style="font-family: 仿宋; font-size: 16pt;">》</span><span style="font-family: 仿宋; font-size: 16pt;">及有关补充</span><span style="font-family: 仿宋; font-size: 16pt;">规定执行。20</span><span style="font-family: 仿宋; font-size: 16pt;">26</span><span style="font-family: 仿宋; font-size: 16pt;">年我校对第二条</span><span style="font-family: 仿宋; font-size: 16pt;">“</span><span style="font-family: 仿宋; font-size: 16pt;">患有下列疾病者，学校有关专业可不予录取</span><span style="font-family: 仿宋; font-size: 16pt;">”</span><span style="font-family: 仿宋; font-size: 16pt;">中的第2小条“不能准确识别红、黄、绿、兰、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图形者不能录取的专业：除同轻度色觉异常、色觉异常</span><span style="font-family: 仿宋; font-size: 16pt;">Ⅱ</span><span style="font-family: 仿宋; font-size: 16pt;">度两类列出专业外，还包括经济学类、管理科学与工程类、工商管理类、公共管理类、农业经济管理类、图书档案学类各专业。”不作要求。即“不能准确识别红、黄、绿、兰、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图形者”可以报考并录取到我校的经济学类、工商管理类、公共管理类专业。</span></p><p style="text-indent: 32pt; line-height: 28pt; text-align: justify;"><span style="font-family: 仿宋;font-size: 16pt">第二十条</span><span style="font-family: 仿宋;font-size: 16pt">&nbsp;&nbsp;</span><span style="font-family: 仿宋;font-size: 16pt">新生入学后，将依</span><span style="font-family: 仿宋;font-size: 16pt">据教育部有关文件规定进行新生资格审查和身体复查。对不符合录取条件的新生，学校将根据不同情况予以处理，直至取消入学资格。凡发现弄虚作假者，取消其入学资格。</span></p><p style="text-align: center; line-height: 28pt;"><strong><span style="font-family: 仿宋;font-size: 16pt">第五章</span></strong><strong><span style="font-family: 仿宋;font-size: 16pt">&nbsp;&nbsp;</span></strong><strong><span style="font-family: 仿宋;font-size: 16pt">附则</span></strong></p><p style="text-indent: 32pt; line-height: 28pt; text-align: justify;"><span style=";font-family:仿宋;font-size:16.0000pt">第二十一条</span><span style=";font-family:仿宋;font-size:16.0000pt">&nbsp;&nbsp;</span><span style=";font-family:仿宋;font-size:16.0000pt">学校</span><span style=";font-family:仿宋;font-size:16.0000pt">20</span><span style=";font-family:仿宋;font-size:16.0000pt">26</span><span style=";font-family:仿宋;font-size:16.0000pt">年学费为</span><span style=";font-family:仿宋;font-size:16.0000pt">：</span><span style=";font-family:仿宋;font-size:16.0000pt">外国语言</span><span style=";font-family:仿宋;font-size:16.0000pt">文学</span><span style=";font-family:仿宋;font-size:16.0000pt">类专业</span><span style=";font-family:仿宋;font-size:16.0000pt">6000</span><span style=";font-family:仿宋;font-size:16.0000pt"><span style="font-family:仿宋">元</span><span style="font-family:仿宋">/</span></span><span style=";font-family:仿宋;font-size:16.0000pt">生</span><span style=";font-family:仿宋;font-size:16.0000pt">/学年</span><span style="font-family: 仿宋;font-size: 16pt">；授予理学、工学学士学位的普通专业</span><span style="font-family: 仿宋;font-size: 16pt">5500元/生</span><span style="font-family: 仿宋;font-size: 16pt">/</span><span style="font-family: 仿宋;font-size: 16pt">学年；</span><span style=";font-family:仿宋;font-size:16.0000pt">其他普通</span><span style=";font-family:仿宋;font-size:16.0000pt"><span style="font-family:仿宋">专业</span><span style="font-family:仿宋">5</span></span><span style=";font-family:仿宋;font-size:16.0000pt">000</span><span style=";font-family:仿宋;font-size:16.0000pt"><span style="font-family:仿宋">元</span><span style="font-family:仿宋">/</span></span><span style=";font-family:仿宋;font-size:16.0000pt">生</span><span style=";font-family:仿宋;font-size:16.0000pt">/学年</span><span style=";font-family:仿宋;font-size:16.0000pt">；双学士学位项目</span><span style=";font-family:仿宋;font-size:16.0000pt">学费按照对应的学费标准收取</span><span style=";font-family:仿宋;font-size:16.0000pt"><span style="font-family:仿宋">。数据科学与大数据技术（中外合作办学）专业</span><span style="font-family:仿宋">99000元/生/学年（在对外经济贸易大学三年期间）</span></span><span style="font-family: 仿宋;letter-spacing: 0pt;font-size: 16pt">，</span><span style="font-family: 仿宋;letter-spacing: 0pt;font-size: 16pt">在</span><span style="font-family: 仿宋;letter-spacing: 0pt;font-size: 16pt">美学费按照对方国际学生标准收取；精算学（中外合作办学）</span><span style=";font-family:仿宋;font-size:16.0000pt"><span style="font-family:仿宋">专业</span><span style="font-family:仿宋">100000元/生/学年（在对外经济贸易大学四年期间）；</span></span><span style="font-family: 仿宋;letter-spacing: 0pt;font-size: 16pt">保险学（中外合作办学）</span><span style=";font-family:仿宋;font-size:16.0000pt"><span style="font-family:仿宋">专业</span><span style="font-family:仿宋">100000元/生/学年（在对外经济贸易大学四年期间）</span></span><span style="font-family: 仿宋;letter-spacing: 0pt;font-size: 16pt">。</span><span style="font-family: 仿宋;letter-spacing: 0pt;font-size: 16pt">学校</span><span style="font-family: 仿宋;font-size: 16pt">根据住宿条件收取住宿费，男生宿舍住宿费</span><span style="font-family: 仿宋;font-size: 16pt">750</span><span style="font-family: 仿宋;font-size: 16pt"><span style="font-family:仿宋">元</span><span style="font-family:仿宋">/</span></span><span style=";font-family:仿宋;font-size:16.0000pt">生</span><span style="font-family: 仿宋;font-size: 16pt">/学年，女生宿舍住宿费</span><span style="font-family: 仿宋;font-size: 16pt">900</span><span style="font-family: 仿宋;font-size: 16pt"><span style="font-family:仿宋">元</span><span style="font-family:仿宋">/</span></span><span style=";font-family:仿宋;font-size:16.0000pt">生</span><span style="font-family: 仿宋;font-size: 16pt">/学年。</span></p><p style="text-indent: 32pt; line-height: 28pt; text-align: justify;"><span style="font-family: 仿宋;font-size: 16pt">第二十</span><span style="font-family: 仿宋;font-size: 16pt">二</span><span style="font-family: 仿宋;font-size: 16pt">条</span><span style="font-family: 仿宋;font-size: 16pt">&nbsp;&nbsp;</span><span style="font-family: 仿宋;font-size: 16pt">学校设有综合奖学金以及各类单项奖学金，同时针对家庭经济困难学生</span><span style="font-family: 仿宋;font-size: 16pt"><span style="font-family:仿宋">提供</span><span style="font-family:仿宋">“绿色通道”、</span></span><span style="font-family: 仿宋;font-size: 16pt">申请国家助学贷款、学费减免、</span><span style="font-family: 仿宋;font-size: 16pt">经济资助</span><span style="font-family: 仿宋;font-size: 16pt">、</span><span style="font-family: 仿宋;font-size: 16pt">各类助学金、临时困难补助、勤工助学等资助政策</span><span style="font-family: 仿宋;font-size: 16pt">。</span></p><p style="text-indent: 32pt; line-height: 28pt; text-align: justify;"><span style="font-family: 仿宋;font-size: 16pt">第二十</span><span style="font-family: 仿宋;font-size: 16pt">三</span><span style="font-family: 仿宋;font-size: 16pt">条</span><span style="font-family: 仿宋;font-size: 16pt">&nbsp;&nbsp;</span><span style="font-family: 仿宋;font-size: 16pt">学校各学院和专业介绍、招生来源计划等详细信息见</span><span style="font-family: 仿宋;font-size: 16pt">当年《</span><span style="font-family: 仿宋;font-size: 16pt">对外经济贸易大学</span><span style="font-family: 仿宋;font-size: 16pt">招生报考指南》</span><span style="font-family: 仿宋;font-size: 16pt">及招生就业处官网</span><span style="font-family: 仿宋;font-size: 16pt">。</span><span style="font-family: 仿宋;font-size: 16pt">&nbsp;</span></p><p style="text-align: center; line-height: 28pt;"><strong><span style="font-family: 仿宋;font-size: 16pt"><span style="font-family:仿宋">第六章</span> &nbsp;<span style="font-family:仿宋">其他</span></span></strong></p><p style="text-indent: 32pt; line-height: 28pt; text-align: justify;"><span style="font-family: 仿宋;font-size: 16pt">第二十</span><span style="font-family: 仿宋;font-size: 16pt">四</span><span style="font-family: 仿宋;font-size: 16pt">条</span><span style="font-family: 仿宋;font-size: 16pt">&nbsp;&nbsp;</span><span style="font-family: 仿宋;font-size: 16pt">本章程通过教育部阳光高考信息平台</span><span style="font-family: 仿宋;font-size: 16pt">、</span><span style="font-family: 仿宋;font-size: 16pt">学校</span><span style="font-family: 仿宋;font-size: 16pt">招生就业处网站</span><span style="font-family: 仿宋;font-size: 16pt">向社会发布。</span></p><p style="text-indent: 32pt; line-height: 28pt; text-align: justify;"><span style="font-family: 仿宋;font-size: 16pt">第二十</span><span style="font-family: 仿宋;font-size: 16pt">五</span><span style="font-family: 仿宋;font-size: 16pt">条</span><span style="font-family: 仿宋;font-size: 16pt">&nbsp;&nbsp;</span><span style="font-family: 仿宋;font-size: 16pt">本章程解释权属于</span><span style="font-family: 仿宋;font-size: 16pt">对外经济贸易大学。</span></p><p style="text-indent: 32pt; line-height: 28pt; text-align: justify;"><span style="font-family: 仿宋;font-size: 16pt">第二十</span><span style="font-family: 仿宋;font-size: 16pt">六</span><span style="font-family: 仿宋;font-size: 16pt">条</span><span style="font-family: 仿宋;font-size: 16pt">&nbsp;&nbsp;</span><span style="font-family: 仿宋;font-size: 16pt">本章程自公布之日起施行，</span><span style="font-family: 仿宋;font-size: 16pt">适用于</span><span style="font-family: 仿宋;font-size: 16pt">对外经济贸易大学</span><span style="font-family: 仿宋;font-size: 16pt">20</span><span style="font-family: 仿宋;font-size: 16pt">26</span><span style="font-family: 仿宋;font-size: 16pt">年本科生招生工作</span><span style="font-family: 仿宋;font-size: 16pt">。如</span><span style="font-family: 仿宋;font-size: 16pt">有关</span><span style="font-family: 仿宋;font-size: 16pt">招生政策调整，</span><span style="font-family: 仿宋; font-size: 16pt;">学校将</span><span style="font-family: 仿宋; font-size: 16pt;">及时</span><span style="font-family: 仿宋; font-size: 16pt;">公布。</span></p><p style="text-indent: 32pt; line-height: 28pt; text-align: justify;"><span style="font-family: 仿宋;font-size: 16pt">工作信息：</span></p><p style="text-indent: 32pt; line-height: 28pt; text-align: justify;"><span style="font-family: 仿宋;font-size: 16pt">学校网址：</span><span style="font-family: &#39;Times New Roman&#39;;font-size: 16pt">http://www.uibe.edu.cn</span></p><p style="text-indent: 32pt; line-height: 28pt; text-align: justify;"><span style="font-family: 仿宋;font-size: 16pt">招生就业处网址：</span><span style="font-family: 仿宋;font-size: 16pt"><span style="font-family:Times New Roman">http://aeo</span></span><span style="font-family: &#39;Times New Roman&#39;;font-size: 16pt">.uibe.edu.cn</span></p><p style="text-indent: 32pt; line-height: 28pt; text-align: justify;"><span style="font-family: 仿宋;font-size: 16pt">信息公开网址：</span><span style="font-family: &#39;Times New Roman&#39;;font-size: 16pt">http://xxgk.uibe.edu.cn</span></p><p style="text-indent: 32pt; line-height: 28pt; text-align: justify;"><span style="font-family: 仿宋;font-size: 16pt">微信公众平台：</span><span style="font-family: 仿宋;font-size: 16pt"><span style="font-family:Times New Roman">GoToUIBE</span></span></p><p style="text-indent: 32pt; line-height: 28pt; text-align: justify;"><span style="font-family: 仿宋;font-size: 16pt">电子信箱：</span><span style="font-family: &#39;Times New Roman&#39;;font-size: 16pt">zhaosheng@uibe.edu.cn</span></p><p style="text-indent: 32pt; line-height: 28pt; text-align: justify;"><span style="font-family: 仿宋;font-size: 16pt">申诉邮箱：</span><span style="font-family: &#39;Times New Roman&#39;;font-size: 16pt">jc@uibe.edu.cn</span></p><p style="text-indent: 32pt; line-height: 28pt; text-align: justify;"><span style="font-family: 仿宋;font-size: 16pt">招生咨询电话：</span><span style="font-family: 仿宋;font-size: 16pt">010</span><span style="font-family: 仿宋;font-size: 16pt">-</span><span style="font-family: 仿宋;font-size: 16pt">64492178</span></p><p style="text-indent: 32pt; line-height: 28pt; text-align: justify;"><span style="font-family: 仿宋; font-size: 16pt;">纪委办</span><span style="font-family: 仿宋; font-size: 16pt;">/</span><span style="font-family: 仿宋; font-size: 16pt;">监察处</span><span style="font-family: 仿宋; font-size: 16pt;">电话：</span><span style="font-family: 仿宋; font-size: 16pt;">010</span><span style="font-family: 仿宋; font-size: 16pt;">-</span><span style="font-family: 仿宋; font-size: 16pt;">64492163</span></p>
+                    </div>
+                    <!--<div class="content_favor">
+                        <a class="favor" href="javascript:void(0)" onclick="studentFavour();">【加入收藏】</a>
+                        &lt;!&ndash;<a class="print" href="javascript:$(".public_text").printArea();">【打印】</a>&ndash;&gt;
+                        <a class="close" href="javascript:window.close();">【关闭】</a>
+                    </div>-->
+                </div>
+                <!-- END LEFT SIDEBAR -->
+            </div>
+        </div>
+    </section>
+<footer class="section">
+    <div class="container">
+        <br>
+        <div class="row rapicNav">
+            <div class="col-md-5" style="border-right: 1px solid #556e8c;">
+                <div class="row">
+                    <div class="col-xs-3">
+                        <h4 class="title wow fadeInUp">招生</h4>
+                        <p class="wow fadeInUp">
+                            <a href="/front/channel.jspa?channelId=848" target="_blank">招生公告</a>
+                        </p>
+                        <p class="wow fadeInUp">
+                            <a href="/front/channel.jspa?channelId=849" target="_blank">校园动态</a>
+                        </p>
+                        <!--<p class="wow fadeInUp">
+                            <a href="/front/channel.jspa?channelId=850" target="_blank">招生计划</a>
+                        </p>-->
+                        <p class="wow fadeInUp">
+                            <a href="/front/channel.jspa?channelId=851" target="_blank">报考指南</a>
+                        </p>
+                        <p class="wow fadeInUp">
+                            <a href="https://aeo.uibe.edu.cn/lqcx/static/front/uibe/basic/html_web/lqcx.html" target="_blank">高招录取查询</a>
+                        </p>
+                    </div>
+                    <div class="col-xs-3">
+
+                        <h4 class="title wow fadeInUp">就业</h4>
+                         <p class="wow fadeInUp">
+                            <a href="/front/channel.jspa?channelId=764&parentId=625" target="_blank">求职信息</a>
+                        </p>
+                         <p class="wow fadeInUp">
+                            <a href="/front/channel.jspa?channelId=622&parentId=625" target="_blank">实习实践</a>
+                        </p>
+                         <p class="wow fadeInUp">
+                            <a href="/front/channel.jspa?channelId=805&parentId=625" target="_blank">读研深造</a>
+                        </p>
+                         <p class="wow fadeInUp">
+                            <a href="/front/channel.jspa?channelId=766&parentId=625" target="_blank">招聘活动</a>
+                        </p>
+                    </div>
+                    <div class="col-xs-3">
+                        <h4 class="title wow fadeInUp">创业</h4>
+                         <p class="wow fadeInUp">
+                            <a href="/front/channel.jspa?channelId=834" target="_blank">动态资讯</a>
+                        </p>
+                         <p class="wow fadeInUp">
+                            <a href="/front/channel.jspa?channelId=1685" target="_blank">创业实践</a>
+                        </p>
+                         <p class="wow fadeInUp">
+                            <a href="/front/channel.jspa?channelId=1681" target="_blank">创新创业培养</a>
+                        </p>
+                         <p class="wow fadeInUp">
+                            <a href="/front/channel.jspa?channelId=1683" target="_blank">创业孵化园</a>
+                        </p>
+                         <!--<p class="wow fadeInUp">
+                            <a href="/front/channel.jspa?channelId=1682" target="_blank">创新惠园</a>
+                        </p>-->
+                    </div>
+                    <div class="col-xs-3">
+                        <h4 class="title wow fadeInUp">全球治理</h4>
+                         <p class="wow fadeInUp">
+                            <a href="/front/channel.jspa?channelId=1679" target="_blank">岗位信息</a>
+                        </p>
+                         <p class="wow fadeInUp">
+                            <a href="/front/channel.jspa?channelId=1692" target="_blank">热点资讯</a>
+                        </p>
+                         <p class="wow fadeInUp">
+                            <a href="/front/channel.jspa?channelId=1680" target="_blank">国际组织</a>
+                        </p>
+                         <p class="wow fadeInUp">
+                            <a href="/front/channel.jspa?channelId=1693" target="_blank">成长之路</a>
+                        </p>
+                         <p class="wow fadeInUp">
+                            <a href="/front/channel.jspa?channelId=1694" target="_blank">求职指南</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 friendlinks">
+                <h4 class="title wow fadeInUp">友情链接</h4>
+                <div>
+                    <p class="wow fadeInUp"><a href="http://www.uibe.edu.cn/" target="_blank">贸大首页</a></p>
+                    <p class="wow fadeInUp"><a href="http://zhaosheng.uibe.edu.cn/" target="_blank">本科招生网(旧版)</a></p>
+                    <p class="wow fadeInUp"><a href="http://zhinengdayi.com/uibe" target="_blank">高招智能咨询系统</a></p>
+                    <p style="float:none;height:20px;clear: both"><br><br></p>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-xs-6 wow fadeInUp">
+                <br>
+                <!--<img class="footer-logo" src="/template/zjc_v3/img/logo-footer.png">-->
+                <svg style="opacity:0.75">
+                    <image xlink:href="/template/zjc_v3/img/logo-footer.svg" src="/template/zjc_v3/img/logo-footer.png" height="87" width="200"></image>
+                </svg>
+            </div>
+            <div class="col-md-2 col-xs-6 wechats wow fadeInUp">
+                <h4 class="title wow fadeInUp hidden-xs">关注我们</h4>
+                <div>
+                    <span class="wechat">
+                        <img src="/template/zjc_v3/img/footer/weixin.png">
+                        <div class="wechathover" style="display: none">
+                            <span>
+                                <img src="/template/zjc_v3/img/wechat.jpg">
+                                 <p>招生办</p>
+                            </span>
+                            <span>
+                                <img src="/template/zjc_v3/img/wechat3.jpg">
+                                 <p>贸大就业</p>
+                            </span>
+                            <span>
+                                <img src="/template/zjc_v3/img/wechat2.jpg">
+                                 <p>招办汇</p>
+                            </span>
+                        </div>
+                    </span>
+                    <img src="/template/zjc_v3/img/footer/toutiao.png">
+                    <img src="/template/zjc_v3/img/footer/dingding.png">
+                </div>
+            </div>
+        </div>
+        <br>
+        <hr>
+        <div class="row">
+            <div class="col-sm-6">
+                 <p class="wow fadeInUp">招生咨询: 010-64492178 / 就业手续咨询: 010-64492179 / 用人单位招聘咨询: 010-64495801</p>
+                 <p class="wow fadeInUp">办公地点: 北京市朝阳区惠新东街10号对外经济贸易大学求真楼三层 / 邮政编码: 100029</p>
+            </div>
+            <div class="col-sm-6 copyright">
+                 <p class="wow fadeInUp">对外经济贸易大学招生就业处版权所有 Copyright © 2012-2020 UIBE All rights reserved.</p>
+                 <p class="wow fadeInUp"><!--京公网安备110402430035号 -->外经贸网备33018002</p>
+            </div>
+        </div>
+    </div>
+</footer>
+<!--<script src="/template/zjc_v3/js/edu/plugins.js"></script>
+<script src="/template/zjc_v3/js/edu/main.js"></script>-->
+<!--artDialog6提示框  -->
+<link href="/njs/artDialog6/css/ui-dialog.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="/njs/artDialog6/dist/dialog-min.js"></script>
+<script type="text/javascript" src="/njs/artDialog6/dist/dialog-plus-min.js"></script>
+<script type="text/javascript" src="/assets/frontend/layout/scripts/back-to-top.js"></script>
+<script type="text/javascript">
+
+    var session_memberTypeId = '';
+
+    $(function(){
+        //验证是否已经登录，未登录弹出登录窗口
+        $('.v_login').click(function() {
+            var returnUrl = $(this).attr('returnUrl');
+            var memberTypeId = $(this).attr('memberTypeId');
+
+            window.location.href="https://aeo.uibe.edu.cn/mem/login";
+
+/*            if(session_memberTypeId == ''){
+                if(typeof(returnUrl) != 'undefined'){
+                    returnUrl = returnUrl.replace("" , "");
+                    var target = "/membermanage/toPopLogin.do?memberTypeId="+memberTypeId+"&returnUrl="+encodeURIComponent(returnUrl);
+                }else{
+                    var target = "/membermanage/toPopLogin.do?callback=changeButton";
+                }
+
+                var d = dialog({
+                    title: ' 账号登录',
+                    width:320,
+                    height:333,
+                    padding:10,
+                    url: target,
+                    align: 'top',
+                    fixed: true,
+                    onclose: function () {
+                        if (this.returnValue) {
+                            //改变按钮状态
+                            //changeButton();
+                            window.location.href = "/membercenter/toIndex.do";
+                        }
+                    }
+                });
+                d.showModal();
+                return false;
+            }else{
+                if(typeof(memberTypeId) != 'undefined' && memberTypeId != session_memberTypeId){
+                    if(memberTypeId == '86'){
+                        alert('此功能需要学生账号登录');
+                    }
+                    if(memberTypeId == '87'){
+                        alert('此功能需要用人单位账号登录');
+                    }
+                    if(memberTypeId == '88'){
+                        alert('此功能需要院系账号登录');
+                    }
+                    if(memberTypeId == '89'){
+                        alert('此功能需要校友账号登录');
+                    }
+                    return false;
+                }
+                changeButton();
+                alert('您已经登录过了');
+                return true;
+            }*/
+        });
+    });
+
+    function changeButton(){
+        $('#login,#login2').hide();
+        $('#logout,#logout2').show();
+        parent.window.location.href = '/membercenter/toIndex.do';
+    }
+
+    //检测登录
+    $.getJSON('/membermanage/checkSession.jspa', {}, function(data) {
+        if(data.msg == 'Y'){
+            var vo = jQuery.parseJSON(data.vo);
+            //alert(vo.memberTypeId);
+            if(vo.memberTypeId == 86){
+            }
+            $('#login,#login2').hide();
+            $('#logout,#logout2').show();
+        }
+    });
+
+    $(window).on('load', function() {
+        handlePreloader();
+    });
+    function handlePreloader() {
+        if($('.preloader').length){
+            $('.preloader').delay(200).fadeOut(300);
+        }
+    }
+
+    $('#mainNav li .v_login').hover(function(){
+        $("*").removeClass("parentclick");
+        $(this).addClass("parentclick");
+    });
+
+    $(".qrcodeSpan,.content_time .qrcode").hover(function(){
+        $("#qrCode,.qrcodeSpan .qrcode").css("display","block");
+    },function(){
+        $("#qrCode,.qrcodeSpan .qrcode").css("display","none");
+    });
+</script>
+
+
+<script>
+    var _hmt = _hmt || [];
+    (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?b49528743d2c04b917beb4a300ef2de6";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+<script type="text/javascript">
+    $(function() {
+        $.post('/front/clickCount.jspa', {
+                contentId: '109396',
+                clickColumn: 'click_count',
+                tableName: 'content'
+            },
+            function(data) {
+                eval(data);
+            });
+        uParse('.content', {
+            rootPath: '/njs/ueditor/'
+        })
+    });
+
+    function studentFavour() {
+        studentFavourAdd("/front/showContent.jspa?channelId=&contentId=109396", "2026年全日制普通本科招生章程", "1", "109396");
+    }
+</script>
+</body>
+<!-- END BODY -->
+</html>

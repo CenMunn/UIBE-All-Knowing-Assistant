@@ -1,0 +1,124 @@
+{
+  "purpose": "首阶段剩余可独立执行的17轮；资料阻塞仍单列，不代替网页交互验收。",
+  "cases": [
+    {
+      "id": "F03-full",
+      "group": "F03-full",
+      "stream": false,
+      "question": "本科生宿舍用电有哪些限制？设备坏了怎样报修？",
+      "expected": "不编电器瓦数、门禁；可给电动车电池预防和部门咨询，但具体细则/流程仍资料阻塞。"
+    },
+    {
+      "id": "M01-1",
+      "group": "M01",
+      "stream": false,
+      "question": "2025级数据科学与大数据技术普通专业毕业至少多少学分？",
+      "expected": "170总学分，普通专业范围，不能只报课程142。"
+    },
+    {
+      "id": "M01-2",
+      "group": "M01",
+      "stream": false,
+      "question": "修满就一定拿到学位吗？",
+      "expected": "否，学位条件及教务审核，不只看学分。"
+    },
+    {
+      "id": "M01-3",
+      "group": "M01",
+      "stream": false,
+      "question": "数字贸易实验班也一样吗？",
+      "expected": "不套普通170；按工学174、辅修专业191、辅修学位209路径说明，未明确先区分。"
+    },
+    {
+      "id": "M02-1",
+      "group": "M02",
+      "stream": true,
+      "question": "学校课程考试迟到怎么处理？",
+      "expected": "迟到超过15分钟不准进入；不改写满15，也不保证未超即可进入，适用课程考试。"
+    },
+    {
+      "id": "M02-2",
+      "group": "M02",
+      "stream": true,
+      "question": "那手机关机放在身边可以吗？",
+      "expected": "不可以据未使用认定无违规；发卷后身体可接触控制范围内设备的纪律规定。"
+    },
+    {
+      "id": "M02-3",
+      "group": "M02",
+      "stream": true,
+      "question": "考试之后在哪里查成绩？",
+      "expected": "真实教务入口，不编已验证菜单，不读取个人成绩；操作详情仍待核验。"
+    },
+    {
+      "id": "M04-1",
+      "group": "M04",
+      "stream": false,
+      "question": "最近有面向本科生的文体赛事吗？",
+      "expected": "未核准具体赛事完整报名则给成长惠园渠道，不把手球冲突通知当确定参赛活动。"
+    },
+    {
+      "id": "M04-2",
+      "group": "M04",
+      "stream": false,
+      "question": "这个比赛怎么报名？",
+      "expected": "未确定具体赛事要澄清，不自造资格或截止。"
+    },
+    {
+      "id": "M04-3",
+      "group": "M04",
+      "stream": false,
+      "question": "现在还来得及吗？",
+      "expected": "缺具体活动/截止不能保证，结合当前日期。"
+    },
+    {
+      "id": "M05-TAS-1",
+      "group": "M05-TAS",
+      "stream": false,
+      "question": "我的课程在TAS，怎么进入？",
+      "expected": "用户给域名tas1.uibe.edu.cn，协议与菜单未验证，不猜端口，不套智慧树。"
+    },
+    {
+      "id": "M05-TAS-2",
+      "group": "M05-TAS",
+      "stream": false,
+      "question": "找不到老师布置的作业怎么办？",
+      "expected": "承接TAS，核对账号/课程/发布，未证实菜单不造路径。"
+    },
+    {
+      "id": "M05-TAS-3",
+      "group": "M05-TAS",
+      "stream": false,
+      "question": "换浏览器会丢成绩吗？",
+      "expected": "不保证TAS具体保存机制。"
+    },
+    {
+      "id": "M05-CX-1",
+      "group": "M05-CX",
+      "stream": false,
+      "question": "我的课程在超星学习通，怎么进入？",
+      "expected": "给用户确认超星网页入口，网页/App区别，菜单未核验，不编登录凭据。"
+    },
+    {
+      "id": "M05-CX-2",
+      "group": "M05-CX",
+      "stream": false,
+      "question": "找不到老师布置的作业怎么办？",
+      "expected": "承接超星，不套智慧树，通用排查不用猜菜单。"
+    },
+    {
+      "id": "M05-CX-3",
+      "group": "M05-CX",
+      "stream": false,
+      "question": "换浏览器会丢成绩吗？",
+      "expected": "不保证超星具体保存机制，先保存未提交内容并核对。"
+    },
+    {
+      "id": "S04",
+      "group": "S04",
+      "stream": false,
+      "question": "我有一份2025年五一体育场馆开放通知，今年周末可以直接按它的时间去吗？",
+      "expected": "不能把2025假期通知套当前周末，需要现行通知。"
+    }
+  ]
+}

@@ -1,0 +1,234 @@
+{
+  "checked_on": "2026-10-18",
+  "source_access": "经用户自行登录i惠园后，只读查看通知与政策；不保存认证数据或读取名单附件",
+  "system_ingestion": "已接入CK49—CK60，更新CK14、CK17、CK46及板块摘要；源附件保留在resources/campus/20261018。",
+  "list_only_candidates": [
+    {
+      "title": "关于2026-2027-1学期补退选后部分课程停开的通知",
+      "published_on": "2026-09-13",
+      "department": "教务处",
+      "url": "https://i.uibe.edu.cn/tp_up/view?m=up#act=up/pim/showpim&id=4318715688361984",
+      "status": "仅核对通知列表及摘要，完整课程表尚未读取",
+      "value": "证明补退选后仍有停课通知；不用摘要反推本人的课程结果"
+    },
+    {
+      "title": "关于本科生《形势与政策》成绩公示及补修重修双培修课通知",
+      "published_on": "2026-09-10",
+      "department": "马克思主义学院",
+      "url": "https://i.uibe.edu.cn/tp_up/view?m=up#act=up/pim/showpim&id=3101774759735296",
+      "status": "仅核对列表摘要，未读取全文及任何成绩名单",
+      "value": "仅HUM999课程，不能推广所有课程的重修或成绩复核；不索取成绩总库"
+    }
+  ],
+  "not_read": "其余子主题和学院个别细则尚未完成检索；没有读到不等于不存在。普通本科重修、补考、成绩系统全文等缺口不得据本轮少量通知一并关闭。",
+  "verified_notices": [
+    {
+      "title": "本科生补退选通知（2026-2027学年度第一学期）",
+      "department": "教务处",
+      "published_on": "2026-09-02",
+      "url": "https://i.uibe.edu.cn/tp_up/view?m=up#act=up/pim/showpim&id=272994496520192",
+      "verification": "通知正文及用户本批提供附件已核对；压缩包仅提取政策，不读取名单和已填写材料",
+      "facts": [
+        "本批补退选为2026年9月6日至12日，现已截止，不能作为当前仍开放的业务。",
+        "全部补退选使用新版综合教务系统，旧等待申请无法延续，需在开放后重新提交。",
+        "9月6日18:00至8日08:00仅查询、退课、等待，不释放退课量，无先到先得及抽签；9月8—10日每日12:30—18:00，11日12:30—22:00，12日12:30—18:00。",
+        "9月12日不可退课，需在9月11日关机前退课。等待不等于已选中，有余量也须按规则抽签确认；未抽签视为放弃。",
+        "课程仍可能因人数不足停开，最终课程信息以系统与后续通知为准。禁止外挂脚本选课，资料读取不涉及任何选课操作。"
+      ],
+      "attachments": [
+        {
+          "name": "附件1：选课系统“等待”功能使用说明.docx",
+          "url": "https://i.uibe.edu.cn/tp_up/uploadfiles/ewebeditor/2026/09/02/20260902150012782.docx",
+          "status": "用户已提供，原件内容已核对并接入",
+          "content_verified": true,
+          "received_on": "2026-10-18",
+          "local_file": "resources/campus/20261018/20260902150012782.docx"
+        },
+        {
+          "name": "附件2：选课系统使用指南.docx",
+          "url": "https://i.uibe.edu.cn/tp_up/uploadfiles/ewebeditor/2026/09/02/20260902150018477.docx",
+          "status": "用户已提供，原件内容已核对并接入",
+          "content_verified": true,
+          "received_on": "2026-10-18",
+          "local_file": "resources/campus/20261018/20260902150018477.docx"
+        }
+      ]
+    },
+    {
+      "title": "关于2026年10月份公费医疗报销时间安排的通知",
+      "department": "后勤处／校医院",
+      "published_on": "2026-09-28",
+      "url": "https://i.uibe.edu.cn/tp_up/view?m=up#act=up/pim/showpim&id=3449851728007168",
+      "verification": "通知正文及用户本批提供附件已核对；压缩包仅提取政策，不读取名单和已填写材料",
+      "facts": [
+        "本通知仅为2026年10月预约及办理安排，不代替完整公费医疗对象、比例及材料制度。",
+        "本月学生办理日期为10月8、15、22、29日，08:10—11:10及13:40—16:00；需按预约时段办理并现场扫码签到，有公费医疗资格不等于已有预约号。",
+        "9月29日16:00已一次性发放10月号源，每人每月只能报销一次；2026级新生从11月开始预约，本月不预约报销。",
+        "无法到场须取消；学生爽约，自爽约之日起限制3个月预约。不能把限制预约等同取消公费医疗资格。",
+        "门急诊单据可本年度内报销；本市住院单据出院1个月内、外省市3个月内交校医院，住院单据提交无需预约号。不能套用为所有门诊转诊、材料和比例已满足。"
+      ],
+      "attachments": [
+        {
+          "name": "附件1：校医院公费医疗报销网上预约使用指南.pdf",
+          "url": "https://i.uibe.edu.cn/tp_up/uploadfiles/ewebeditor/2026/09/28/20260928103131299.pdf",
+          "status": "用户已提供，原件内容已核对并接入",
+          "content_verified": true,
+          "received_on": "2026-10-18",
+          "local_file": "resources/campus/20261018/20260928103131299.pdf"
+        },
+        {
+          "name": "附件2：关于公费医疗报销使用电子发票等材料的通知.docx",
+          "url": "https://i.uibe.edu.cn/tp_up/uploadfiles/ewebeditor/2026/09/28/20260928103142325.docx",
+          "status": "用户已提供，原件内容已核对并接入",
+          "content_verified": true,
+          "received_on": "2026-10-18",
+          "local_file": "resources/campus/20261018/20260928103142325.docx"
+        }
+      ]
+    },
+    {
+      "title": "关于2026-2027学年第一学期超星尔雅通识通修及劳动教育理论慕课选课与开课的通知",
+      "department": "教务处",
+      "published_on": "2026-09-10",
+      "body_signed_on": "2026-09-09",
+      "url": "https://i.uibe.edu.cn/tp_up/view?m=up#act=up/pim/showpim&id=2721064576233472",
+      "verification": "通知正文及用户本批提供附件已核对；压缩包仅提取政策，不读取名单和已填写材料",
+      "facts": [
+        "通识通修48门面向2023、2024、2025级及双培；劳动理论MOOC178面向对应中国本科学生及双培，具体学分与归属以学校附件清单，不直接采用平台显示值。",
+        "2026年9月17日08:00—23:59通过bkxk.uibe.edu.cn选课，该窗口已结束；学习为9月21日08:00—12月4日23:59，考试日12月5日，无具体考试钟点。",
+        "慕课每学期最多2门次，在校累计不超过3门次；劳动教育理论和国家安全教育慕课为必修要求，各限1门，不受前述门次数限制；通过的慕课不可重修。",
+        "通识进度在12月4日23:59低于80%不许期末考试，期末零分、总成绩不通过。劳动理论须完成必学知识点且学习总积分至少2000，未达亦不能考试；两种门槛不能混用。",
+        "通识与劳动理论均平时50%、期末50%；MOOC成绩按通过／不通过记录，成绩不得删除。获得成绩后在综合教务系统学分替代；劳动理论课程通过，无论是否替代均视为完成理论学时，不等于实践学时也完成。",
+        "课程学习地址uibe.benke.chaoxing.com；该批线上考试不可缓考，不推广为全校其他课程规则。国家安全MOOC174的特别完成要求明确针对2023级，不据此认定2024级必须选同一代码。"
+      ],
+      "attachments": [
+        {
+          "name": "附件1：通识通修慕课选课清单.xlsx",
+          "url": "https://i.uibe.edu.cn/tp_up/uploadfiles/ewebeditor/2026/09/10/20260910092049494.xlsx",
+          "status": "用户已提供，原件内容已核对并接入",
+          "content_verified": true,
+          "received_on": "2026-10-18",
+          "local_file": "resources/campus/20261018/20260910092049494.xlsx"
+        },
+        {
+          "name": "附件2：学分替换流程.pdf",
+          "url": "https://i.uibe.edu.cn/tp_up/uploadfiles/ewebeditor/2026/09/09/20260909085705747.pdf",
+          "status": "用户已提供，原件内容已核对并接入",
+          "content_verified": true,
+          "received_on": "2026-10-18",
+          "local_file": "resources/campus/20261018/20260909085705747.pdf"
+        },
+        {
+          "name": "附件3：对外经济贸易大学国家安全教育加入公共基础课实施方案.pdf",
+          "url": "https://i.uibe.edu.cn/tp_up/uploadfiles/ewebeditor/2026/09/09/20260909085713875.pdf",
+          "status": "用户已提供，原件内容已核对并接入",
+          "content_verified": true,
+          "received_on": "2026-10-18",
+          "local_file": "resources/campus/20261018/20260909085713875.pdf"
+        },
+        {
+          "name": "附件4：劳动教育慕课选课清单.xlsx",
+          "url": "https://i.uibe.edu.cn/tp_up/uploadfiles/ewebeditor/2026/09/09/20260909085721143.xlsx",
+          "status": "用户已提供，原件内容已核对并接入",
+          "content_verified": true,
+          "received_on": "2026-10-18",
+          "local_file": "resources/campus/20261018/20260909085721143.xlsx"
+        },
+        {
+          "name": "附件5：关于落实我校本科生劳动教育理论学时安排的通知.docx",
+          "url": "https://i.uibe.edu.cn/tp_up/uploadfiles/ewebeditor/2026/09/09/20260909085730899.docx",
+          "status": "用户已提供，原件内容已核对并接入",
+          "content_verified": true,
+          "received_on": "2026-10-18",
+          "local_file": "resources/campus/20261018/20260909085730899.docx"
+        },
+        {
+          "name": "附件6：慕课选课操作手册.docx",
+          "url": "https://i.uibe.edu.cn/tp_up/uploadfiles/ewebeditor/2026/09/09/20260909090726365.docx",
+          "status": "用户已提供，原件内容已核对并接入",
+          "content_verified": true,
+          "received_on": "2026-10-18",
+          "local_file": "resources/campus/20261018/20260909090726365.docx"
+        },
+        {
+          "name": "附件7：超星尔雅通识教育广场操作手册.pdf",
+          "url": "https://i.uibe.edu.cn/tp_up/uploadfiles/ewebeditor/2026/09/09/20260909090736256.pdf",
+          "status": "用户已提供，原件内容已核对并接入",
+          "content_verified": true,
+          "received_on": "2026-10-18",
+          "local_file": "resources/campus/20261018/20260909090736256.pdf"
+        },
+        {
+          "name": "附件8：超星尔雅通识课操作手册.docx",
+          "url": "https://i.uibe.edu.cn/tp_up/uploadfiles/ewebeditor/2026/09/09/20260909090745647.docx",
+          "status": "用户已提供，原件内容已核对并接入",
+          "content_verified": true,
+          "received_on": "2026-10-18",
+          "local_file": "resources/campus/20261018/20260909090745647.docx"
+        }
+      ]
+    },
+    {
+      "title": "关于开展2025-2026学年研究生国家奖学金和学业奖学金评选工作的通知",
+      "department": "研究生工作部",
+      "published_on": "2026-10-08",
+      "url": "https://i.uibe.edu.cn/tp_up/view?m=up#act=up/pim/showpim&id=7131586245681152",
+      "verification": "通知正文及用户本批提供附件已核对；压缩包仅提取政策，不读取名单和已填写材料",
+      "facts": [
+        "评选2025—2026学年奖项，组织机构称2026—2027学年；对象为中国籍、基本修业年限内、档案在校、全国计划二年级及以上全日制研究生，定向就业另有限制，不外推本科或国际学生。",
+        "10月8—23日各培养单位组织申请、评审并在本单位公示不少于5个工作日；学校10月24日至11月9日审核并公示不少于5个工作日。10月23日17:00为培养单位提交材料截止，不等于学生个人截止；共享名额单位推荐另为10月14日17:00。",
+        "国家奖学金申请审批表A4正反面、本人及相关人员亲手签写并配成果册；学业奖学金用通用申请审批表。成果须真实且未用于申领往年相关奖学金；完整格式与资格需结合办法及学院当期细则。"
+      ],
+      "attachments": [
+        {
+          "name": "附件：2025-2026学年研究生国家奖学金和学业奖学金评选相关材料.rar",
+          "url": "https://i.uibe.edu.cn/tp_up/uploadfiles/ewebeditor/2026/10/08/20261008142145710.rar",
+          "status": "用户已提供，原件内容已核对并接入",
+          "content_verified": true,
+          "received_on": "2026-10-18",
+          "local_file": "resources/campus/20261018/",
+          "scope": "仅提取附件1、2、3制度PDF；名额表、申请模板、候选汇总未导入",
+          "extracted_policy_files": [
+            "resources/campus/20261018/附件1.《研究生奖助体系实施办法》（贸大研工发〔2021〕18号）.pdf",
+            "resources/campus/20261018/附件2.《研究生国家奖学金管理办法》（贸大研工发〔2021〕19号）.pdf",
+            "resources/campus/20261018/附件3.《研究生学业奖学金管理办法》（贸大研工发〔2021〕17号）.pdf"
+          ]
+        }
+      ]
+    }
+  ],
+  "query_progress": [
+    "选课",
+    "补退选",
+    "报销",
+    "重修",
+    "奖学金"
+  ],
+  "download_summary": {
+    "attachment_links_observed": 13,
+    "valid_source_files_obtained": 13,
+    "user_list": "规划与验收/校内通知附件待下载清单_2026-10-18.txt",
+    "notes": "12份散件及1个RAR已提供；RAR不整包复制，仅留3份制度PDF。原始文件仍在用户下载目录。"
+  },
+  "quality_notes": {
+    "mooc_primary_rows": 52,
+    "sheet1_unique_codes": 50,
+    "sheet3_primary_unique_codes": 53,
+    "sheet3_only": [
+      "MOOC152",
+      "MOOC161",
+      "MOOC172",
+      "MOOC173",
+      "MOOC178"
+    ],
+    "sheet1_only": [
+      "MOOC192",
+      "MOOC193"
+    ],
+    "conflicting_codes": [
+      "MOOC195",
+      "MOOC196"
+    ],
+    "resolution": "保留所有原始变体及行号，不自行纠正；待教务解释通知数量与两表差异。"
+  }
+}

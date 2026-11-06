@@ -1,0 +1,1050 @@
+{
+  "schema_version": 1,
+  "checked_on": "2026-10-21",
+  "registry_url": "https://www.uibe.edu.cn/xxgk/jgsz/index.htm",
+  "colleges": [
+    {
+      "id": "trade",
+      "name": "国际经济贸易学院",
+      "home_url": "https://site.uibe.edu.cn/",
+      "roster_urls": [
+        "https://site.uibe.edu.cn/actionszdw/TeacherList.aspx?TypeID=2&TypeName=%E5%9B%BD%E9%99%85%E8%B4%B8%E6%98%93%E5%AD%A6%E7%B3%BB",
+        "https://site.uibe.edu.cn/actionszdw/TeacherList.aspx?TypeID=3&TypeName=%E9%87%91%E8%9E%8D%E5%AD%A6%E7%B3%BB",
+        "https://site.uibe.edu.cn/actionszdw/TeacherList.aspx?TypeID=5&TypeName=%E5%9B%BD%E9%99%85%E8%BF%90%E8%BE%93%E4%B8%8E%E7%89%A9%E6%B5%81%E5%AD%A6%E7%B3%BB",
+        "https://site.uibe.edu.cn/actionszdw/TeacherList.aspx?TypeID=7&TypeName=%E5%9B%BD%E9%99%85%E5%95%86%E5%8A%A1%E4%B8%8E%E5%90%88%E4%BD%9C%E5%AD%A6%E7%B3%BB",
+        "https://site.uibe.edu.cn/actionszdw/TeacherList.aspx?TypeID=9&TypeName=%E8%B4%A2%E6%94%BF%E7%A8%8E%E5%8A%A1%E5%AD%A6%E7%B3%BB",
+        "https://site.uibe.edu.cn/actionszdw/TeacherList.aspx?TypeID=22&TypeName=%E8%83%BD%E6%BA%90%E4%B8%8E%E4%BD%8E%E7%A2%B3%E7%BB%8F%E6%B5%8E%E5%AD%A6%E7%B3%BB",
+        "https://site.uibe.edu.cn/actionszdw/TeacherList.aspx?TypeID=40&TypeName=%E7%94%B5%E5%AD%90%E5%95%86%E5%8A%A1%E5%AD%A6%E7%B3%BB",
+        "https://site.uibe.edu.cn/actionszdw/TeacherList.aspx?TypeID=42&TypeName=%E4%BA%A7%E4%B8%9A%E4%B8%8E%E6%95%B0%E5%AD%97%E7%BB%8F%E6%B5%8E%E5%AD%A6%E7%B3%BB"
+      ],
+      "hosts": [
+        "site.uibe.edu.cn"
+      ],
+      "schemes": [
+        "https"
+      ],
+      "query_keys": [
+        "TypeID",
+        "TypeName",
+        "id",
+        "NewsID"
+      ],
+      "pages": [
+        {
+          "url": "https://site.uibe.edu.cn/actionszdw/TeacherList.aspx?TypeID=2&TypeName=%E5%9B%BD%E9%99%85%E8%B4%B8%E6%98%93%E5%AD%A6%E7%B3%BB",
+          "group": "国际贸易学系",
+          "selector": "a[href*=\"ViewTeacher.aspx\"]",
+          "kind": "department",
+          "staff_type": "unspecified",
+          "next_selector": ".gp-page a[href], .gp-page1 a[href], .pages a[href], .gp-pagination a[href]"
+        },
+        {
+          "url": "https://site.uibe.edu.cn/actionszdw/TeacherList.aspx?TypeID=3&TypeName=%E9%87%91%E8%9E%8D%E5%AD%A6%E7%B3%BB",
+          "group": "金融学系",
+          "selector": "a[href*=\"ViewTeacher.aspx\"]",
+          "kind": "department",
+          "staff_type": "unspecified",
+          "next_selector": ".gp-page a[href], .gp-page1 a[href], .pages a[href], .gp-pagination a[href]"
+        },
+        {
+          "url": "https://site.uibe.edu.cn/actionszdw/TeacherList.aspx?TypeID=5&TypeName=%E5%9B%BD%E9%99%85%E8%BF%90%E8%BE%93%E4%B8%8E%E7%89%A9%E6%B5%81%E5%AD%A6%E7%B3%BB",
+          "group": "国际运输与物流学系",
+          "selector": "a[href*=\"ViewTeacher.aspx\"]",
+          "kind": "department",
+          "staff_type": "unspecified",
+          "next_selector": ".gp-page a[href], .gp-page1 a[href], .pages a[href], .gp-pagination a[href]"
+        },
+        {
+          "url": "https://site.uibe.edu.cn/actionszdw/TeacherList.aspx?TypeID=7&TypeName=%E5%9B%BD%E9%99%85%E5%95%86%E5%8A%A1%E4%B8%8E%E5%90%88%E4%BD%9C%E5%AD%A6%E7%B3%BB",
+          "group": "国际商务与合作学系",
+          "selector": "a[href*=\"ViewTeacher.aspx\"]",
+          "kind": "department",
+          "staff_type": "unspecified",
+          "next_selector": ".gp-page a[href], .gp-page1 a[href], .pages a[href], .gp-pagination a[href]"
+        },
+        {
+          "url": "https://site.uibe.edu.cn/actionszdw/TeacherList.aspx?TypeID=9&TypeName=%E8%B4%A2%E6%94%BF%E7%A8%8E%E5%8A%A1%E5%AD%A6%E7%B3%BB",
+          "group": "财政税务学系",
+          "selector": "a[href*=\"ViewTeacher.aspx\"]",
+          "kind": "department",
+          "staff_type": "unspecified",
+          "next_selector": ".gp-page a[href], .gp-page1 a[href], .pages a[href], .gp-pagination a[href]"
+        },
+        {
+          "url": "https://site.uibe.edu.cn/actionszdw/TeacherList.aspx?TypeID=22&TypeName=%E8%83%BD%E6%BA%90%E4%B8%8E%E4%BD%8E%E7%A2%B3%E7%BB%8F%E6%B5%8E%E5%AD%A6%E7%B3%BB",
+          "group": "能源与低碳经济学系",
+          "selector": "a[href*=\"ViewTeacher.aspx\"]",
+          "kind": "department",
+          "staff_type": "unspecified",
+          "next_selector": ".gp-page a[href], .gp-page1 a[href], .pages a[href], .gp-pagination a[href]"
+        },
+        {
+          "url": "https://site.uibe.edu.cn/actionszdw/TeacherList.aspx?TypeID=40&TypeName=%E7%94%B5%E5%AD%90%E5%95%86%E5%8A%A1%E5%AD%A6%E7%B3%BB",
+          "group": "电子商务学系",
+          "selector": "a[href*=\"ViewTeacher.aspx\"]",
+          "kind": "department",
+          "staff_type": "unspecified",
+          "next_selector": ".gp-page a[href], .gp-page1 a[href], .pages a[href], .gp-pagination a[href]"
+        },
+        {
+          "url": "https://site.uibe.edu.cn/actionszdw/TeacherList.aspx?TypeID=42&TypeName=%E4%BA%A7%E4%B8%9A%E4%B8%8E%E6%95%B0%E5%AD%97%E7%BB%8F%E6%B5%8E%E5%AD%A6%E7%B3%BB",
+          "group": "产业与数字经济学系",
+          "selector": "a[href*=\"ViewTeacher.aspx\"]",
+          "kind": "department",
+          "staff_type": "unspecified",
+          "next_selector": ".gp-page a[href], .gp-page1 a[href], .pages a[href], .gp-pagination a[href]"
+        }
+      ]
+    },
+    {
+      "id": "business",
+      "name": "国际商学院",
+      "home_url": "https://bs.uibe.edu.cn/",
+      "roster_urls": [
+        "https://bs.uibe.edu.cn/News/ListTeacher.aspx"
+      ],
+      "hosts": [
+        "bs.uibe.edu.cn"
+      ],
+      "schemes": [
+        "https"
+      ],
+      "query_keys": [
+        "NewsId",
+        "SystemName"
+      ],
+      "pages": [
+        {
+          "url": "https://bs.uibe.edu.cn/News/ListTeacher.aspx",
+          "group": "会计学系",
+          "selector": "a[id*=\"rptListType_ctl00_\"][href*=\"ViewTeacher\"]",
+          "kind": "department",
+          "staff_type": "unspecified",
+          "next_selector": ".gp-page a[href], .gp-page1 a[href], .pages a[href], .gp-pagination a[href]"
+        },
+        {
+          "url": "https://bs.uibe.edu.cn/News/ListTeacher.aspx",
+          "group": "财务管理学系",
+          "selector": "a[id*=\"rptListType_ctl01_\"][href*=\"ViewTeacher\"]",
+          "kind": "department",
+          "staff_type": "unspecified",
+          "next_selector": ".gp-page a[href], .gp-page1 a[href], .pages a[href], .gp-pagination a[href]"
+        },
+        {
+          "url": "https://bs.uibe.edu.cn/News/ListTeacher.aspx",
+          "group": "管理学系",
+          "selector": "a[id*=\"rptListType_ctl02_\"][href*=\"ViewTeacher\"]",
+          "kind": "department",
+          "staff_type": "unspecified",
+          "next_selector": ".gp-page a[href], .gp-page1 a[href], .pages a[href], .gp-pagination a[href]"
+        },
+        {
+          "url": "https://bs.uibe.edu.cn/News/ListTeacher.aspx",
+          "group": "人力资源与组织行为学系",
+          "selector": "a[id*=\"rptListType_ctl03_\"][href*=\"ViewTeacher\"]",
+          "kind": "department",
+          "staff_type": "unspecified",
+          "next_selector": ".gp-page a[href], .gp-page1 a[href], .pages a[href], .gp-pagination a[href]"
+        },
+        {
+          "url": "https://bs.uibe.edu.cn/News/ListTeacher.aspx",
+          "group": "营销学系",
+          "selector": "a[id*=\"rptListType_ctl04_\"][href*=\"ViewTeacher\"]",
+          "kind": "department",
+          "staff_type": "unspecified",
+          "next_selector": ".gp-page a[href], .gp-page1 a[href], .pages a[href], .gp-pagination a[href]"
+        },
+        {
+          "url": "https://bs.uibe.edu.cn/News/ListTeacher.aspx",
+          "group": "技术经济及管理学系",
+          "selector": "a[id*=\"rptListType_ctl05_\"][href*=\"ViewTeacher\"]",
+          "kind": "department",
+          "staff_type": "unspecified",
+          "next_selector": ".gp-page a[href], .gp-page1 a[href], .pages a[href], .gp-pagination a[href]"
+        },
+        {
+          "url": "https://bs.uibe.edu.cn/News/ListTeacher.aspx",
+          "group": "创新工程实验室",
+          "selector": "a[id*=\"rptListType_ctl06_\"][href*=\"ViewTeacher\"]",
+          "kind": "unspecified",
+          "staff_type": "unspecified",
+          "next_selector": ".gp-page a[href], .gp-page1 a[href], .pages a[href], .gp-pagination a[href]"
+        }
+      ]
+    },
+    {
+      "id": "english",
+      "name": "英语学院",
+      "home_url": "https://sis.uibe.edu.cn/",
+      "roster_urls": [
+        "https://sis.uibe.edu.cn/szdwx/xxjs/swyy/index.htm",
+        "https://sis.uibe.edu.cn/szdwx/xxjs/fy/index.htm",
+        "https://sis.uibe.edu.cn/szdwx/xxjs/wxxsz/index.htm",
+        "https://sis.uibe.edu.cn/szdwx/xxjs/yyxxsz/index.htm",
+        "https://sis.uibe.edu.cn/szdwx/xxjs/jcyyxsz/index.htm",
+        "https://sis.uibe.edu.cn/szdwx/xxjs/zyyyxsz/index.htm"
+      ],
+      "hosts": [
+        "sis.uibe.edu.cn"
+      ],
+      "schemes": [
+        "https"
+      ],
+      "query_keys": [],
+      "pages": [
+        {
+          "url": "https://sis.uibe.edu.cn/szdwx/xxjs/swyy/index.htm",
+          "group": "商务英语系",
+          "selector": ".department .informUl a",
+          "kind": "department",
+          "staff_type": "unspecified",
+          "next_selector": ".gp-page a[href], .gp-page1 a[href], .pages a[href], .gp-pagination a[href]"
+        },
+        {
+          "url": "https://sis.uibe.edu.cn/szdwx/xxjs/fy/index.htm",
+          "group": "翻译学系",
+          "selector": ".department .informUl a",
+          "kind": "department",
+          "staff_type": "unspecified",
+          "next_selector": ".gp-page a[href], .gp-page1 a[href], .pages a[href], .gp-pagination a[href]"
+        },
+        {
+          "url": "https://sis.uibe.edu.cn/szdwx/xxjs/wxxsz/index.htm",
+          "group": "英语文学系",
+          "selector": ".department .informUl a",
+          "kind": "department",
+          "staff_type": "unspecified",
+          "next_selector": ".gp-page a[href], .gp-page1 a[href], .pages a[href], .gp-pagination a[href]"
+        },
+        {
+          "url": "https://sis.uibe.edu.cn/szdwx/xxjs/yyxxsz/index.htm",
+          "group": "语言学系",
+          "selector": ".department .informUl a",
+          "kind": "department",
+          "staff_type": "unspecified",
+          "next_selector": ".gp-page a[href], .gp-page1 a[href], .pages a[href], .gp-pagination a[href]"
+        },
+        {
+          "url": "https://sis.uibe.edu.cn/szdwx/xxjs/jcyyxsz/index.htm",
+          "group": "基础英语系",
+          "selector": ".department .informUl a",
+          "kind": "department",
+          "staff_type": "unspecified",
+          "next_selector": ".gp-page a[href], .gp-page1 a[href], .pages a[href], .gp-pagination a[href]"
+        },
+        {
+          "url": "https://sis.uibe.edu.cn/szdwx/xxjs/zyyyxsz/index.htm",
+          "group": "专用英语系",
+          "selector": ".department .informUl a",
+          "kind": "department",
+          "staff_type": "unspecified",
+          "next_selector": ".gp-page a[href], .gp-page1 a[href], .pages a[href], .gp-pagination a[href]"
+        }
+      ]
+    },
+    {
+      "id": "law",
+      "name": "法学院",
+      "home_url": "https://law.uibe.edu.cn/",
+      "roster_urls": [
+        "https://law.uibe.edu.cn/sz/zrjs/js/index.htm",
+        "https://law.uibe.edu.cn/sz/zrjs/fjs/index.htm",
+        "https://law.uibe.edu.cn/sz/zrjs/zljs/index.htm"
+      ],
+      "hosts": [
+        "law.uibe.edu.cn"
+      ],
+      "schemes": [
+        "https"
+      ],
+      "query_keys": [],
+      "pages": [
+        {
+          "url": "https://law.uibe.edu.cn/sz/zrjs/js/index.htm",
+          "group": "官网未公布专业／系所",
+          "selector": ".gp-teacher10 a",
+          "label_selector": ".name",
+          "kind": "unspecified",
+          "staff_type": "current",
+          "next_selector": ".gp-page a[href], .gp-page1 a[href], .pages a[href], .gp-pagination a[href]"
+        },
+        {
+          "url": "https://law.uibe.edu.cn/sz/zrjs/fjs/index.htm",
+          "group": "官网未公布专业／系所",
+          "selector": ".gp-teacher10 a",
+          "label_selector": ".name",
+          "kind": "unspecified",
+          "staff_type": "current",
+          "next_selector": ".gp-page a[href], .gp-page1 a[href], .pages a[href], .gp-pagination a[href]"
+        },
+        {
+          "url": "https://law.uibe.edu.cn/sz/zrjs/zljs/index.htm",
+          "group": "官网未公布专业／系所",
+          "selector": ".gp-teacher10 a",
+          "label_selector": ".name",
+          "kind": "unspecified",
+          "staff_type": "current",
+          "next_selector": ".gp-page a[href], .gp-page1 a[href], .pages a[href], .gp-pagination a[href]"
+        }
+      ]
+    },
+    {
+      "id": "government",
+      "name": "政府管理学院",
+      "home_url": "https://schpa.uibe.edu.cn/",
+      "roster_urls": [
+        "https://schpa.uibe.edu.cn/szdw/xxjs/xzglx/index.htm",
+        "https://schpa.uibe.edu.cn/szdw/xxjs/ggjjx/index.htm",
+        "https://schpa.uibe.edu.cn/szdw/xxjs/whcyglx/index.htm",
+        "https://schpa.uibe.edu.cn/szdw/xxjs/hgglx/index.htm"
+      ],
+      "hosts": [
+        "schpa.uibe.edu.cn"
+      ],
+      "schemes": [
+        "https"
+      ],
+      "query_keys": [],
+      "pages": [
+        {
+          "url": "https://schpa.uibe.edu.cn/szdw/xxjs/xzglx/index.htm",
+          "group": "行政管理系",
+          "selector": ".gp-teacher5 a",
+          "label_selector": ".gpArticleTitle",
+          "kind": "department",
+          "staff_type": "unspecified",
+          "next_selector": ".gp-page a[href], .gp-page1 a[href], .pages a[href], .gp-pagination a[href]"
+        },
+        {
+          "url": "https://schpa.uibe.edu.cn/szdw/xxjs/ggjjx/index.htm",
+          "group": "公共经济与政策系",
+          "selector": ".gp-teacher5 a",
+          "label_selector": ".gpArticleTitle",
+          "kind": "department",
+          "staff_type": "unspecified",
+          "next_selector": ".gp-page a[href], .gp-page1 a[href], .pages a[href], .gp-pagination a[href]"
+        },
+        {
+          "url": "https://schpa.uibe.edu.cn/szdw/xxjs/whcyglx/index.htm",
+          "group": "文化产业管理系",
+          "selector": ".gp-teacher5 a",
+          "label_selector": ".gpArticleTitle",
+          "kind": "department",
+          "staff_type": "unspecified",
+          "next_selector": ".gp-page a[href], .gp-page1 a[href], .pages a[href], .gp-pagination a[href]"
+        },
+        {
+          "url": "https://schpa.uibe.edu.cn/szdw/xxjs/hgglx/index.htm",
+          "group": "海关管理系",
+          "selector": ".gp-teacher5 a",
+          "label_selector": ".gpArticleTitle",
+          "kind": "department",
+          "staff_type": "unspecified",
+          "next_selector": ".gp-page a[href], .gp-page1 a[href], .pages a[href], .gp-pagination a[href]"
+        }
+      ]
+    },
+    {
+      "id": "international",
+      "name": "国际学院",
+      "home_url": "https://sie.uibe.edu.cn/",
+      "roster_urls": [],
+      "hosts": [
+        "sie.uibe.edu.cn"
+      ],
+      "schemes": [
+        "https"
+      ],
+      "query_keys": []
+    },
+    {
+      "id": "ai-data",
+      "name": "人工智能与数据科学学院",
+      "home_url": "https://it.uibe.edu.cn/",
+      "roster_urls": [
+        "https://it.uibe.edu.cn/szdw/xxglx/index.htm",
+        "https://it.uibe.edu.cn/szdw/dsjkxyjzx/index.htm",
+        "https://it.uibe.edu.cn/szdw/rgznx/index.htm"
+      ],
+      "hosts": [
+        "it.uibe.edu.cn"
+      ],
+      "schemes": [
+        "https"
+      ],
+      "query_keys": [],
+      "pages": [
+        {
+          "url": "https://it.uibe.edu.cn/szdw/xxglx/index.htm",
+          "group": "信息管理系",
+          "selector": "a[id*=\"hplTeacher\"]",
+          "kind": "department",
+          "staff_type": "unspecified",
+          "next_selector": ".gp-page a[href], .gp-page1 a[href], .pages a[href], .gp-pagination a[href]"
+        },
+        {
+          "url": "https://it.uibe.edu.cn/szdw/dsjkxyjzx/index.htm",
+          "group": "大数据科学与技术系",
+          "selector": "a[id*=\"hplTeacher\"]",
+          "kind": "department",
+          "staff_type": "unspecified",
+          "next_selector": ".gp-page a[href], .gp-page1 a[href], .pages a[href], .gp-pagination a[href]"
+        },
+        {
+          "url": "https://it.uibe.edu.cn/szdw/rgznx/index.htm",
+          "group": "人工智能系",
+          "selector": "a[id*=\"hplTeacher\"]",
+          "kind": "department",
+          "staff_type": "unspecified",
+          "next_selector": ".gp-page a[href], .gp-page1 a[href], .pages a[href], .gp-pagination a[href]"
+        }
+      ],
+      "upgrade_https": true
+    },
+    {
+      "id": "finance",
+      "name": "中国金融学院",
+      "home_url": "https://sbf.uibe.edu.cn/",
+      "roster_urls": [
+        "https://sbf.uibe.edu.cn/szdw/xx/jrx1/index.htm",
+        "https://sbf.uibe.edu.cn/szdw/xx/tzx1/index.htm",
+        "https://sbf.uibe.edu.cn/szdw/xx/jgx/index.htm",
+        "https://sbf.uibe.edu.cn/szdw/xx/yhglx/index.htm",
+        "https://sbf.uibe.edu.cn/szdw/xx/yyjrx/index.htm",
+        "https://sbf.uibe.edu.cn/szdw/xx/jrkjx/index.htm"
+      ],
+      "hosts": [
+        "sbf.uibe.edu.cn"
+      ],
+      "schemes": [
+        "https"
+      ],
+      "query_keys": [],
+      "pages": [
+        {
+          "url": "https://sbf.uibe.edu.cn/szdw/xx/jrx1/index.htm",
+          "group": "金融系",
+          "selector": ".page-list18 .block-list55 a",
+          "label_selector": ".gpArticleTitle",
+          "kind": "department",
+          "staff_type": "unspecified",
+          "next_selector": ".gp-page a[href], .gp-page1 a[href], .pages a[href], .gp-pagination a[href]"
+        },
+        {
+          "url": "https://sbf.uibe.edu.cn/szdw/xx/tzx1/index.htm",
+          "group": "投资系",
+          "selector": ".page-list18 .block-list55 a",
+          "label_selector": ".gpArticleTitle",
+          "kind": "department",
+          "staff_type": "unspecified",
+          "next_selector": ".gp-page a[href], .gp-page1 a[href], .pages a[href], .gp-pagination a[href]"
+        },
+        {
+          "url": "https://sbf.uibe.edu.cn/szdw/xx/jgx/index.htm",
+          "group": "金融工程系",
+          "selector": ".page-list18 .block-list55 a",
+          "label_selector": ".gpArticleTitle",
+          "kind": "department",
+          "staff_type": "unspecified",
+          "next_selector": ".gp-page a[href], .gp-page1 a[href], .pages a[href], .gp-pagination a[href]"
+        },
+        {
+          "url": "https://sbf.uibe.edu.cn/szdw/xx/yhglx/index.htm",
+          "group": "银行管理系",
+          "selector": ".page-list18 .block-list55 a",
+          "label_selector": ".gpArticleTitle",
+          "kind": "department",
+          "staff_type": "unspecified",
+          "next_selector": ".gp-page a[href], .gp-page1 a[href], .pages a[href], .gp-pagination a[href]"
+        },
+        {
+          "url": "https://sbf.uibe.edu.cn/szdw/xx/yyjrx/index.htm",
+          "group": "应用金融系",
+          "selector": ".page-list18 .block-list55 a",
+          "label_selector": ".gpArticleTitle",
+          "kind": "department",
+          "staff_type": "unspecified",
+          "next_selector": ".gp-page a[href], .gp-page1 a[href], .pages a[href], .gp-pagination a[href]"
+        },
+        {
+          "url": "https://sbf.uibe.edu.cn/szdw/xx/jrkjx/index.htm",
+          "group": "金融科技系",
+          "selector": ".page-list18 .block-list55 a",
+          "label_selector": ".gpArticleTitle",
+          "kind": "department",
+          "staff_type": "unspecified",
+          "next_selector": ".gp-page a[href], .gp-page1 a[href], .pages a[href], .gp-pagination a[href]"
+        }
+      ]
+    },
+    {
+      "id": "languages",
+      "name": "外语学院",
+      "home_url": "https://sfs.uibe.edu.cn/",
+      "roster_urls": [
+        "https://sfs.uibe.edu.cn/szdw/ryx/index.htm",
+        "https://sfs.uibe.edu.cn/szdw/albyx/index.htm",
+        "https://sfs.uibe.edu.cn/szdw/zxyx/index.htm",
+        "https://sfs.uibe.edu.cn/szdw/ynyx/index.htm",
+        "https://sfs.uibe.edu.cn/szdw/fyx/index.htm",
+        "https://sfs.uibe.edu.cn/szdw/xbyyx/index.htm",
+        "https://sfs.uibe.edu.cn/szdw/ydlyx/index.htm",
+        "https://sfs.uibe.edu.cn/szdw/eyx/index.htm",
+        "https://sfs.uibe.edu.cn/szdw/dyx/index.htm",
+        "https://sfs.uibe.edu.cn/szdw/ptyyx/index.htm",
+        "https://sfs.uibe.edu.cn/szdw/bsyx/index.htm",
+        "https://sfs.uibe.edu.cn/szdw/xxyx/index.htm"
+      ],
+      "hosts": [
+        "sfs.uibe.edu.cn"
+      ],
+      "schemes": [
+        "https"
+      ],
+      "query_keys": [],
+      "pages": [
+        {
+          "url": "https://sfs.uibe.edu.cn/szdw/ryx/index.htm",
+          "group": "日语系",
+          "selector": ".p-list10 .pic",
+          "label_selector": "h4",
+          "kind": "department",
+          "staff_type": "unspecified",
+          "next_selector": ".gp-page a[href], .gp-page1 a[href], .pages a[href], .gp-pagination a[href]"
+        },
+        {
+          "url": "https://sfs.uibe.edu.cn/szdw/albyx/index.htm",
+          "group": "阿拉伯语系",
+          "selector": ".p-list10 .pic",
+          "label_selector": "h4",
+          "kind": "department",
+          "staff_type": "unspecified",
+          "next_selector": ".gp-page a[href], .gp-page1 a[href], .pages a[href], .gp-pagination a[href]"
+        },
+        {
+          "url": "https://sfs.uibe.edu.cn/szdw/zxyx/index.htm",
+          "group": "朝鲜语系",
+          "selector": ".p-list10 .pic",
+          "label_selector": "h4",
+          "kind": "department",
+          "staff_type": "unspecified",
+          "next_selector": ".gp-page a[href], .gp-page1 a[href], .pages a[href], .gp-pagination a[href]"
+        },
+        {
+          "url": "https://sfs.uibe.edu.cn/szdw/ynyx/index.htm",
+          "group": "越南语系",
+          "selector": ".p-list10 .pic",
+          "label_selector": "h4",
+          "kind": "department",
+          "staff_type": "unspecified",
+          "next_selector": ".gp-page a[href], .gp-page1 a[href], .pages a[href], .gp-pagination a[href]"
+        },
+        {
+          "url": "https://sfs.uibe.edu.cn/szdw/fyx/index.htm",
+          "group": "法语系",
+          "selector": ".p-list10 .pic",
+          "label_selector": "h4",
+          "kind": "department",
+          "staff_type": "unspecified",
+          "next_selector": ".gp-page a[href], .gp-page1 a[href], .pages a[href], .gp-pagination a[href]"
+        },
+        {
+          "url": "https://sfs.uibe.edu.cn/szdw/xbyyx/index.htm",
+          "group": "西班牙语系",
+          "selector": ".p-list10 .pic",
+          "label_selector": "h4",
+          "kind": "department",
+          "staff_type": "unspecified",
+          "next_selector": ".gp-page a[href], .gp-page1 a[href], .pages a[href], .gp-pagination a[href]"
+        },
+        {
+          "url": "https://sfs.uibe.edu.cn/szdw/ydlyx/index.htm",
+          "group": "意大利语系",
+          "selector": ".p-list10 .pic",
+          "label_selector": "h4",
+          "kind": "department",
+          "staff_type": "unspecified",
+          "next_selector": ".gp-page a[href], .gp-page1 a[href], .pages a[href], .gp-pagination a[href]"
+        },
+        {
+          "url": "https://sfs.uibe.edu.cn/szdw/eyx/index.htm",
+          "group": "俄语系",
+          "selector": ".p-list10 .pic",
+          "label_selector": "h4",
+          "kind": "department",
+          "staff_type": "unspecified",
+          "next_selector": ".gp-page a[href], .gp-page1 a[href], .pages a[href], .gp-pagination a[href]"
+        },
+        {
+          "url": "https://sfs.uibe.edu.cn/szdw/dyx/index.htm",
+          "group": "德语系",
+          "selector": ".p-list10 .pic",
+          "label_selector": "h4",
+          "kind": "department",
+          "staff_type": "unspecified",
+          "next_selector": ".gp-page a[href], .gp-page1 a[href], .pages a[href], .gp-pagination a[href]"
+        },
+        {
+          "url": "https://sfs.uibe.edu.cn/szdw/ptyyx/index.htm",
+          "group": "葡萄牙语系",
+          "selector": ".p-list10 .pic",
+          "label_selector": "h4",
+          "kind": "department",
+          "staff_type": "unspecified",
+          "next_selector": ".gp-page a[href], .gp-page1 a[href], .pages a[href], .gp-pagination a[href]"
+        },
+        {
+          "url": "https://sfs.uibe.edu.cn/szdw/bsyx/index.htm",
+          "group": "波斯语系",
+          "selector": ".p-list10 .pic",
+          "label_selector": "h4",
+          "kind": "department",
+          "staff_type": "unspecified",
+          "next_selector": ".gp-page a[href], .gp-page1 a[href], .pages a[href], .gp-pagination a[href]"
+        },
+        {
+          "url": "https://sfs.uibe.edu.cn/szdw/xxyx/index.htm",
+          "group": "希腊语系",
+          "selector": ".p-list10 .pic",
+          "label_selector": "h4",
+          "kind": "department",
+          "staff_type": "unspecified",
+          "next_selector": ".gp-page a[href], .gp-page1 a[href], .pages a[href], .gp-pagination a[href]"
+        }
+      ]
+    },
+    {
+      "id": "insurance",
+      "name": "保险学院",
+      "home_url": "https://insurance.uibe.edu.cn/",
+      "roster_urls": [
+        "https://insurance.uibe.edu.cn/szdw/yxjs/fxglybxxx/index.htm",
+        "https://insurance.uibe.edu.cn/szdw/yxjs/tjyjsxx/index.htm",
+        "https://insurance.uibe.edu.cn/szdw/yxjs/ldjjyshbzxx/index.htm"
+      ],
+      "hosts": [
+        "insurance.uibe.edu.cn"
+      ],
+      "schemes": [
+        "https"
+      ],
+      "query_keys": [],
+      "pages": [
+        {
+          "url": "https://insurance.uibe.edu.cn/szdw/yxjs/fxglybxxx/index.htm",
+          "group": "风险管理与保险学系",
+          "selector": ".faculty a",
+          "label_selector": ".name",
+          "kind": "department",
+          "staff_type": "unspecified",
+          "next_selector": ".gp-page a[href], .gp-page1 a[href], .pages a[href], .gp-pagination a[href]"
+        },
+        {
+          "url": "https://insurance.uibe.edu.cn/szdw/yxjs/tjyjsxx/index.htm",
+          "group": "统计与精算学系",
+          "selector": ".faculty a",
+          "label_selector": ".name",
+          "kind": "department",
+          "staff_type": "unspecified",
+          "next_selector": ".gp-page a[href], .gp-page1 a[href], .pages a[href], .gp-pagination a[href]"
+        },
+        {
+          "url": "https://insurance.uibe.edu.cn/szdw/yxjs/ldjjyshbzxx/index.htm",
+          "group": "劳动经济与社会保障学系",
+          "selector": ".faculty a",
+          "label_selector": ".name",
+          "kind": "department",
+          "staff_type": "unspecified",
+          "next_selector": ".gp-page a[href], .gp-page1 a[href], .pages a[href], .gp-pagination a[href]"
+        }
+      ]
+    },
+    {
+      "id": "relations",
+      "name": "国际关系学院",
+      "home_url": "https://sir.uibe.edu.cn/",
+      "roster_urls": [
+        "https://sir.uibe.edu.cn/szdw/zzxx/dzz/index.htm",
+        "https://sir.uibe.edu.cn/szdw/gjzzxx1/cxl/index.htm",
+        "https://sir.uibe.edu.cn/szdw/gjzzxx/tyz/index.htm",
+        "https://sir.uibe.edu.cn/szdw/gjzzjjxx/wl/index.htm"
+      ],
+      "hosts": [
+        "sir.uibe.edu.cn"
+      ],
+      "schemes": [
+        "https"
+      ],
+      "query_keys": [],
+      "pages": [
+        {
+          "url": "https://sir.uibe.edu.cn/szdw/zzxx/dzz/index.htm",
+          "group": "政治学系",
+          "selector": ".subNavBox .subNav a",
+          "kind": "department",
+          "staff_type": "unspecified",
+          "next_selector": ".gp-page a[href], .gp-page1 a[href], .pages a[href], .gp-pagination a[href]"
+        },
+        {
+          "url": "https://sir.uibe.edu.cn/szdw/gjzzxx1/cxl/index.htm",
+          "group": "国家安全学系",
+          "selector": ".subNavBox .subNav a",
+          "kind": "department",
+          "staff_type": "unspecified",
+          "next_selector": ".gp-page a[href], .gp-page1 a[href], .pages a[href], .gp-pagination a[href]"
+        },
+        {
+          "url": "https://sir.uibe.edu.cn/szdw/gjzzxx/tyz/index.htm",
+          "group": "国际政治经济学系",
+          "selector": ".subNavBox .subNav a",
+          "kind": "department",
+          "staff_type": "unspecified",
+          "next_selector": ".gp-page a[href], .gp-page1 a[href], .pages a[href], .gp-pagination a[href]"
+        },
+        {
+          "url": "https://sir.uibe.edu.cn/szdw/gjzzjjxx/wl/index.htm",
+          "group": "外交与国际政治学系",
+          "selector": ".subNavBox .subNav a",
+          "kind": "department",
+          "staff_type": "unspecified",
+          "next_selector": ".gp-page a[href], .gp-page1 a[href], .pages a[href], .gp-pagination a[href]"
+        }
+      ]
+    },
+    {
+      "id": "literature",
+      "name": "文学与国际传播学院",
+      "home_url": "https://scll.uibe.edu.cn/",
+      "roster_urls": [
+        "https://scll.uibe.edu.cn/szdw/jmhyx/index.htm",
+        "https://scll.uibe.edu.cn/szdw/wxx/index.htm",
+        "https://scll.uibe.edu.cn/szdw/dwhyx/index.htm"
+      ],
+      "hosts": [
+        "scll.uibe.edu.cn"
+      ],
+      "schemes": [
+        "https"
+      ],
+      "query_keys": [],
+      "pages": [
+        {
+          "url": "https://scll.uibe.edu.cn/szdw/jmhyx/index.htm",
+          "group": "国际新闻与传播系",
+          "selector": ".pic_list li",
+          "kind": "department",
+          "staff_type": "unspecified",
+          "next_selector": ".gp-page a[href], .gp-page1 a[href], .pages a[href], .gp-pagination a[href]"
+        },
+        {
+          "url": "https://scll.uibe.edu.cn/szdw/wxx/index.htm",
+          "group": "汉语言文学系",
+          "selector": ".pic_list li",
+          "kind": "department",
+          "staff_type": "unspecified",
+          "next_selector": ".gp-page a[href], .gp-page1 a[href], .pages a[href], .gp-pagination a[href]"
+        },
+        {
+          "url": "https://scll.uibe.edu.cn/szdw/dwhyx/index.htm",
+          "group": "国际商务汉语系",
+          "selector": ".pic_list li",
+          "kind": "department",
+          "staff_type": "unspecified",
+          "next_selector": ".gp-page a[href], .gp-page1 a[href], .pages a[href], .gp-pagination a[href]"
+        }
+      ]
+    },
+    {
+      "id": "marxism",
+      "name": "马克思主义学院",
+      "home_url": "https://mkszyxy.uibe.edu.cn/",
+      "roster_urls": [
+        "https://mkszyxy.uibe.edu.cn/szdw/zrjs/mkszyzghyjxx/index.htm",
+        "https://mkszyxy.uibe.edu.cn/szdw/zrjs/zgjxdsxx/index.htm",
+        "https://mkszyxy.uibe.edu.cn/szdw/zrjs/mkszyjbylxx/index.htm",
+        "https://mkszyxy.uibe.edu.cn/szdw/zrjs/xjpxsdzgtsshzysxxx/index.htm",
+        "https://mkszyxy.uibe.edu.cn/szdw/zrjs/sxzzjyxx/index.htm",
+        "https://mkszyxy.uibe.edu.cn/szdw/zrjs/xsyzcxx/index.htm"
+      ],
+      "hosts": [
+        "mkszyxy.uibe.edu.cn"
+      ],
+      "schemes": [
+        "https"
+      ],
+      "query_keys": [],
+      "pages": [
+        {
+          "url": "https://mkszyxy.uibe.edu.cn/szdw/zrjs/mkszyzghyjxx/index.htm",
+          "group": "马克思主义中国化研究学系",
+          "selector": ".gpAvgList a.gpTextArea",
+          "label_selector": ".gpArticleTitle",
+          "kind": "department",
+          "staff_type": "unspecified",
+          "next_selector": ".gp-page a[href], .gp-page1 a[href], .pages a[href], .gp-pagination a[href]"
+        },
+        {
+          "url": "https://mkszyxy.uibe.edu.cn/szdw/zrjs/zgjxdsxx/index.htm",
+          "group": "中国近现代史学系",
+          "selector": ".gpAvgList a.gpTextArea",
+          "label_selector": ".gpArticleTitle",
+          "kind": "department",
+          "staff_type": "unspecified",
+          "next_selector": ".gp-page a[href], .gp-page1 a[href], .pages a[href], .gp-pagination a[href]"
+        },
+        {
+          "url": "https://mkszyxy.uibe.edu.cn/szdw/zrjs/mkszyjbylxx/index.htm",
+          "group": "马克思主义基本原理学系",
+          "selector": ".gpAvgList a.gpTextArea",
+          "label_selector": ".gpArticleTitle",
+          "kind": "department",
+          "staff_type": "unspecified",
+          "next_selector": ".gp-page a[href], .gp-page1 a[href], .pages a[href], .gp-pagination a[href]"
+        },
+        {
+          "url": "https://mkszyxy.uibe.edu.cn/szdw/zrjs/xjpxsdzgtsshzysxxx/index.htm",
+          "group": "习近平新时代中国特色社会主义思想学系",
+          "selector": ".gpAvgList a.gpTextArea",
+          "label_selector": ".gpArticleTitle",
+          "kind": "department",
+          "staff_type": "unspecified",
+          "next_selector": ".gp-page a[href], .gp-page1 a[href], .pages a[href], .gp-pagination a[href]"
+        },
+        {
+          "url": "https://mkszyxy.uibe.edu.cn/szdw/zrjs/sxzzjyxx/index.htm",
+          "group": "思想政治教育学系",
+          "selector": ".gpAvgList a.gpTextArea",
+          "label_selector": ".gpArticleTitle",
+          "kind": "department",
+          "staff_type": "unspecified",
+          "next_selector": ".gp-page a[href], .gp-page1 a[href], .pages a[href], .gp-pagination a[href]"
+        },
+        {
+          "url": "https://mkszyxy.uibe.edu.cn/szdw/zrjs/xsyzcxx/index.htm",
+          "group": "形势与政策学系",
+          "selector": ".gpAvgList a.gpTextArea",
+          "label_selector": ".gpArticleTitle",
+          "kind": "department",
+          "staff_type": "unspecified",
+          "next_selector": ".gp-page a[href], .gp-page1 a[href], .pages a[href], .gp-pagination a[href]"
+        }
+      ]
+    },
+    {
+      "id": "statistics",
+      "name": "统计学院",
+      "home_url": "https://tongji.uibe.edu.cn/",
+      "roster_urls": [
+        "https://tongji.uibe.edu.cn/szdw/jsjs/index.htm"
+      ],
+      "hosts": [
+        "tongji.uibe.edu.cn"
+      ],
+      "schemes": [
+        "https"
+      ],
+      "query_keys": [],
+      "pages": [
+        {
+          "url": "https://tongji.uibe.edu.cn/szdw/jsjs/index.htm",
+          "group": "经济统计系",
+          "selector": ".add_imglist a[href^=\"jjtjx/\"]",
+          "kind": "department",
+          "staff_type": "unspecified",
+          "next_selector": ".gp-page a[href], .gp-page1 a[href], .pages a[href], .gp-pagination a[href]"
+        },
+        {
+          "url": "https://tongji.uibe.edu.cn/szdw/jsjs/index.htm",
+          "group": "数据科学系",
+          "selector": ".add_imglist a[href^=\"sjkxx/\"]",
+          "kind": "department",
+          "staff_type": "unspecified",
+          "next_selector": ".gp-page a[href], .gp-page1 a[href], .pages a[href], .gp-pagination a[href]"
+        },
+        {
+          "url": "https://tongji.uibe.edu.cn/szdw/jsjs/index.htm",
+          "group": "数量金融系",
+          "selector": ".add_imglist a[href^=\"sljrx/\"]",
+          "kind": "department",
+          "staff_type": "unspecified",
+          "next_selector": ".gp-page a[href], .gp-page1 a[href], .pages a[href], .gp-pagination a[href]"
+        },
+        {
+          "url": "https://tongji.uibe.edu.cn/szdw/jsjs/index.htm",
+          "group": "应用数学系",
+          "selector": ".add_imglist a[href^=\"yysxx/\"]",
+          "kind": "department",
+          "staff_type": "unspecified",
+          "next_selector": ".gp-page a[href], .gp-page1 a[href], .pages a[href], .gp-pagination a[href]"
+        }
+      ]
+    },
+    {
+      "id": "economics",
+      "name": "经济学院",
+      "home_url": "https://soe.uibe.edu.cn/",
+      "roster_urls": [
+        "https://soe.uibe.edu.cn/szdw/xyjsaxx/jrx/index.htm",
+        "https://soe.uibe.edu.cn/szdw/xyjsaxx/jjxx/index.htm",
+        "https://soe.uibe.edu.cn/szdw/xyjsaxx/jrgcx/index.htm",
+        "https://soe.uibe.edu.cn/szdw/xyjsaxx/yhglx/index.htm",
+        "https://soe.uibe.edu.cn/szdw/xyjsaxx/yyjrx/index.htm"
+      ],
+      "hosts": [
+        "soe.uibe.edu.cn"
+      ],
+      "schemes": [
+        "https"
+      ],
+      "query_keys": [],
+      "pages": [
+        {
+          "url": "https://soe.uibe.edu.cn/szdw/xyjsaxx/jrx/index.htm",
+          "group": "政治经济学系",
+          "selector": ".gp-teacher5 a",
+          "label_selector": ".gpArticleTitle",
+          "kind": "department",
+          "staff_type": "unspecified",
+          "next_selector": ".gp-page a[href], .gp-page1 a[href], .pages a[href], .gp-pagination a[href]"
+        },
+        {
+          "url": "https://soe.uibe.edu.cn/szdw/xyjsaxx/jjxx/index.htm",
+          "group": "经济学系",
+          "selector": ".gp-teacher5 a",
+          "label_selector": ".gpArticleTitle",
+          "kind": "department",
+          "staff_type": "unspecified",
+          "next_selector": ".gp-page a[href], .gp-page1 a[href], .pages a[href], .gp-pagination a[href]"
+        },
+        {
+          "url": "https://soe.uibe.edu.cn/szdw/xyjsaxx/jrgcx/index.htm",
+          "group": "世界经济系",
+          "selector": ".gp-teacher5 a",
+          "label_selector": ".gpArticleTitle",
+          "kind": "department",
+          "staff_type": "unspecified",
+          "next_selector": ".gp-page a[href], .gp-page1 a[href], .pages a[href], .gp-pagination a[href]"
+        },
+        {
+          "url": "https://soe.uibe.edu.cn/szdw/xyjsaxx/yhglx/index.htm",
+          "group": "中国开放经济理论研究院",
+          "selector": ".gp-teacher5 a",
+          "label_selector": ".gpArticleTitle",
+          "kind": "department",
+          "staff_type": "unspecified",
+          "next_selector": ".gp-page a[href], .gp-page1 a[href], .pages a[href], .gp-pagination a[href]"
+        },
+        {
+          "url": "https://soe.uibe.edu.cn/szdw/xyjsaxx/yyjrx/index.htm",
+          "group": "数量与数字经济学系",
+          "selector": ".gp-teacher5 a",
+          "label_selector": ".gpArticleTitle",
+          "kind": "department",
+          "staff_type": "unspecified",
+          "next_selector": ".gp-page a[href], .gp-page1 a[href], .pages a[href], .gp-pagination a[href]"
+        }
+      ]
+    },
+    {
+      "id": "development",
+      "name": "国际发展合作学院",
+      "home_url": "https://sidc.uibe.edu.cn/",
+      "roster_urls": [
+        "https://sidc.uibe.edu.cn/szdw/jsjs/index.htm",
+        "https://sidc.uibe.edu.cn/szdw/gjjs/index.htm"
+      ],
+      "hosts": [
+        "sidc.uibe.edu.cn"
+      ],
+      "schemes": [
+        "https"
+      ],
+      "query_keys": [],
+      "pages": [
+        {
+          "url": "https://sidc.uibe.edu.cn/szdw/jsjs/index.htm",
+          "group": "国际发展政治经济学系",
+          "selector": ".teacherList li",
+          "label_selector": "strong",
+          "kind": "department",
+          "staff_type": "unspecified",
+          "next_selector": ".gp-page a[href], .gp-page1 a[href], .pages a[href], .gp-pagination a[href]"
+        },
+        {
+          "url": "https://sidc.uibe.edu.cn/szdw/gjjs/index.htm",
+          "group": "国际经济发展合作系",
+          "selector": ".teacherList li",
+          "label_selector": "strong",
+          "kind": "department",
+          "staff_type": "unspecified",
+          "next_selector": ".gp-page a[href], .gp-page1 a[href], .pages a[href], .gp-pagination a[href]"
+        }
+      ]
+    },
+    {
+      "id": "continuing",
+      "name": "继续教育学院（高级研修学院）",
+      "home_url": "https://www.sce.com.cn/",
+      "roster_urls": [],
+      "hosts": [
+        "www.sce.com.cn"
+      ],
+      "schemes": [
+        "https"
+      ],
+      "query_keys": []
+    },
+    {
+      "id": "sports",
+      "name": "体育部",
+      "home_url": "https://sports.uibe.edu.cn/",
+      "roster_urls": [
+        "https://sports.uibe.edu.cn/bmgk/szdw/fjs2/index.htm",
+        "https://sports.uibe.edu.cn/bmgk/szdw/js2/index.htm",
+        "https://sports.uibe.edu.cn/bmgk/szdw/zj2/index.htm",
+        "https://sports.uibe.edu.cn/bmgk/szdw/sxq/index.htm"
+      ],
+      "hosts": [
+        "sports.uibe.edu.cn"
+      ],
+      "schemes": [
+        "https"
+      ],
+      "query_keys": [],
+      "pages": [
+        {
+          "url": "https://sports.uibe.edu.cn/bmgk/szdw/fjs2/index.htm",
+          "group": "官网未公布专业／系所",
+          "selector": ".wrap_content .gpAvgList a",
+          "kind": "unspecified",
+          "staff_type": "unspecified",
+          "next_selector": ".gp-page a[href], .gp-page1 a[href], .pages a[href], .gp-pagination a[href]"
+        },
+        {
+          "url": "https://sports.uibe.edu.cn/bmgk/szdw/js2/index.htm",
+          "group": "官网未公布专业／系所",
+          "selector": ".wrap_content .gpAvgList a",
+          "kind": "unspecified",
+          "staff_type": "unspecified",
+          "next_selector": ".gp-page a[href], .gp-page1 a[href], .pages a[href], .gp-pagination a[href]"
+        },
+        {
+          "url": "https://sports.uibe.edu.cn/bmgk/szdw/zj2/index.htm",
+          "group": "官网未公布专业／系所",
+          "selector": ".wrap_content .gpAvgList a",
+          "kind": "unspecified",
+          "staff_type": "unspecified",
+          "next_selector": ".gp-page a[href], .gp-page1 a[href], .pages a[href], .gp-pagination a[href]"
+        },
+        {
+          "url": "https://sports.uibe.edu.cn/bmgk/szdw/sxq/index.htm",
+          "group": "官网未公布专业／系所",
+          "selector": ".wrap_content .gpAvgList a",
+          "kind": "unspecified",
+          "staff_type": "unspecified",
+          "next_selector": ".gp-page a[href], .gp-page1 a[href], .pages a[href], .gp-pagination a[href]"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "name": "docx-preview",
+    "version": "0.4.1",
+    "license": "Apache-2.0",
+    "file": "docx-preview.0.4.1.min.js",
+    "source": "https://registry.npmjs.org/docx-preview/-/docx-preview-0.4.1.tgz",
+    "package_integrity": "sha512-Dv4g+LeE0swHpPvNC0lAT0YsR5Zq5pAxw7d3vHQ8EChBLgIrqqe9VPL5nVt2HBJap8bEZbXUI0TJob7kBeNU9w==",
+    "sha256": "c4a133c65a112799e35b143c572dfff9e923a3bf39b5fd3b07a06aa0f8f530c2"
+  },
+  {
+    "name": "jszip",
+    "version": "3.10.1",
+    "license": "(MIT OR GPL-3.0-or-later)",
+    "file": "jszip.3.10.1.min.js",
+    "source": "https://registry.npmjs.org/jszip/-/jszip-3.10.1.tgz",
+    "package_integrity": "sha512-xXDvecyTpGLrqFrvkrUSoxxfJI5AH7U8zxxtVclpsUtMCq4JQ290LY8AW5c7Ggnr/Y/oK+bQMbqK2qmtk3pN4g==",
+    "sha256": "acc7e41455a80765b5fd9c7ee1b8078a6d160bbbca455aeae854de65c947d59e"
+  }
+]

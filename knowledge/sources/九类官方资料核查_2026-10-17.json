@@ -1,0 +1,838 @@
+{
+  "schema_version": 1,
+  "checked_on": "2026-10-17",
+  "scope": "九类、29子主题；公开官网和已持有原件的补充，不宣称全校知识穷尽。",
+  "runtime_catalog": "knowledge/campus_entries.json",
+  "user_checklist": "规划与验收/九类资料现状与待补清单_2026-10-17.md",
+  "course_checklist": "规划与验收/待补课程教学资料_2024级大数据.md",
+  "method": [
+    "搜索学校及主管部门官网，打开正文核对；部分网页工具读取失败时直接读取同一官网HTML，不登录。",
+    "PDF核对相关正文及渲染原页，记录页码、版本与对象；不从文件路径单独推定正文发布日。",
+    "实际调用未包括真实模型、邮件、报修、缴费、报名或个人账号；不索取学校凭据。",
+    "校方政策、转载观点、历史预告、一般建议分开；可回答范围与资料缺口并列。",
+    "公开补录XLSX只读核对工作表及行号，保留原件；公开研究生院HTML正文在隐藏字段中，解码核对而非只看页面标题。"
+  ],
+  "adopted_or_updated": [
+    {
+      "id": "CK03",
+      "category": "生活相关",
+      "topics": [
+        "V01"
+      ],
+      "title": "宿舍设备咨询与后勤服务入口",
+      "published_on": null,
+      "checked_on": "2026-10-17",
+      "kind": "scoped",
+      "sources": [
+        {
+          "id": "O05",
+          "url": "https://hjc.uibe.edu.cn/jggk/bmzz/index.htm",
+          "provenance": "学校官方部门职责页"
+        },
+        {
+          "id": "O22",
+          "url": "https://aeo.uibe.edu.cn/uploadfile/zjc_v3/front/default/upload_file_68373.pdf",
+          "provenance": "2026新生入学指南第20、49页；2026-07-14发布，区分维修与值班联络"
+        },
+        {
+          "id": "O23",
+          "url": "https://hjc.uibe.edu.cn/",
+          "provenance": "后勤处首页服务大厅；登录后未核验"
+        },
+        {
+          "id": "O26",
+          "url": "https://xgb.uibe.edu.cn/docs/2024-08/d673d2a98c954c02a528d0a469794a86.pdf",
+          "provenance": "后勤楼宇管理中心新同学入住公寓流程，路径2024-08；企业号后勤服务及维修电话"
+        }
+      ]
+    },
+    {
+      "id": "CK18",
+      "category": "生活相关",
+      "topics": [
+        "V02"
+      ],
+      "title": "2026新生指南：校内餐饮位置与供餐时段",
+      "published_on": "2026-07-14",
+      "checked_on": "2026-10-17",
+      "kind": "scoped",
+      "sources": [
+        {
+          "id": "O22",
+          "url": "https://aeo.uibe.edu.cn/uploadfile/zjc_v3/front/default/upload_file_68373.pdf",
+          "provenance": "招生就业处2026级新生入学指南，第44页餐饮、第46页适用说明"
+        }
+      ]
+    },
+    {
+      "id": "CK21",
+      "category": "学习相关",
+      "topics": [
+        "L03",
+        "I02"
+      ],
+      "title": "教材借阅补充：闭架馆藏申请",
+      "published_on": "2022-09-29",
+      "checked_on": "2026-10-17",
+      "kind": "scoped",
+      "sources": [
+        {
+          "id": "CK21S1",
+          "url": "https://lib.uibe.edu.cn/fw/jyfw/bjjy/2bd63ed8283a449cb600f4d5bb00585a.htm",
+          "provenance": "图书馆：闭架借阅方法，正文步骤一至三"
+        }
+      ]
+    },
+    {
+      "id": "CK22",
+      "category": "学习相关",
+      "topics": [
+        "L01",
+        "L04"
+      ],
+      "title": "课表和成绩查询：数据中心门户参考说明",
+      "published_on": null,
+      "checked_on": "2026-10-17",
+      "kind": "scoped",
+      "sources": [
+        {
+          "id": "CK22S1",
+          "url": "https://im.uibe.edu.cn/docs/2025-09/50a5b79a84494fb0b6805d28eb5b5143.pdf",
+          "provenance": "信息处：数据中心门户手册第2、6—8页；版本路径2025-09，正文未列独立发布日期"
+        },
+        {
+          "id": "CK22S2",
+          "url": "https://im.uibe.edu.cn/docs/2026-09/3a53f522fc684d938a89846336056542.pdf",
+          "provenance": "2026信息服务手册第2页数据中心入口"
+        }
+      ]
+    },
+    {
+      "id": "CK23",
+      "category": "财务事项",
+      "topics": [
+        "F01"
+      ],
+      "title": "2026新生学杂费缴纳与票据",
+      "published_on": null,
+      "checked_on": "2026-10-17",
+      "kind": "scoped",
+      "sources": [
+        {
+          "id": "CK23S1",
+          "url": "https://aeo.uibe.edu.cn/uploadfile/zjc_v3/front/default/upload_file_68373.pdf",
+          "provenance": "招生官网2026级新生指南第15—16、19页，财务处2026年7月"
+        }
+      ]
+    },
+    {
+      "id": "CK24",
+      "category": "生活相关",
+      "topics": [
+        "V02"
+      ],
+      "title": "2026食堂支付：先绑定E卡再使用微信或支付宝",
+      "published_on": null,
+      "checked_on": "2026-10-17",
+      "kind": "scoped",
+      "sources": [
+        {
+          "id": "CK24S1",
+          "url": "https://aeo.uibe.edu.cn/uploadfile/zjc_v3/front/default/upload_file_68373.pdf",
+          "provenance": "2026级新生指南第17—19页E卡渠道表、应用场景表和注意事项"
+        }
+      ]
+    },
+    {
+      "id": "CK25",
+      "category": "生活相关",
+      "topics": [
+        "V03"
+      ],
+      "title": "体育设施位置与开放信息查询",
+      "published_on": null,
+      "checked_on": "2026-10-17",
+      "kind": "scoped",
+      "sources": [
+        {
+          "id": "CK25S1",
+          "url": "https://sports.uibe.edu.cn/cdgl/cgjs/htyyg/index.htm",
+          "provenance": "体育部：红天游泳馆介绍"
+        },
+        {
+          "id": "CK25S2",
+          "url": "https://sports.uibe.edu.cn/cdgl/cgjs/qyljsg/index.htm",
+          "provenance": "体育部：清远楼健身馆介绍"
+        },
+        {
+          "id": "CK25S3",
+          "url": "https://sports.uibe.edu.cn/cdgl/cgjs/ppqg/index.htm",
+          "provenance": "体育部：乒乓球馆介绍"
+        },
+        {
+          "id": "CK25S4",
+          "url": "https://sports.uibe.edu.cn/cdgl/kfgl/index.htm",
+          "provenance": "体育部：开放管理查询口径"
+        }
+      ]
+    },
+    {
+      "id": "CK26",
+      "category": "生活相关",
+      "topics": [
+        "V03"
+      ],
+      "title": "红天游泳卡延期与毕业生处理",
+      "published_on": "2026-07-06",
+      "checked_on": "2026-10-17",
+      "kind": "scoped",
+      "sources": [
+        {
+          "id": "CK26S1",
+          "url": "https://sports.uibe.edu.cn/tzgg/a6a6c5cac0554200b64ac49e557f9362.htm",
+          "provenance": "体育部2026-07-06通知：统一延期、规范管理、毕业生卡管理"
+        }
+      ]
+    },
+    {
+      "id": "CK27",
+      "category": "职业发展",
+      "topics": [
+        "C01"
+      ],
+      "title": "职业咨询与实习信息官方渠道",
+      "published_on": null,
+      "checked_on": "2026-10-17",
+      "kind": "scoped",
+      "sources": [
+        {
+          "id": "CK27S1",
+          "url": "https://career.uibe.edu.cn/front/channel.jspa?channelId=1674",
+          "provenance": "招生就业处：特色项目、梦想导师、圆桌论坛及站内就业栏目"
+        }
+      ]
+    },
+    {
+      "id": "CK28",
+      "category": "职业发展",
+      "topics": [
+        "C02"
+      ],
+      "title": "职业选择讲座预告：国际传播与新闻人",
+      "published_on": "2026-10-12",
+      "checked_on": "2026-10-17",
+      "kind": "event",
+      "sources": [
+        {
+          "id": "CK28S1",
+          "url": "https://sis.uibe.edu.cn/tzggx/80fbe313d8084355a3083b4e9093eb22.htm",
+          "provenance": "英语学院2026-10-12讲座预告"
+        }
+      ]
+    },
+    {
+      "id": "CK29",
+      "category": "职业发展",
+      "topics": [
+        "C03"
+      ],
+      "title": "2027届综合类双选会预告",
+      "published_on": "2026-08-10",
+      "checked_on": "2026-10-17",
+      "kind": "event",
+      "sources": [
+        {
+          "id": "CK29S1",
+          "url": "https://career.uibe.edu.cn/front/zph.jspa?tid=2086631862364602369",
+          "provenance": "招生就业处，页面更新时间2026-08-10"
+        }
+      ]
+    },
+    {
+      "id": "CK30",
+      "category": "国际交流",
+      "topics": [
+        "X01"
+      ],
+      "title": "2027春季校级海外交流补录：资格与截止",
+      "published_on": "2026-10-08",
+      "checked_on": "2026-10-17",
+      "kind": "scoped",
+      "sources": [
+        {
+          "id": "CK30S1",
+          "url": "https://geec.uibe.edu.cn/tzgg/817bd0d0fbf44385bd694f188282611b.htm",
+          "provenance": "国际合作交流处2026-10-08补录通知"
+        }
+      ]
+    },
+    {
+      "id": "CK31",
+      "category": "国际交流",
+      "topics": [
+        "X02"
+      ],
+      "title": "赴外交流准备：申请材料与学分确认",
+      "published_on": "2026-09-08",
+      "checked_on": "2026-10-17",
+      "kind": "scoped",
+      "sources": [
+        {
+          "id": "CK31S1",
+          "url": "https://geec.uibe.edu.cn/tzgg/352f22884c60431aa0fa680ec2b8afdb.htm",
+          "provenance": "国际合作交流处2026-09-08原通知：校内初选、外方复审、其他补充说明"
+        },
+        {
+          "id": "CK31S2",
+          "url": "https://geec.uibe.edu.cn/docs//2026-10/2fb732932b8048828d10271a8c72727a.docx",
+          "provenance": "2026-10-08补录通知公开学生操作指南，申请与查询章节；本地保留原件"
+        }
+      ]
+    },
+    {
+      "id": "CK32",
+      "category": "学习相关",
+      "topics": [
+        "L01",
+        "L03",
+        "L04",
+        "X02"
+      ],
+      "title": "本科教务与留学材料：按职责分流",
+      "published_on": null,
+      "checked_on": "2026-10-17",
+      "kind": "scoped",
+      "sources": [
+        {
+          "id": "CK32S1",
+          "url": "https://jwc.uibe.edu.cn/zzjg/bmzz/index.htm",
+          "provenance": "教务处：学籍科、教学运行科、教材建设中心、合作交流科职责；页面未标日期"
+        }
+      ]
+    },
+    {
+      "id": "CK33",
+      "category": "交通出行",
+      "topics": [
+        "T02"
+      ],
+      "title": "共享单车停放与准入：2024公开规则",
+      "published_on": "2024-01-17",
+      "checked_on": "2026-10-17",
+      "kind": "scoped",
+      "sources": [
+        {
+          "id": "CK33S1",
+          "url": "https://110.uibe.edu.cn/tzgg/ea48f3d3182843349d0241b69c37a244.htm",
+          "provenance": "保卫处2024-01-17通知及附文明骑行公约"
+        }
+      ]
+    },
+    {
+      "id": "CK34",
+      "category": "交通出行",
+      "topics": [
+        "T01",
+        "T02"
+      ],
+      "title": "校园交通安全与步行区",
+      "published_on": "2024-03-21",
+      "checked_on": "2026-10-17",
+      "kind": "scoped",
+      "sources": [
+        {
+          "id": "CK34S1",
+          "url": "https://110.uibe.edu.cn/tzgg/6ba54c88bd9940e891665bc19adb01ff.htm",
+          "provenance": "学校交通安全委员会、保卫处2024-03-21"
+        }
+      ]
+    },
+    {
+      "id": "CK35",
+      "category": "交通出行",
+      "topics": [
+        "T03"
+      ],
+      "title": "校内参观与周边地铁参考",
+      "published_on": null,
+      "checked_on": "2026-10-17",
+      "kind": "scoped",
+      "sources": [
+        {
+          "id": "CK35S1",
+          "url": "https://aeo.uibe.edu.cn/uploadfile/zjc_v3/front/default/upload_file_68373.pdf",
+          "provenance": "2026级新生指南第41—43页：校史馆、对外经贸博物馆服务指南"
+        },
+        {
+          "id": "CK35S2",
+          "url": "https://law.uibe.edu.cn/swfzyjy/yjykx/xwdt/78c092843eaa4722902ae8751e10a9fd.htm",
+          "provenance": "法学院2026-08-06年会通知：会务交通；仅提取周边站名"
+        }
+      ]
+    },
+    {
+      "id": "CK36",
+      "category": "健康与福利",
+      "topics": [
+        "H01"
+      ],
+      "title": "2026指南：校医院就诊与门诊时间",
+      "published_on": null,
+      "checked_on": "2026-10-17",
+      "kind": "scoped",
+      "sources": [
+        {
+          "id": "CK36S1",
+          "url": "https://aeo.uibe.edu.cn/uploadfile/zjc_v3/front/default/upload_file_68373.pdf",
+          "provenance": "2026级新生指南第45页校内就医、第49页校医院电话"
+        }
+      ]
+    },
+    {
+      "id": "CK37",
+      "category": "健康与福利",
+      "topics": [
+        "H02"
+      ],
+      "title": "校内心理咨询与本科预约入口",
+      "published_on": null,
+      "checked_on": "2026-10-17",
+      "kind": "scoped",
+      "sources": [
+        {
+          "id": "CK37S1",
+          "url": "https://aeo.uibe.edu.cn/uploadfile/zjc_v3/front/default/upload_file_68373.pdf",
+          "provenance": "2026级新生指南第36页：新生心理小贴士，学生心理健康教育中心2026年7月"
+        },
+        {
+          "id": "CK37S2",
+          "url": "https://im.uibe.edu.cn/docs/2025-09/ad26f0f65f8e4f138d168d801705a1d4.pdf",
+          "provenance": "信息处：贸大微信企业号手册第7页，路径2025-09"
+        }
+      ]
+    },
+    {
+      "id": "CK38",
+      "category": "健康与福利",
+      "topics": [
+        "H03"
+      ],
+      "title": "公费医疗与港澳台学生自愿医疗项目",
+      "published_on": null,
+      "checked_on": "2026-10-17",
+      "kind": "scoped",
+      "sources": [
+        {
+          "id": "CK38S1",
+          "url": "https://aeo.uibe.edu.cn/uploadfile/zjc_v3/front/default/upload_file_68373.pdf",
+          "provenance": "2026级新生指南第16页港澳台学生医疗费、第45页校内就医"
+        }
+      ]
+    },
+    {
+      "id": "CK39",
+      "category": "健康与福利",
+      "topics": [
+        "H03",
+        "F01"
+      ],
+      "title": "2026秋季来华留学生缴费与保险",
+      "published_on": "2026-07-09",
+      "checked_on": "2026-10-17",
+      "kind": "scoped",
+      "sources": [
+        {
+          "id": "CK39S1",
+          "url": "https://sie.uibe.edu.cn/xwgg2/tzgg2/3d76705b1a8846f5905fa1bec0802426.htm",
+          "provenance": "国际学院2026秋季报到通知；官网列表标2026-07-09，正文缴费表与保险购买"
+        }
+      ]
+    },
+    {
+      "id": "CK40",
+      "category": "财务事项",
+      "topics": [
+        "F02"
+      ],
+      "title": "2025—2026学年本科国奖、励志奖申请与评审",
+      "published_on": "2026-09-10",
+      "checked_on": "2026-10-17",
+      "kind": "scoped",
+      "sources": [
+        {
+          "id": "CK40S1",
+          "url": "https://xgb.uibe.edu.cn/xssw/ggtz/8f02bc22c8374b649d9545f918476216.htm",
+          "provenance": "学工部、学生资助管理中心2026-09-10通知"
+        },
+        {
+          "id": "CK40S2",
+          "url": "https://xgb.uibe.edu.cn/docs/2025-06/a27565e7877c450a8137bbd1ccb4fa75.pdf",
+          "provenance": "2024修订本科国家奖学金办法，第2—3页：基本条件、申请和评审"
+        },
+        {
+          "id": "CK40S3",
+          "url": "https://xgb.uibe.edu.cn/docs/2025-06/ea33009f95e04820bff544c3c8ec8dcc.pdf",
+          "provenance": "2024修订本科励志奖学金办法，第2—3页；本批期限和金额另按2026通知"
+        }
+      ]
+    },
+    {
+      "id": "CK41",
+      "category": "财务事项",
+      "topics": [
+        "F02",
+        "F03"
+      ],
+      "title": "本科经济困难支持与助学金流程",
+      "published_on": null,
+      "checked_on": "2026-10-17",
+      "kind": "scoped",
+      "sources": [
+        {
+          "id": "CK41S1",
+          "url": "https://aeo.uibe.edu.cn/uploadfile/zjc_v3/front/default/upload_file_68373.pdf",
+          "provenance": "2026级新生指南第29—30页：致家庭经济困难新生的一封信"
+        },
+        {
+          "id": "CK41S2",
+          "url": "https://xxgk.uibe.edu.cn/docs/2025-06/f05a4791f4c147348141f64002f2f0af.pdf",
+          "provenance": "2024-07-25印发本科国家助学金办法，第2—4页；仅提取流程"
+        }
+      ]
+    },
+    {
+      "id": "CK42",
+      "category": "财务事项",
+      "topics": [
+        "F02"
+      ],
+      "title": "国际学生2025—2026学年评奖：申请期限",
+      "published_on": "2026-10-15",
+      "checked_on": "2026-10-17",
+      "kind": "scoped",
+      "sources": [
+        {
+          "id": "CK42S1",
+          "url": "https://sie.uibe.edu.cn/xwgg2/tzgg2/e5e0484b26864760adcda8f09d345186.htm",
+          "provenance": "国际学院2026-10-15通知：资格、材料、程序"
+        }
+      ]
+    },
+    {
+      "id": "CK43",
+      "category": "财务事项",
+      "topics": [
+        "F03"
+      ],
+      "title": "生活费规划：观点参考与通用方法",
+      "published_on": "2020-08-28",
+      "checked_on": "2026-10-17",
+      "kind": "scoped",
+      "sources": [
+        {
+          "id": "CK43S1",
+          "url": "https://news.uibe.edu.cn/info/1371/43182.htm",
+          "provenance": "新闻网转载劳动午报；网页2020-08-28、文内来源2020-08-29，日期差异保留；仅作观点参考"
+        }
+      ]
+    },
+    {
+      "id": "CK44",
+      "category": "学习相关",
+      "topics": [
+        "L01"
+      ],
+      "title": "本科选课阶段与学业咨询渠道",
+      "published_on": "2025-12-03",
+      "checked_on": "2026-10-17",
+      "kind": "scoped",
+      "sources": [
+        {
+          "id": "CK44S1",
+          "url": "https://jwc.uibe.edu.cn/bmdt/6f31b36853c14128917431105306712c.htm",
+          "provenance": "教务处2025-12-03：2025级学业指导暨选课培训会报道"
+        }
+      ]
+    },
+    {
+      "id": "CK45",
+      "category": "社团活动",
+      "topics": [
+        "A01",
+        "A02"
+      ],
+      "title": "学生组织与志愿服务：学院历史招新实例",
+      "published_on": "2025-09-08",
+      "checked_on": "2026-10-17",
+      "kind": "scoped",
+      "sources": [
+        {
+          "id": "CK45S1",
+          "url": "https://soe.uibe.edu.cn/xsyd/xsdt1/7fbfa5047a9143ffb84e99d29b2baa31.htm",
+          "provenance": "经济学院2025-09-08新闻宣传部招新介绍"
+        },
+        {
+          "id": "CK45S2",
+          "url": "https://soe.uibe.edu.cn/xsyd/xsdt1/6a976f7de5f74902a14e1388b1344002.htm",
+          "provenance": "经济学院2025-09-08志愿服务部招新介绍"
+        }
+      ]
+    },
+    {
+      "id": "CK46",
+      "category": "财务事项",
+      "topics": [
+        "F02"
+      ],
+      "title": "研究生国家与学业奖学金：公开办法的流程参考",
+      "published_on": null,
+      "checked_on": "2026-10-17",
+      "kind": "scoped",
+      "sources": [
+        {
+          "id": "CK46S1",
+          "url": "https://ygb.uibe.edu.cn/docs/2024-01/18517fb05e1d483cae1c63b9552525e3.pdf",
+          "provenance": "研究生国家奖学金管理办法，第9、16—18、25条；2022施行"
+        },
+        {
+          "id": "CK46S2",
+          "url": "https://ygb.uibe.edu.cn/docs/2024-01/59db79d654b24ec0b4a91edae111ba84.pdf",
+          "provenance": "研究生学业奖学金管理办法，第7、11、19、24条；2022施行"
+        }
+      ]
+    },
+    {
+      "id": "CK47",
+      "category": "财务事项",
+      "topics": [
+        "F01"
+      ],
+      "title": "2026级研究生新生缴费与票据",
+      "published_on": "2026-08-24",
+      "checked_on": "2026-10-17",
+      "kind": "scoped",
+      "sources": [
+        {
+          "id": "CK47S1",
+          "url": "https://yjsy.uibe.edu.cn/cms/infoSingleArticle.do?articleId=7863&columnId=2395",
+          "provenance": "研究生院2026-08-24报到通知，第二部分及第3项及时完成缴费；正文在公开HTML隐藏字段中"
+        }
+      ]
+    },
+    {
+      "id": "CK48",
+      "category": "国际交流",
+      "topics": [
+        "X01"
+      ],
+      "title": "2027春季补录项目清单：逐校条件与截止差异",
+      "published_on": "2026-10-08",
+      "checked_on": "2026-10-17",
+      "kind": "scoped",
+      "sources": [
+        {
+          "id": "CK48S1",
+          "url": "https://geec.uibe.edu.cn/docs//2026-10/3d81f267d29c484e9ec91956f5ec80d9.xlsx",
+          "provenance": "补录公开附件：交换项目第3、5行；访问项目第5—6行，本地保留原件"
+        },
+        {
+          "id": "CK48S2",
+          "url": "https://geec.uibe.edu.cn/tzgg/817bd0d0fbf44385bd694f188282611b.htm",
+          "provenance": "2026-10-08补录正文的校内资格及申请截止"
+        }
+      ]
+    }
+  ],
+  "reference_only": [
+    {
+      "title": "2019公费医疗管理办法",
+      "url": "https://hjc.uibe.edu.cn/docs//2022-05/536bf710bc8245b19521938913d048ce.pdf",
+      "reason": "2019旧版，部分对象条款与2026新生指南有差异；不将旧比例与期限当现行。需要中国籍学生当前完整报销说明。"
+    },
+    {
+      "title": "研究生特殊困难补助管理办法",
+      "url": "https://xxgk.uibe.edu.cn/docs/20190929084039488575.pdf",
+      "reason": "2019旧版；不把旧金额、一个月时限直接输出为2026当前标准。"
+    },
+    {
+      "title": "2026暑期研究生资助热线通知",
+      "url": "https://ygb.uibe.edu.cn/tzgg/e562fe51788542549bf89ad4765993f4.htm",
+      "reason": "专项服务期9月15日结束，不能宣称10月仍按暑期时段服务。"
+    },
+    {
+      "title": "2026春季校外心理服务通知",
+      "url": "https://gonghui.uibe.edu.cn/tzgg/11fa76f29a4a4cc29232b80a8f76b2e0.htm",
+      "reason": "校工会发布的校外、春季信息，秋季是否续开未核实；优先采用已取得校内2026服务说明。"
+    },
+    {
+      "title": "2026模拟法庭志愿招募",
+      "url": "https://law.uibe.edu.cn/xwzx/tzgg/d3af3fc7b7ac4192aae4d4bcd9e60a78.htm",
+      "reason": "仅限法学院本研学生，2026-02-12截止；不推荐为当期全校可报名项目。"
+    },
+    {
+      "title": "2025级新生指南支付与维修说明",
+      "url": "https://aeo.uibe.edu.cn/uploadfile/zjc_v3/front/default/upload_file_68242.pdf",
+      "reason": "补到同项2026指南，优先2026依据，不将2025称2026新规。"
+    },
+    {
+      "title": "2022教务热点问答",
+      "url": "https://news.uibe.edu.cn/info/1381/53071.htm",
+      "reason": "官方历史答疑不是2026本科选退课通知；其中无中期退课等口径不直接认定为当前规则。"
+    },
+    {
+      "title": "2026后勤工作回顾中的周转房班车",
+      "url": "https://news.uibe.edu.cn/info/2838/124438.htm",
+      "reason": "新闻提及周转房班车，但没有普通学生校园巴士的对象、线路和时刻依据。"
+    }
+  ],
+  "unresolved": [
+    {
+      "topics": [
+        "L01",
+        "L05"
+      ],
+      "need": "2026—2027第一学期本科选退课、重修补考通知及操作指引",
+      "why": "公开教务站主要为职责和新闻，师生事项可能在校内入口；未核验登录后内容。",
+      "priority": "优先"
+    },
+    {
+      "topics": [
+        "L04"
+      ],
+      "need": "当前本科成绩查询与复查办理，以及独立考试/成绩规定全文",
+      "why": "公开资料可说明功能和分工，不能证明当前本科教务菜单；旧通知引用文件不等于取得全文。",
+      "priority": "优先"
+    },
+    {
+      "topics": [
+        "I03"
+      ],
+      "need": "TAS、智慧树、超星当前学生操作手册",
+      "why": "已持有入口和用途；没有取得三个平台当前学生端菜单、作业及回执的完整指引。",
+      "priority": "优先"
+    },
+    {
+      "topics": [
+        "L01",
+        "L03"
+      ],
+      "need": "2024普通大数据未匹配39条课程的大纲、本班教材及考核资料",
+      "why": "培养方案已有41条记录；学院公开目录仅5份大纲，当前对应计划匹配2条。",
+      "priority": "按当前课程优先"
+    },
+    {
+      "topics": [
+        "H03"
+      ],
+      "need": "中国籍学生当前公费医疗/医保完整报销说明",
+      "why": "2026指南只有基本说明；2019办法不可无条件外推当前比例、对象及期限。",
+      "priority": "优先"
+    },
+    {
+      "topics": [
+        "F02"
+      ],
+      "need": "学院当年度学生申请截止及评审细则",
+      "why": "本科、国际学生通知和研究生2022施行办法已取得；学院学生截止及研究生2026当期通知仍须补充。",
+      "priority": "优先"
+    },
+    {
+      "topics": [
+        "V01"
+      ],
+      "need": "当前报修表单、受理范围与工单查询页面",
+      "why": "2026电话与二维码、2024企业号入口已取得；未登录。",
+      "priority": "方便时补"
+    },
+    {
+      "topics": [
+        "V03"
+      ],
+      "need": "2026秋季场馆开放、价格与预约/入场指引",
+      "why": "官网明确指向体育部公众号当学期公示，旧或假期时间表不能替代。",
+      "priority": "方便时补"
+    },
+    {
+      "topics": [
+        "A01",
+        "A02"
+      ],
+      "need": "2026具体社团/学生组织/志愿项目完整通知",
+      "why": "已取得校级渠道和历史介绍，但当前项目对象、时间、名额和学时须具体公告。",
+      "priority": "方便时补"
+    },
+    {
+      "topics": [
+        "H02"
+      ],
+      "need": "当前心理咨询预约细则及研究生/留学生入口",
+      "why": "2026服务范围与2025本科预约入口已取得，未核对号源和现界面。",
+      "priority": "方便时补"
+    },
+    {
+      "topics": [
+        "T01",
+        "T02"
+      ],
+      "need": "若确有普通学生校园巴士则提供制度；2026单车准入和围栏",
+      "why": "未查到普通学生校园巴士；2024单车试行不证明2026许可。",
+      "priority": "按需"
+    },
+    {
+      "topics": [
+        "C03",
+        "X01",
+        "X02"
+      ],
+      "need": "最终招聘岗位、未来交流批次以及目标项目要求",
+      "why": "属于会更新或尚待发布的具体通知；不要求用户提前补不存在的资料。",
+      "priority": "随通知更新"
+    }
+  ],
+  "verification": {
+    "status": "本轮离线接入回归完成；真实AI问答未运行，不据此宣称九类全部验收",
+    "full_suite": {
+      "command": "PYTHONPATH=src python -X utf8 -m unittest discover -s src/tests -q",
+      "tests": 417,
+      "result": "OK",
+      "elapsed_seconds": 27.498,
+      "warnings": "asyncio ResourceWarning: unclosed event loop；未导致测试失败，保留记录，未扩展修改事件循环"
+    },
+    "structural_checks": [
+      "4份JSON无重复键且可解析",
+      "48条校园资料通过来源域名及必要字段校验",
+      "2024级普通大数据资料选择下29个子主题均有资料卡；未选届别时学分页提示补充资料而不擅选2025"
+    ],
+    "independent_review": [
+      "生活、社团、交通及主题适配摘要只读复核无实质问题",
+      "保险路由、研究生资料优先和v7范围修复限定复核通过；复核方隔离执行3项原测试，主代理完整环境执行417项"
+    ],
+    "paid_model_calls": 0,
+    "not_performed": [
+      "真实模型输出复测",
+      "登录校内系统",
+      "邮件、缴费、预约、报名等提交操作"
+    ]
+  },
+  "public_attachments": [
+    {
+      "path": "resources/campus/2027-spring-exchange-supplement-20261008.xlsx",
+      "url": "https://geec.uibe.edu.cn/docs//2026-10/3d81f267d29c484e9ec91956f5ec80d9.xlsx",
+      "verified_ranges": [
+        "交换项目!A3:H3",
+        "交换项目!A5:H5",
+        "访问项目!A5:K6"
+      ]
+    },
+    {
+      "path": "resources/campus/exchange-student-manual-20261008.docx",
+      "url": "https://geec.uibe.edu.cn/docs//2026-10/2fb732932b8048828d10271a8c72727a.docx",
+      "note": "已核对申请、最终提交及查询章节；旧IP不作为当前入口"
+    },
+    {
+      "path": "resources/campus/exchange-student-application-20261008.docx",
+      "url": "https://geec.uibe.edu.cn/docs//2026-10/75b19db642ce48da84d46eb5fafe5c83.docx",
+      "note": "公开申请表原件已保存，不包含学生填写数据"
+    }
+  ]
+}
